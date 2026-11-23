@@ -1,0 +1,574 @@
+{
+  "run_at": "2026-11-23 14:47",
+  "summary": {
+    "model": "gpt-6-luna",
+    "photos": 8,
+    "errors": 0,
+    "same_area_type": 7,
+    "same_surface": 7,
+    "same_soil_level": 7,
+    "same_fixtures_visible": 5,
+    "full_input_tokens": 146422,
+    "full_cost_usd": 0.015682,
+    "full_seconds": 58.2,
+    "full_text_read": 5,
+    "full_avg_confidence": 0.714,
+    "shrunk_input_tokens": 22486,
+    "shrunk_cost_usd": 0.003241,
+    "shrunk_seconds": 31.9,
+    "shrunk_text_read": 4,
+    "shrunk_avg_confidence": 0.807,
+    "upload_kb_full": 34365,
+    "upload_kb_shrunk": 1721
+  },
+  "rows": [
+    {
+      "name": "ab1.jpg",
+      "title": "File:Interior of gender-neutral public restroom (29016266877).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Interior_of_gender-neutral_public_restroom_(29016266877).jpg",
+      "license": "CC BY 2.0",
+      "author": "Eric Fischer",
+      "query": "public restroom interior",
+      "original_px": [
+        4032,
+        3024
+      ],
+      "original_kb": 2055,
+      "sent_px_shrunk": [
+        1568,
+        1176
+      ],
+      "sent_kb_shrunk": 216,
+      "full": {
+        "survey": {
+          "area_type": "restroom",
+          "surface": "tile",
+          "soil_level": "normal",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 1,
+            "trash_can": 1,
+            "desk": 0
+          },
+          "text_seen_in_photo": "HELLMANN'S PRODUCTION",
+          "confidence": 0.93,
+          "observations": "Clean and disinfect the stainless-steel sink and countertop, surrounding metal surfaces, and floor. Wipe visible smudges and marks from the metal panels and fixtures.",
+          "special_services": []
+        },
+        "input_tokens": 15110,
+        "output_tokens": 120,
+        "cost_usd": 0.001571,
+        "seconds": 5.4
+      },
+      "shrunk": {
+        "survey": {
+          "area_type": "restroom",
+          "surface": "other",
+          "soil_level": "normal",
+          "fixtures_visible": {
+            "toilet": 1,
+            "urinal": 0,
+            "sink": 1,
+            "trash_can": 1,
+            "desk": 0
+          },
+          "text_seen_in_photo": "",
+          "confidence": 0.9,
+          "observations": "Clean and disinfect the visible toilet and sink, and wipe the stainless-steel counter and wall surfaces. Clean the textured metal floor; visible smudges and water marks are present on the metal surfaces.",
+          "special_services": []
+        },
+        "input_tokens": 2921,
+        "output_tokens": 342,
+        "cost_usd": 0.000463,
+        "seconds": 6.15
+      },
+      "same": {
+        "area_type": true,
+        "surface": false,
+        "soil_level": true,
+        "fixtures_visible": false
+      }
+    },
+    {
+      "name": "ab2.jpg",
+      "title": "File:Office desks overview.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Office_desks_overview.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Linktech Australia",
+      "query": "office interior desks",
+      "original_px": [
+        2592,
+        4608
+      ],
+      "original_kb": 3022,
+      "sent_px_shrunk": [
+        882,
+        1568
+      ],
+      "sent_kb_shrunk": 132,
+      "full": {
+        "survey": {
+          "area_type": "open_office",
+          "surface": "other",
+          "soil_level": "normal",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 12
+          },
+          "text_seen_in_photo": "4:55\nThursday, 12 September",
+          "confidence": 0.76,
+          "observations": "Open-plan workstations have many desks, monitors, and shared touchpoints; wipe accessible desk surfaces and clean visible equipment exteriors. The floor is not visible enough to assess or identify its surface.",
+          "special_services": []
+        },
+        "input_tokens": 14742,
+        "output_tokens": 330,
+        "cost_usd": 0.001639,
+        "seconds": 7.79
+      },
+      "shrunk": {
+        "survey": {
+          "area_type": "open_office",
+          "surface": "other",
+          "soil_level": "normal",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 6
+          },
+          "text_seen_in_photo": "4:55\nThursday, 12 September",
+          "confidence": 0.66,
+          "observations": "Open-plan workstations with many monitors, cables, and personal items on the desk surfaces; wipe and dust accessible desks and equipment surrounds. The floor is mostly obscured, so its surface and condition cannot be assessed.",
+          "special_services": []
+        },
+        "input_tokens": 2392,
+        "output_tokens": 465,
+        "cost_usd": 0.000472,
+        "seconds": 7.27
+      },
+      "same": {
+        "area_type": true,
+        "surface": true,
+        "soil_level": true,
+        "fixtures_visible": false
+      }
+    },
+    {
+      "name": "ab3.jpg",
+      "title": "File:Spider in a kitchen sink.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Spider_in_a_kitchen_sink.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "JIP",
+      "query": "break room kitchen office",
+      "original_px": [
+        4608,
+        3456
+      ],
+      "original_kb": 7019,
+      "sent_px_shrunk": [
+        1568,
+        1176
+      ],
+      "sent_kb_shrunk": 129,
+      "full": {
+        "survey": {
+          "area_type": "other",
+          "surface": "other",
+          "soil_level": "normal",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "",
+          "confidence": 0.25,
+          "observations": "Close-up of a large spider on a gray textured surface with scattered droplets; the room and floor surface cannot be identified. Remove the spider and clean the affected surface.",
+          "special_services": []
+        },
+        "input_tokens": 19408,
+        "output_tokens": 235,
+        "cost_usd": 0.002058,
+        "seconds": 9.39
+      },
+      "shrunk": {
+        "survey": {
+          "area_type": "other",
+          "surface": "other",
+          "soil_level": "light",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "",
+          "confidence": 0.45,
+          "observations": "A spider and scattered water droplets are visible on a brushed metal surface; remove the spider and wipe the surface clean. The photo is too close-up to identify the room or confirm a fixture.",
+          "special_services": []
+        },
+        "input_tokens": 2921,
+        "output_tokens": 226,
+        "cost_usd": 0.000405,
+        "seconds": 3.17
+      },
+      "same": {
+        "area_type": true,
+        "surface": true,
+        "soil_level": false,
+        "fixtures_visible": true
+      }
+    },
+    {
+      "name": "ab4.jpg",
+      "title": "File:Guyer High School main hallway (from back end of the school).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Guyer_High_School_main_hallway_(from_back_end_of_the_school).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nadia Eimandoust",
+      "query": "school corridor hallway",
+      "original_px": [
+        4896,
+        3672
+      ],
+      "original_kb": 3270,
+      "sent_px_shrunk": [
+        1568,
+        1176
+      ],
+      "sent_kb_shrunk": 262,
+      "full": {
+        "survey": {
+          "area_type": "corridor",
+          "surface": "tile",
+          "soil_level": "light",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "No Smoking",
+          "confidence": 0.89,
+          "observations": "Long, open corridor with tiled flooring, glass storefronts and large windows. Floors appear clean; routine floor cleaning and dusting of accessible surfaces are appropriate.",
+          "special_services": []
+        },
+        "input_tokens": 21860,
+        "output_tokens": 114,
+        "cost_usd": 0.002243,
+        "seconds": 4.96
+      },
+      "shrunk": {
+        "survey": {
+          "area_type": "corridor",
+          "surface": "tile",
+          "soil_level": "light",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 2,
+            "desk": 0
+          },
+          "text_seen_in_photo": "4:10",
+          "confidence": 0.9,
+          "observations": "Long public corridor with tiled flooring, large windows, and wall surfaces; floors appear generally clean with light visible traffic. Empty and service the visible trash cans, and maintain the floor and glass surfaces.",
+          "special_services": [
+            "window cleaning"
+          ]
+        },
+        "input_tokens": 2921,
+        "output_tokens": 126,
+        "cost_usd": 0.000355,
+        "seconds": 2.51
+      },
+      "same": {
+        "area_type": true,
+        "surface": true,
+        "soil_level": true,
+        "fixtures_visible": false
+      }
+    },
+    {
+      "name": "ab5.jpg",
+      "title": "File:Corridor on the second level - N\u00c4L hospital 1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Corridor_on_the_second_level_-_N%C3%84L_hospital_1.jpg",
+      "license": "CC0",
+      "author": "W.carter",
+      "query": "hospital corridor",
+      "original_px": [
+        4280,
+        3209
+      ],
+      "original_kb": 5237,
+      "sent_px_shrunk": [
+        1568,
+        1176
+      ],
+      "sent_kb_shrunk": 134,
+      "full": {
+        "survey": {
+          "area_type": "corridor",
+          "surface": "vct",
+          "soil_level": "light",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "\u2190 A; EXIT",
+          "confidence": 0.78,
+          "observations": "Long corridor with a hard, smooth floor that appears generally clean; routine floor sweeping and mopping and spot-cleaning of visible wall and door surfaces are needed.",
+          "special_services": []
+        },
+        "input_tokens": 16986,
+        "output_tokens": 291,
+        "cost_usd": 0.001844,
+        "seconds": 6.61
+      },
+      "shrunk": {
+        "survey": {
+          "area_type": "corridor",
+          "surface": "vct",
+          "soil_level": "light",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "\u2190 A",
+          "confidence": 0.9,
+          "observations": "Long corridor with a mostly clean floor and clear walking path. Routine floor cleaning and spot cleaning of walls and door areas as needed.",
+          "special_services": []
+        },
+        "input_tokens": 2921,
+        "output_tokens": 110,
+        "cost_usd": 0.000347,
+        "seconds": 2.65
+      },
+      "same": {
+        "area_type": true,
+        "surface": true,
+        "soil_level": true,
+        "fixtures_visible": true
+      }
+    },
+    {
+      "name": "ab6.jpg",
+      "title": "File:Kyiv's October Palace conference room interior, September 2023.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Kyiv%27s_October_Palace_conference_room_interior,_September_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Aced",
+      "query": "conference room interior",
+      "original_px": [
+        3000,
+        4000
+      ],
+      "original_kb": 4689,
+      "sent_px_shrunk": [
+        1176,
+        1568
+      ],
+      "sent_kb_shrunk": 421,
+      "full": {
+        "survey": {
+          "area_type": "conference",
+          "surface": "wood",
+          "soil_level": "normal",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "",
+          "confidence": 0.94,
+          "observations": "Conference room has rows of chairs and a few small tables; clean the visibly worn parquet floor and dust/wipe the furniture and reachable surfaces. The ornate ceiling and chandeliers may need careful dusting.",
+          "special_services": []
+        },
+        "input_tokens": 14846,
+        "output_tokens": 348,
+        "cost_usd": 0.001659,
+        "seconds": 8.0
+      },
+      "shrunk": {
+        "survey": {
+          "area_type": "conference",
+          "surface": "wood",
+          "soil_level": "normal",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "",
+          "confidence": 0.93,
+          "observations": "Open meeting room with rows of chairs and a visibly worn, scuffed parquet floor that needs routine cleaning and attention to the floor finish. No obvious loose debris or overflowing waste is visible.",
+          "special_services": [
+            "wood floor restoration/refinishing"
+          ]
+        },
+        "input_tokens": 2921,
+        "output_tokens": 261,
+        "cost_usd": 0.000423,
+        "seconds": 3.62
+      },
+      "same": {
+        "area_type": true,
+        "surface": true,
+        "soil_level": true,
+        "fixtures_visible": true
+      }
+    },
+    {
+      "name": "ab7.jpg",
+      "title": "File:Entrance lobby of Amantaka luxury Resort & Hotel at blue hour in Luang Prabang Laos.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Basile Morin",
+      "query": "lobby interior building",
+      "original_px": [
+        6113,
+        3860
+      ],
+      "original_kb": 6659,
+      "sent_px_shrunk": [
+        1568,
+        990
+      ],
+      "sent_kb_shrunk": 203,
+      "full": {
+        "survey": {
+          "area_type": "lobby",
+          "surface": "tile",
+          "soil_level": "light",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "",
+          "confidence": 0.58,
+          "observations": "A polished tile floor is visible inside a storefront-style space, along with tables and extensive glass windows/doors. No obvious soil or spills are visible; the image is primarily an exterior view, so the interior cleaning scope is limited.",
+          "special_services": []
+        },
+        "input_tokens": 28624,
+        "output_tokens": 258,
+        "cost_usd": 0.002991,
+        "seconds": 9.16
+      },
+      "shrunk": {
+        "survey": {
+          "area_type": "lobby",
+          "surface": "tile",
+          "soil_level": "light",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "",
+          "confidence": 0.81,
+          "observations": "Polished hard flooring and the entry area are visible; clean the floor and wipe reachable surfaces and glass around the entrance. No visible dirt or clutter stands out.",
+          "special_services": []
+        },
+        "input_tokens": 2568,
+        "output_tokens": 112,
+        "cost_usd": 0.000313,
+        "seconds": 2.12
+      },
+      "same": {
+        "area_type": true,
+        "surface": true,
+        "soil_level": true,
+        "fixtures_visible": true
+      }
+    },
+    {
+      "name": "ab8.jpg",
+      "title": "File:Public toilet.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Public_toilet.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shalom Oyinkansola",
+      "query": "restroom sinks",
+      "original_px": [
+        4000,
+        3000
+      ],
+      "original_kb": 2414,
+      "sent_px_shrunk": [
+        1568,
+        1176
+      ],
+      "sent_kb_shrunk": 224,
+      "full": {
+        "survey": {
+          "area_type": "other",
+          "surface": "other",
+          "soil_level": "heavy",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "DMT",
+          "confidence": 0.58,
+          "observations": "Exterior view of several red modular units with dirt and mud around their bases and on the surrounding ground. The visible hard surfaces appear dusty and scuffed; interior fixtures are not visible.",
+          "special_services": []
+        },
+        "input_tokens": 14846,
+        "output_tokens": 385,
+        "cost_usd": 0.001677,
+        "seconds": 6.92
+      },
+      "shrunk": {
+        "survey": {
+          "area_type": "restroom",
+          "surface": "other",
+          "soil_level": "heavy",
+          "fixtures_visible": {
+            "toilet": 0,
+            "urinal": 0,
+            "sink": 0,
+            "trash_can": 0,
+            "desk": 0
+          },
+          "text_seen_in_photo": "DMT",
+          "confidence": 0.91,
+          "observations": "Several portable restroom units are outdoors; their lower panels show visible dirt and scuffing. The surrounding dirt and concrete walkway have scattered debris and need cleanup.",
+          "special_services": []
+        },
+        "input_tokens": 2921,
+        "output_tokens": 342,
+        "cost_usd": 0.000463,
+        "seconds": 4.42
+      },
+      "same": {
+        "area_type": false,
+        "surface": true,
+        "soil_level": true,
+        "fixtures_visible": true
+      }
+    }
+  ]
+}

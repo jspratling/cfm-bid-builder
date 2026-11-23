@@ -166,6 +166,44 @@ def table(head, rows, cls="") -> str:
     return f'<table class="{cls}"><thead><tr>{h}</tr></thead><tbody>{b}</tbody></table>'
 
 
+
+# ---------------------------------------------------------------- photo-size A/B test
+AB = json.load(open(os.path.join(HERE, "ab_test", "ab_results.json"), encoding="utf-8"))
+ABS = AB["summary"]
+
+
+def thumb(name: str) -> str:
+    with open(os.path.join(HERE, "ab_test", "thumbs", name), "rb") as f:
+        return "data:image/jpeg;base64," + base64.b64encode(f.read()).decode()
+
+
+def _fx(f: dict) -> str:
+    parts = [f"{v} {k.replace('_', ' ')}" for k, v in f.items() if v]
+    return ", ".join(parts) or "none"
+
+
+def _cell(full, shrunk):
+    return e(str(full)) if full == shrunk else f"<b>{e(str(full))} → {e(str(shrunk))}</b>"
+
+
+ab_rows = []
+for r in AB["rows"]:
+    fo, so = r["full"]["survey"], r["shrunk"]["survey"]
+    ab_rows.append([
+        f'<img src="{thumb(r["name"])}" style="width:72px;height:50px;object-fit:cover;border-radius:4px">',
+        f'{r["original_px"][0]:,}×{r["original_px"][1]:,} → {r["sent_px_shrunk"][0]:,}×{r["sent_px_shrunk"][1]:,}',
+        f'{r["full"]["input_tokens"]:,} → {r["shrunk"]["input_tokens"]:,}',
+        _cell(fo["area_type"], so["area_type"]), _cell(fo["surface"], so["surface"]),
+        _cell(fo["soil_level"], so["soil_level"]), _cell(_fx(fo["fixtures_visible"]), _fx(so["fixtures_visible"])),
+        _cell(fo["text_seen_in_photo"].replace("\n", " ") or "-", so["text_seen_in_photo"].replace("\n", " ") or "-"),
+    ])
+ab_table = table(["Photo", "Pixels (full → shrunk)", "Input tokens", "Room", "Floor", "Soil", "Fixtures", "Text read"],
+                 ab_rows, "small")
+ab_credits = "; ".join(f'{e(r["title"].replace("File:", ""))} ({e(r["author"] or "unknown")}, {e(r["license"])})'
+                       for r in AB["rows"])
+TOK_CUT = 100 * (1 - ABS["shrunk_input_tokens"] / ABS["full_input_tokens"])
+COST_CUT = 100 * (1 - ABS["shrunk_cost_usd"] / ABS["full_cost_usd"])
+
 # ---------------------------------------------------------------- report
 eu = E["usage_total"]
 e_by = defaultdict(lambda: [0, 0, 0, 0.0, 0.0, 0])
@@ -186,7 +224,7 @@ h1{font-size:34px;color:#0b3d5c;margin:0 0 6px;line-height:1.15}h2{font-size:23p
 h3{font-size:17px;color:#145a85;margin:24px 0 6px}.kicker{color:#1f6fa8;font-weight:700;letter-spacing:.5px;text-transform:uppercase;font-size:12.5px}
 .meta{font:14px system-ui;color:#475569;margin:10px 0 18px}.meta a{color:#1f6fa8}
 .oneline{font-size:18px;background:#eef5fb;border-left:5px solid #1f6fa8;padding:12px 16px;margin:16px 0}
-table{width:100%;border-collapse:collapse;font-size:13.2px;margin:10px 0 16px}th{background:#0b3d5c;color:#fff;text-align:left;padding:6px 8px;font-weight:600}
+table.small{font-size:11.5px}table.small td{padding:3px 5px;vertical-align:middle}.note{font-size:11px;color:#5b6773;margin-top:-8px}table{width:100%;border-collapse:collapse;font-size:13.2px;margin:10px 0 16px}th{background:#0b3d5c;color:#fff;text-align:left;padding:6px 8px;font-weight:600}
 td{padding:5px 8px;border-bottom:1px solid #dde3ea;vertical-align:top}tbody tr:nth-child(even) td{background:#f7f9fb}td.n,th.n{text-align:right}
 .num td:not(:first-child),.num th:not(:first-child){text-align:right;font-variant-numeric:tabular-nums}
 figure{margin:16px 0 20px;page-break-inside:avoid}figure img{width:100%;border:1px solid #cfd8e3;border-radius:6px;display:block}
@@ -276,7 +314,7 @@ limits = f"""<ul>
 report = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>CFM Bid Builder: final project report</title><style>{css}</style></head><body>
 
-<div class="kicker">MGT 409 AI Foundations for Managers · Final project · November 23, 2026</div>
+<div class="kicker">1. Title and links · MGT 409 AI Foundations for Managers · Final project · November 23, 2026</div>
 <h1>CFM Bid Builder</h1>
 <div class="meta"><b>Jeremy Spratling</b> · Corporate Facilities Management / A-One Facility Services, Birmingham, Alabama<br>
 Repo: <a href="{REPO_URL}">{REPO_URL}</a> · Runs locally: double-click <code>start.bat</code> (Windows) or <code>python run.py</code>, open http://127.0.0.1:8000</div>
@@ -344,11 +382,18 @@ Repo: <a href="{REPO_URL}">{REPO_URL}</a> · Runs locally: double-click <code>st
 <h3>What we did to keep cost down, and whether it hurt</h3>
 <ul>
 <li><b>Code does the math.</b> No tokens spent on arithmetic, and no wrong arithmetic. No downside.</li>
-<li><b>Photos shrunk to 1,568 px</b> (JPEG q82, EXIF rotation kept). Phone photos arrive at 3 to 12 MB. The surveys still read small signs ("KEEP OUT", "RELAY") and counted fixtures. We did not run a full-resolution A/B test, so we cannot claim zero loss.</li>
+<li><b>Photos shrunk to 1,568 px</b> (JPEG q82, EXIF rotation kept). Phone photos arrive at 3 to 12 MB. This cut Site Survey input tokens by {TOK_CUT:.0f}% in the A/B test below. It did cost some fine detail (see the test).</li>
 <li><b>Prompt caching</b> with a cache key per agent. It worked for the Takeoff, Revision and Comparison agents (about {TAKE_CACHE:.0f}% of Takeoff input cached on average, when the same prompt ran again within minutes) but <b>did not work for the Site Survey agent: 0 cached tokens on all {N_SURVEY} photo calls</b>, because its shared prompt is shorter than the provider's minimum cacheable prefix. That is an honest miss and the first fix to make.</li>
 <li><b>One small call per photo, 4 in parallel</b> instead of one huge call: a failed photo costs one retry, not the whole bid, and model time for 49 photos was {A['usage_total']['seconds']:.0f} s.</li>
 <li><b>Hard caps</b> per agent, per bid and per day (Section 6).</li>
 </ul>
+<h3>Did shrinking photos hurt? A/B test</h3>
+<p>To test it, I ran the real Site Survey agent twice on {ABS['photos']} large public photos of commercial interiors from Wikimedia Commons (2,592 to 6,113 px wide, the size of a phone photo or bigger): once at full size, and once shrunk the way the app does it. Run live on {AB['run_at'][:10]} with {e(ABS['model'])}; script <code>report/ab_photo_test.py</code>, raw results <code>report/ab_test/ab_results.json</code>.</p>
+<div class="kpis"><div><small>Input tokens, full → shrunk</small><b>{ABS['full_input_tokens']:,} → {ABS['shrunk_input_tokens']:,}</b></div><div><small>Cost, full → shrunk</small><b>${ABS['full_cost_usd']:.4f} → ${ABS['shrunk_cost_usd']:.4f}</b></div>
+<div><small>Same room / floor / soil</small><b>{ABS['same_area_type']} / {ABS['same_surface']} / {ABS['same_soil_level']} of {ABS['photos']}</b></div><div><small>Same fixture counts</small><b>{ABS['same_fixtures_visible']} of {ABS['photos']}</b></div></div>
+{ab_table}
+<p class="note">Bold = the answer changed (full → shrunk). Photo credits (Wikimedia Commons): {ab_credits}.</p>
+<p><b>What it shows.</b> Shrinking cut input tokens by {TOK_CUT:.0f}%, cost by {COST_CUT:.0f}% and upload size from {ABS['upload_kb_full']/1024:.0f} MB to {ABS['upload_kb_shrunk']/1024:.1f} MB, and model time fell from {ABS['full_seconds']:.0f} s to {ABS['shrunk_seconds']:.0f} s. The answers that drive the price (room type, floor type, soil) stayed the same on 7 of 8 photos each, and on the one room-type change the shrunk photo was the better answer (a public toilet called "restroom" instead of "other"). <b>It did hurt fine detail:</b> the full-size photos read three small signs the shrunk ones missed ("No Smoking", an EXIT sign, a product label), counted 12 desks where the shrunk photo saw 6, and fixture counts differed on 3 of 8 photos. Square footage comes from the estimator's table, not the photos, so the price impact is small. Desk and fixture counts feed restroom and office time, so the next step is to send full-size crops when a photo is dense with fixtures, or let the estimator type counts for big restrooms.</p>
 
 <h2>6. Safety</h2>
 {risk}

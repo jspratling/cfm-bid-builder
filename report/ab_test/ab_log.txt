@@ -1,0 +1,50 @@
+Found 8 large photos on Wikimedia Commons
+  ab1.jpg: 4032x3024, 2055 KB  File:Interior of gender-neutral public restroom (29016266877).jpg
+  ab2.jpg: 2592x4608, 3022 KB  File:Office desks overview.jpg
+  ab3.jpg: 4608x3456, 7019 KB  File:Spider in a kitchen sink.jpg
+  ab4.jpg: 4896x3672, 3270 KB  File:Guyer High School main hallway (from back end of the school).jpg
+  ab5.jpg: 4280x3209, 5237 KB  File:Corridor on the second level - NÄL hospital 1.jpg
+  ab6.jpg: 3000x4000, 4689 KB  File:Kyiv's October Palace conference room interior, September 2023.jpg
+  ab7.jpg: 6113x3860, 6659 KB  File:Entrance lobby of Amantaka luxury Resort & Hotel at blue hour in Luang Prabang Laos.jpg
+  ab8.jpg: 4000x3000, 2414 KB  File:Public toilet.jpg
+  ab1.jpg full: 15110 in / 120 out, restroom, tile, normal
+  ab1.jpg shrunk: 2921 in / 342 out, restroom, other, normal
+  ab2.jpg shrunk: 2392 in / 465 out, open_office, other, normal
+  ab2.jpg full: 14742 in / 330 out, open_office, other, normal
+  ab3.jpg shrunk: 2921 in / 226 out, other, other, light
+  ab4.jpg shrunk: 2921 in / 126 out, corridor, tile, light
+  ab4.jpg full: 21860 in / 114 out, corridor, tile, light
+  ab5.jpg shrunk: 2921 in / 110 out, corridor, vct, light
+  ab3.jpg full: 19408 in / 235 out, other, other, normal
+  ab5.jpg full: 16986 in / 291 out, corridor, vct, light
+  ab6.jpg shrunk: 2921 in / 261 out, conference, wood, normal
+  ab7.jpg shrunk: 2568 in / 112 out, lobby, tile, light
+  ab6.jpg full: 14846 in / 348 out, conference, wood, normal
+  ab8.jpg shrunk: 2921 in / 342 out, restroom, other, heavy
+  ab8.jpg full: 14846 in / 385 out, other, other, heavy
+  ab7.jpg full: 28624 in / 258 out, lobby, tile, light
+
+SUMMARY
+{
+  "model": "gpt-6-luna",
+  "photos": 8,
+  "errors": 0,
+  "same_area_type": 7,
+  "same_surface": 7,
+  "same_soil_level": 7,
+  "same_fixtures_visible": 5,
+  "full_input_tokens": 146422,
+  "full_cost_usd": 0.015682,
+  "full_seconds": 58.2,
+  "full_text_read": 5,
+  "full_avg_confidence": 0.714,
+  "shrunk_input_tokens": 22486,
+  "shrunk_cost_usd": 0.003241,
+  "shrunk_seconds": 31.9,
+  "shrunk_text_read": 4,
+  "shrunk_avg_confidence": 0.807,
+  "upload_kb_full": 34365,
+  "upload_kb_shrunk": 1721
+}
+
+Saved C:\Users\jspratling\Desktop\AI Final Exam\01-bid-builder\report\ab_test\ab_results.json
