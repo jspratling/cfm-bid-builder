@@ -1,0 +1,923 @@
+{
+  "id": "20261118-163317-da59",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-18T16:33:49",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client G",
+    "building_name": "Clinic",
+    "service_type": "janitorial",
+    "visits_per_week": 6,
+    "hourly_wage": 13.0,
+    "estimator_notes": "Photos from a CFM estimator, Nov 17, 2026 (Photos pt.2). Treatment floor with patient chairs, patterned VCT throughout, corridors, a single-user restroom, waiting area. Square footage not measured; medical cleaning standards apply.",
+    "areas": [],
+    "floor_care": [],
+    "walkthrough": "site-g-dialysis-clinic",
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "corridor__p2_1000009541.jpg",
+    "corridor__p2_1000009546.jpg",
+    "restroom__p2_1000009317.jpg",
+    "restroom__p2_1000009544.jpg",
+    "treatment-floor__p2_1000009530.jpg",
+    "treatment-floor__p2_1000009538.jpg",
+    "treatment-floor__p2_1000009545.jpg",
+    "waiting-area__p2_1000009529.jpg",
+    "waiting-area__p2_1000009543.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "corridor__p2_1000009541.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Hard-floor corridor is mostly clear, with a few small dark marks and light scuffing visible on the tile. Sweep and damp mop the floor; wipe nearby door and wall contact points as needed.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "corridor__p2_1000009546.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "The corridor floor is mostly clean and polished, with light scuffing and some visible dirt around the far doorway. Wipe down the door and nearby touchpoints as part of routine cleaning.",
+      "special_services": [],
+      "text_seen_in_photo": "FIRE; other posted text is too small or blurry to read.",
+      "confidence": 0.89
+    },
+    {
+      "photo_name": "restroom__p2_1000009317.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 1,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the urinal and surrounding tiled surfaces, and sweep and mop the tiled floor and floor mat.",
+      "special_services": [],
+      "text_seen_in_photo": "KOHLER",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "restroom__p2_1000009544.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the toilet, sink, faucet, and restroom touchpoints; clean the mirror and wipe the dispenser and grab bars. Damp mop the VCT floor, with attention to the floor drain and visible marks.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "treatment-floor__p2_1000009530.jpg",
+      "area_type": "medical_exam",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Treatment area with several patient chairs and medical equipment; clean the open hard floor and accessible surfaces around the equipment and seating. Floor appears generally clean with minor visible marks.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.86
+    },
+    {
+      "photo_name": "treatment-floor__p2_1000009538.jpg",
+      "area_type": "medical_exam",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 3,
+        "desk": 0
+      },
+      "observations": "Mop the open floor and clean around the treatment chairs, carts, and equipment. The floor shows light scuffing and the room is equipment-dense, so detail edges and reachable surfaces.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.78
+    },
+    {
+      "photo_name": "treatment-floor__p2_1000009545.jpg",
+      "area_type": "medical_exam",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the resilient floor, including around the treatment chairs and equipment, and wipe accessible chair and equipment surfaces. The room appears generally tidy with little visible soil.",
+      "special_services": [],
+      "text_seen_in_photo": "9",
+      "confidence": 0.79
+    },
+    {
+      "photo_name": "waiting-area__p2_1000009529.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Waiting area with seating and patterned VCT flooring; clean the floor and wipe down chairs and side tables. Small items and visible debris on the tables should be cleared or dusted.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "waiting-area__p2_1000009543.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Waiting area with a round table, chairs, and built-in cabinetry; clean the hard floor and wipe the table, chairs, and cabinetry. No obvious heavy soil is visible.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.81
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Corridor",
+        "area_type": "corridor",
+        "surface": "vct",
+        "sq_ft": 350.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom",
+        "area_type": "restroom",
+        "surface": "vct",
+        "sq_ft": 55.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 1,
+          "urinal": 1,
+          "sink": 1,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Treatment Floor",
+        "area_type": "medical_exam",
+        "surface": "vct",
+        "sq_ft": 450.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 3,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Waiting Area",
+        "area_type": "lobby",
+        "surface": "vct",
+        "sq_ft": 250.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      }
+    ],
+    "floor_care_suggestions": [
+      "Corridor \u2014 Strip and wax VCT: light scuffing is visible.",
+      "Treatment Floor \u2014 Strip and wax VCT: scuffing is noted in the survey."
+    ],
+    "assumptions": [
+      "No estimator square footage table or legible floor plan dimensions were provided, so all four areas have provisional photo-based size estimates and should be field-verified.",
+      "Photos sharing each room label were treated as views of the same room, not separate areas.",
+      "The two restroom surveys conflict on floor surface (tile versus VCT); VCT was selected provisionally. Fixture counts are the highest visible count per fixture type across the two views, not added: 1 toilet, 1 urinal, and 1 sink.",
+      "Treatment Floor soil was set to normal, reflecting the survey that noted normal soil and equipment-dense cleaning, despite other views describing it as light.",
+      "Waiting Area soil was set to normal based on the survey noting normal soil; another view describes it as light."
+    ],
+    "questions_for_estimator": [
+      "Please provide or verify square footage for the corridor, restroom, treatment floor, and waiting area.",
+      "Please confirm whether the restroom floor is VCT or tile and whether the room contains both a toilet and urinal.",
+      "Please confirm the client's name; it was not provided."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Corridor",
+        "area_type": "corridor",
+        "surface": "vct",
+        "soil_level": "light",
+        "sq_ft": 350,
+        "rate_sqft_per_hour": 4140,
+        "hours_per_visit": 0.09,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom",
+        "area_type": "restroom",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 55,
+        "rate_sqft_per_hour": 1350,
+        "hours_per_visit": 0.26,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Treatment Floor",
+        "area_type": "medical_exam",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 450,
+        "rate_sqft_per_hour": 1800,
+        "hours_per_visit": 0.3,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Waiting Area",
+        "area_type": "lobby",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 250,
+        "rate_sqft_per_hour": 2250,
+        "hours_per_visit": 0.12,
+        "source": "photo estimate"
+      }
+    ],
+    "visits_per_week": 6,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 1105,
+    "hours_per_visit": 0.78,
+    "monthly_hours": 20.3,
+    "labor": 264.29,
+    "burden": 28.79,
+    "payroll_taxes": 24.33,
+    "workers_comp": 4.47,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 29.31,
+    "supplies": 19.51,
+    "cost": 341.91,
+    "profit": 48.36,
+    "monthly_price": 390.27,
+    "annual_price": 4683.22,
+    "price_per_sqft_month": 0.3532
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 390.27,
+    "janitorial_annual": 4683.22,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 4683.22
+  },
+  "flags": [
+    {
+      "level": "warn",
+      "msg": "'Corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Treatment Floor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Waiting Area' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Medical Clinic Team,\n\nThank you for the opportunity to submit a janitorial proposal for your clinic. The proposed service includes six visits per week for the corridor, restroom, treatment floor, and waiting area.\n\nRoutine cleaning will focus on the listed spaces, including restroom cleaning and care of the VCT floors. The scope below outlines the routine tasks included.\n\nPlease review the pricing summary below alongside the scope of work. The client name can be confirmed and added to the proposal when available.",
+    "scope_of_work": [
+      "Restrooms: Clean the restroom and its fixtures.",
+      "Floors: Sweep and damp mop the VCT floors in the corridor, restroom, treatment floor, and waiting area.",
+      "Trash: Empty waste receptacles in the listed areas."
+    ],
+    "exclusions": [
+      "Biohazard cleanup and regulated medical waste handling.",
+      "Exterior window cleaning.",
+      "Floor repairs and periodic floor care, including strip and wax or carpet cleaning."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:21",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2046,
+      "cached_input_tokens": 0,
+      "output_tokens": 129,
+      "total_tokens": 2175,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000269,
+      "seconds": 3.69
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:22",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2046,
+      "cached_input_tokens": 0,
+      "output_tokens": 132,
+      "total_tokens": 2178,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000271,
+      "seconds": 4.13
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:22",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2928,
+      "cached_input_tokens": 0,
+      "output_tokens": 112,
+      "total_tokens": 3040,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000349,
+      "seconds": 4.75
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:25",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2047,
+      "cached_input_tokens": 0,
+      "output_tokens": 123,
+      "total_tokens": 2170,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000266,
+      "seconds": 3.46
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:25",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2046,
+      "cached_input_tokens": 0,
+      "output_tokens": 367,
+      "total_tokens": 2413,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000388,
+      "seconds": 7.16
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:27",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2047,
+      "cached_input_tokens": 0,
+      "output_tokens": 331,
+      "total_tokens": 2378,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00037,
+      "seconds": 5.35
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:27",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2047,
+      "cached_input_tokens": 0,
+      "output_tokens": 125,
+      "total_tokens": 2172,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000267,
+      "seconds": 2.71
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:28",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2047,
+      "cached_input_tokens": 0,
+      "output_tokens": 124,
+      "total_tokens": 2171,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000267,
+      "seconds": 3.04
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:28",
+      "bid_id": "20261118-163317-da59",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2047,
+      "cached_input_tokens": 0,
+      "output_tokens": 317,
+      "total_tokens": 2364,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000363,
+      "seconds": 5.4
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:41",
+      "bid_id": "20261118-163317-da59",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 4964,
+      "cached_input_tokens": 2171,
+      "output_tokens": 1130,
+      "total_tokens": 6094,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000866,
+      "seconds": 13.71
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:49",
+      "bid_id": "20261118-163317-da59",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 494,
+      "cached_input_tokens": 0,
+      "output_tokens": 586,
+      "total_tokens": 1080,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000342,
+      "seconds": 7.36
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:33:58",
+      "bid_id": "20261118-163317-da59",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 2300,
+      "cached_input_tokens": 0,
+      "output_tokens": 399,
+      "total_tokens": 2699,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000429,
+      "seconds": 9.39
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 27059,
+    "cached_input_tokens": 2171,
+    "output_tokens": 3875,
+    "total_tokens": 30934,
+    "requests": 15,
+    "tool_calls": 3,
+    "cost_usd": 0.004447,
+    "seconds": 70.15,
+    "calls": 12
+  },
+  "audit": [
+    {
+      "time": "2026-11-18T16:33:17",
+      "step": "intake",
+      "client": "Client G",
+      "building": "Clinic",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 9,
+      "floor_plan": false,
+      "known_areas": 0,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:17",
+      "step": "photo_resize",
+      "photo": "corridor__p2_1000009541.jpg",
+      "original_px": [
+        688,
+        1568
+      ],
+      "sent_px": [
+        688,
+        1568
+      ],
+      "original_kb": 100,
+      "sent_kb": 95
+    },
+    {
+      "time": "2026-11-18T16:33:17",
+      "step": "photo_resize",
+      "photo": "corridor__p2_1000009546.jpg",
+      "original_px": [
+        688,
+        1568
+      ],
+      "sent_px": [
+        688,
+        1568
+      ],
+      "original_kb": 138,
+      "sent_kb": 132
+    },
+    {
+      "time": "2026-11-18T16:33:18",
+      "step": "photo_resize",
+      "photo": "restroom__p2_1000009317.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 360,
+      "sent_kb": 355
+    },
+    {
+      "time": "2026-11-18T16:33:18",
+      "step": "photo_resize",
+      "photo": "restroom__p2_1000009544.jpg",
+      "original_px": [
+        688,
+        1568
+      ],
+      "sent_px": [
+        688,
+        1568
+      ],
+      "original_kb": 142,
+      "sent_kb": 136
+    },
+    {
+      "time": "2026-11-18T16:33:18",
+      "step": "photo_resize",
+      "photo": "treatment-floor__p2_1000009530.jpg",
+      "original_px": [
+        688,
+        1568
+      ],
+      "sent_px": [
+        688,
+        1568
+      ],
+      "original_kb": 157,
+      "sent_kb": 151
+    },
+    {
+      "time": "2026-11-18T16:33:18",
+      "step": "photo_resize",
+      "photo": "treatment-floor__p2_1000009538.jpg",
+      "original_px": [
+        688,
+        1568
+      ],
+      "sent_px": [
+        688,
+        1568
+      ],
+      "original_kb": 94,
+      "sent_kb": 89
+    },
+    {
+      "time": "2026-11-18T16:33:18",
+      "step": "photo_resize",
+      "photo": "treatment-floor__p2_1000009545.jpg",
+      "original_px": [
+        688,
+        1568
+      ],
+      "sent_px": [
+        688,
+        1568
+      ],
+      "original_kb": 166,
+      "sent_kb": 160
+    },
+    {
+      "time": "2026-11-18T16:33:18",
+      "step": "photo_resize",
+      "photo": "waiting-area__p2_1000009529.jpg",
+      "original_px": [
+        688,
+        1568
+      ],
+      "sent_px": [
+        688,
+        1568
+      ],
+      "original_kb": 144,
+      "sent_kb": 138
+    },
+    {
+      "time": "2026-11-18T16:33:18",
+      "step": "photo_resize",
+      "photo": "waiting-area__p2_1000009543.jpg",
+      "original_px": [
+        688,
+        1568
+      ],
+      "sent_px": [
+        688,
+        1568
+      ],
+      "original_kb": 130,
+      "sent_kb": 124
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "corridor__p2_1000009541.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "corridor__p2_1000009546.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.89,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "restroom__p2_1000009317.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "restroom__p2_1000009544.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "treatment-floor__p2_1000009530.jpg",
+      "area_type": "medical_exam",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.86,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "treatment-floor__p2_1000009538.jpg",
+      "area_type": "medical_exam",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.78,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "treatment-floor__p2_1000009545.jpg",
+      "area_type": "medical_exam",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.79,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "waiting-area__p2_1000009529.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:28",
+      "step": "site_survey",
+      "photo": "waiting-area__p2_1000009543.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.81,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:41",
+      "step": "takeoff",
+      "areas": 4,
+      "assumptions": [
+        "No estimator square footage table or legible floor plan dimensions were provided, so all four areas have provisional photo-based size estimates and should be field-verified.",
+        "Photos sharing each room label were treated as views of the same room, not separate areas.",
+        "The two restroom surveys conflict on floor surface (tile versus VCT); VCT was selected provisionally. Fixture counts are the highest visible count per fixture type across the two views, not added: 1 toilet, 1 urinal, and 1 sink.",
+        "Treatment Floor soil was set to normal, reflecting the survey that noted normal soil and equipment-dense cleaning, despite other views describing it as light.",
+        "Waiting Area soil was set to normal based on the survey noting normal soil; another view describes it as light."
+      ]
+    },
+    {
+      "time": "2026-11-18T16:33:41",
+      "step": "pricing",
+      "janitorial_monthly": 390.27,
+      "per_sqft": 0.3532,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-18T16:33:41",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "warn",
+          "msg": "'Corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Treatment Floor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Waiting Area' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-18T16:33:49",
+      "step": "proposal_writer",
+      "scope_items": 3
+    },
+    {
+      "time": "2026-11-18T16:33:58",
+      "step": "benchmark",
+      "verdict": "in_line",
+      "compared_with": [
+        "past-bid-a"
+      ]
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-18T16:33:58",
+    "compared_with": [
+      "past-bid-a"
+    ],
+    "verdict": "in_line",
+    "explanation": "Past bid A (outpatient surgical clinic) is the relevant comparison: both are medical-office bids, though the new clinic is smaller (1,105 vs. 7,091 sq. ft.) and has 6 visits per week versus 5. The new bid\u2019s monthly price per sq. ft. is $0.3532, compared with $0.2964, a 19.2% difference\u2014within about 25%. Staffing is heavier by the tool\u2019s measure: 0.706 vs. 0.521 hours per 1,000 sq. ft. per visit (35.5% higher). The new wage is $13.00 vs. $15.00 per hour, and its profit markup is 15% vs. 30%.",
+    "suggestions": [
+      "Review why the new bid has 35.5% more hours per 1,000 sq. ft. per visit than the medical-office comparison.",
+      "Confirm that the 15% profit markup is intentional given the comparison\u2019s 30% markup."
+    ],
+    "details": [
+      {
+        "past_id": "past-bid-a",
+        "past_name": "Past bid A: outpatient surgical clinic",
+        "past_building_type": "medical office",
+        "past_schedule": "1 part-time cleaner, Mon-Fri 5-9 pm",
+        "sq_ft": {
+          "this": 1105,
+          "past": 7091
+        },
+        "visits_per_week": {
+          "this": 6,
+          "past": 5
+        },
+        "price_per_sqft_month": {
+          "this": 0.3532,
+          "past": 0.2964,
+          "difference_pct": 19.2
+        },
+        "hours_per_1000_sqft_per_visit": {
+          "this": 0.706,
+          "past": 0.521,
+          "difference_pct": 35.5
+        },
+        "hourly_wage": {
+          "this": 13.0,
+          "past": 15.0
+        },
+        "profit_markup": {
+          "this": 0.15,
+          "past": 0.3
+        }
+      }
+    ],
+    "usage": {
+      "input_tokens": 2300,
+      "cached_input_tokens": 0,
+      "output_tokens": 399,
+      "total_tokens": 2699,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000429,
+      "seconds": 9.39,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

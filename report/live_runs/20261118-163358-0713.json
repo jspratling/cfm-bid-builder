@@ -1,0 +1,883 @@
+{
+  "id": "20261118-163358-0713",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-18T16:34:31",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client F",
+    "building_name": "Sanctuary and fellowship building",
+    "service_type": "janitorial",
+    "visits_per_week": 2,
+    "hourly_wage": 13.0,
+    "estimator_notes": "Photos from a CFM estimator, Nov 17, 2026 (forwarded set pt.5). Sanctuary with pews on slate/stone tile, hardwood halls and stairs with area rugs, fellowship hall with hardwood, foyer with stone/inlay floor. Square footage not measured. Visit frequency is a guess; confirm.",
+    "areas": [],
+    "floor_care": [],
+    "walkthrough": "site-f-church",
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "fellowship-hall__p5_image000006.jpg",
+    "foyer__p5_image000001.jpg",
+    "foyer__p5_image000008.jpg",
+    "hardwood-hall__p5_image000002.jpg",
+    "hardwood-hall__p5_image000003.jpg",
+    "hardwood-hall__p5_image000005.jpg",
+    "hardwood-hall__p5_image000007.jpg",
+    "sanctuary__p5_image000000.jpg",
+    "sanctuary__p5_image000004.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "fellowship-hall__p5_image000006.jpg",
+      "area_type": "conference",
+      "surface": "wood",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Wood floor has visible scuffs and dull areas, with a mop in the foreground; tables and chairs are set up throughout the room. Clean the floor and wipe accessible table and chair surfaces.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.87
+    },
+    {
+      "photo_name": "foyer__p5_image000001.jpg",
+      "area_type": "lobby",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the stone-tile floor and the staircase, including stair treads and railings. Dust and wipe the wall ledge and surrounding surfaces near the planters.",
+      "special_services": [],
+      "text_seen_in_photo": "Text on the wall directory/sign is too small to read clearly.",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "foyer__p5_image000008.jpg",
+      "area_type": "lobby",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Open foyer with a hard tile floor that appears mostly clean; dust or light marks may need routine damp mopping. Wipe down the visible benches and surrounding ledges.",
+      "special_services": [],
+      "text_seen_in_photo": "EXIT",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "hardwood-hall__p5_image000002.jpg",
+      "area_type": "corridor",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Wood floor appears clean with only minor visible marks; vacuum or clean the area rugs and dust/wipe the baseboards and wall surfaces as needed.",
+      "special_services": [],
+      "text_seen_in_photo": "HUMAN ROOM",
+      "confidence": 0.86
+    },
+    {
+      "photo_name": "hardwood-hall__p5_image000003.jpg",
+      "area_type": "corridor",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Polish or clean the wood floor and remove a few visible small marks and debris. Dust accessible columns, railings, and window ledges.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.9
+    },
+    {
+      "photo_name": "hardwood-hall__p5_image000005.jpg",
+      "area_type": "corridor",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Wood flooring in the hallway appears mostly clean, with a few small marks and scuffs visible. Dust/mop the floor and clean along the trim and wall paneling.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.92
+    },
+    {
+      "photo_name": "hardwood-hall__p5_image000007.jpg",
+      "area_type": "corridor",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Hallway has a hardwood floor with a large area rug; vacuum the rug and clean the exposed wood floor. Empty the visible trash can and dust nearby surfaces as needed.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "sanctuary__p5_image000000.jpg",
+      "area_type": "other",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "A person is sweeping the tiled aisle between rows of pews. The visible floor appears generally clean, with no obvious heavy soil or clutter.",
+      "special_services": [],
+      "text_seen_in_photo": "EXIT",
+      "confidence": 0.9
+    },
+    {
+      "photo_name": "sanctuary__p5_image000004.jpg",
+      "area_type": "other",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Large sanctuary with rows of wooden pews and tiled aisles; a worker is mopping the floor. Scattered marks and ordinary traffic soil are visible on the tile.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.95
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Fellowship Hall",
+        "area_type": "conference",
+        "surface": "wood",
+        "sq_ft": 3000.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Foyer",
+        "area_type": "lobby",
+        "surface": "tile",
+        "sq_ft": 1000.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Hardwood Hall",
+        "area_type": "corridor",
+        "surface": "wood",
+        "sq_ft": 1500.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Sanctuary",
+        "area_type": "other",
+        "surface": "tile",
+        "sq_ft": 8000.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      }
+    ],
+    "floor_care_suggestions": [],
+    "assumptions": [
+      "All square footages are rough photo-based placeholders because no measured area table or legible floor plan was provided; verify before pricing or scheduling.",
+      "The fellowship hall's visible tables and chairs are within its estimated area; no furniture counts were supplied.",
+      "The foyer estimate includes the visible staircase and landing so they are not counted twice; staircase material is not separately confirmed.",
+      "Multiple photos with the same room label were treated as views of one space. For Hardwood Hall, the highest visible trash-can count among its photos (one) was used, not summed.",
+      "Sanctuary soil is classified as normal, balancing one light-soil view with another showing ordinary traffic marks.",
+      "The church name is not provided."
+    ],
+    "questions_for_estimator": [
+      "Can you provide or verify measured square footage for each area, especially the sanctuary and fellowship hall?",
+      "Please confirm the church name and whether the two visits per week are confirmed."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Fellowship Hall",
+        "area_type": "conference",
+        "surface": "wood",
+        "soil_level": "normal",
+        "sq_ft": 3000,
+        "rate_sqft_per_hour": 2700,
+        "hours_per_visit": 1.22,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Foyer",
+        "area_type": "lobby",
+        "surface": "tile",
+        "soil_level": "light",
+        "sq_ft": 1000,
+        "rate_sqft_per_hour": 2444,
+        "hours_per_visit": 0.45,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Hardwood Hall",
+        "area_type": "corridor",
+        "surface": "wood",
+        "soil_level": "light",
+        "sq_ft": 1500,
+        "rate_sqft_per_hour": 4140,
+        "hours_per_visit": 0.41,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Sanctuary",
+        "area_type": "other",
+        "surface": "tile",
+        "soil_level": "normal",
+        "sq_ft": 8000,
+        "rate_sqft_per_hour": 2125,
+        "hours_per_visit": 4.14,
+        "source": "photo estimate"
+      }
+    ],
+    "visits_per_week": 2,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 13500,
+    "hours_per_visit": 6.22,
+    "monthly_hours": 53.9,
+    "labor": 700.39,
+    "burden": 76.31,
+    "payroll_taxes": 64.47,
+    "workers_comp": 11.84,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 77.67,
+    "supplies": 51.71,
+    "cost": 906.08,
+    "profit": 128.15,
+    "monthly_price": 1034.23,
+    "annual_price": 12410.77,
+    "price_per_sqft_month": 0.0766
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 1034.23,
+    "janitorial_annual": 12410.77,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 12410.77
+  },
+  "flags": [
+    {
+      "level": "warn",
+      "msg": "'Fellowship Hall' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Foyer' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Hardwood Hall' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Sanctuary' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Church Team,\n\nThank you for the opportunity to prepare a janitorial proposal for your sanctuary and fellowship building. The proposed service covers the listed areas: Fellowship Hall, Foyer, Hardwood Hall, and Sanctuary, with two visits per week.\n\nOur routine janitorial scope is outlined below. It is based on the areas provided; no periodic work was identified during the walkthrough.\n\nPlease review the pricing summary below alongside the proposed scope. The church name can be confirmed before the proposal is finalized.",
+    "scope_of_work": [
+      "Floors: Routine cleaning of floor surfaces in the Fellowship Hall, Foyer, Hardwood Hall, and Sanctuary, using methods appropriate to the listed wood and tile surfaces.",
+      "Trash: Empty and collect waste from receptacles in the listed areas."
+    ],
+    "exclusions": [
+      "Restroom, office, and break-room cleaning, as those areas were not listed in the scope.",
+      "Exterior window cleaning.",
+      "Biohazard cleanup.",
+      "Floor repairs."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:02",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1919,
+      "cached_input_tokens": 0,
+      "output_tokens": 126,
+      "total_tokens": 2045,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000255,
+      "seconds": 3.45
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:02",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1917,
+      "cached_input_tokens": 0,
+      "output_tokens": 122,
+      "total_tokens": 2039,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000253,
+      "seconds": 3.82
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:03",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1919,
+      "cached_input_tokens": 0,
+      "output_tokens": 122,
+      "total_tokens": 2041,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000253,
+      "seconds": 3.98
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:04",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1321,
+      "cached_input_tokens": 0,
+      "output_tokens": 247,
+      "total_tokens": 1568,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000256,
+      "seconds": 5.41
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:05",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1919,
+      "cached_input_tokens": 0,
+      "output_tokens": 117,
+      "total_tokens": 2036,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00025,
+      "seconds": 3.34
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:05",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1919,
+      "cached_input_tokens": 0,
+      "output_tokens": 122,
+      "total_tokens": 2041,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000253,
+      "seconds": 2.86
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:05",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1323,
+      "cached_input_tokens": 0,
+      "output_tokens": 122,
+      "total_tokens": 1445,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000193,
+      "seconds": 2.66
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:09",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1321,
+      "cached_input_tokens": 0,
+      "output_tokens": 227,
+      "total_tokens": 1548,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000246,
+      "seconds": 5.38
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:09",
+      "bid_id": "20261118-163358-0713",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1917,
+      "cached_input_tokens": 0,
+      "output_tokens": 120,
+      "total_tokens": 2037,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000252,
+      "seconds": 4.08
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:22",
+      "bid_id": "20261118-163358-0713",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 4925,
+      "cached_input_tokens": 2146,
+      "output_tokens": 1035,
+      "total_tokens": 5960,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000817,
+      "seconds": 12.79
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:31",
+      "bid_id": "20261118-163358-0713",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 498,
+      "cached_input_tokens": 0,
+      "output_tokens": 889,
+      "total_tokens": 1387,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000494,
+      "seconds": 9.21
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:39",
+      "bid_id": "20261118-163358-0713",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 1322,
+      "cached_input_tokens": 0,
+      "output_tokens": 389,
+      "total_tokens": 1711,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000327,
+      "seconds": 7.83
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 22220,
+    "cached_input_tokens": 2146,
+    "output_tokens": 3638,
+    "total_tokens": 25858,
+    "requests": 14,
+    "tool_calls": 2,
+    "cost_usd": 0.003849,
+    "seconds": 64.81,
+    "calls": 12
+  },
+  "audit": [
+    {
+      "time": "2026-11-18T16:33:58",
+      "step": "intake",
+      "client": "Client F",
+      "building": "Sanctuary and fellowship building",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 9,
+      "floor_plan": false,
+      "known_areas": 0,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:33:58",
+      "step": "photo_resize",
+      "photo": "fellowship-hall__p5_image000006.jpg",
+      "original_px": [
+        848,
+        1131
+      ],
+      "sent_px": [
+        848,
+        1131
+      ],
+      "original_kb": 145,
+      "sent_kb": 139
+    },
+    {
+      "time": "2026-11-18T16:33:58",
+      "step": "photo_resize",
+      "photo": "foyer__p5_image000001.jpg",
+      "original_px": [
+        599,
+        799
+      ],
+      "sent_px": [
+        599,
+        799
+      ],
+      "original_kb": 105,
+      "sent_kb": 99
+    },
+    {
+      "time": "2026-11-18T16:33:59",
+      "step": "photo_resize",
+      "photo": "foyer__p5_image000008.jpg",
+      "original_px": [
+        848,
+        1131
+      ],
+      "sent_px": [
+        848,
+        1131
+      ],
+      "original_kb": 123,
+      "sent_kb": 117
+    },
+    {
+      "time": "2026-11-18T16:33:59",
+      "step": "photo_resize",
+      "photo": "hardwood-hall__p5_image000002.jpg",
+      "original_px": [
+        848,
+        1131
+      ],
+      "sent_px": [
+        848,
+        1131
+      ],
+      "original_kb": 129,
+      "sent_kb": 123
+    },
+    {
+      "time": "2026-11-18T16:33:59",
+      "step": "photo_resize",
+      "photo": "hardwood-hall__p5_image000003.jpg",
+      "original_px": [
+        848,
+        1131
+      ],
+      "sent_px": [
+        848,
+        1131
+      ],
+      "original_kb": 131,
+      "sent_kb": 125
+    },
+    {
+      "time": "2026-11-18T16:33:59",
+      "step": "photo_resize",
+      "photo": "hardwood-hall__p5_image000005.jpg",
+      "original_px": [
+        848,
+        1131
+      ],
+      "sent_px": [
+        848,
+        1131
+      ],
+      "original_kb": 134,
+      "sent_kb": 128
+    },
+    {
+      "time": "2026-11-18T16:33:59",
+      "step": "photo_resize",
+      "photo": "hardwood-hall__p5_image000007.jpg",
+      "original_px": [
+        599,
+        799
+      ],
+      "sent_px": [
+        599,
+        799
+      ],
+      "original_kb": 116,
+      "sent_kb": 111
+    },
+    {
+      "time": "2026-11-18T16:33:59",
+      "step": "photo_resize",
+      "photo": "sanctuary__p5_image000000.jpg",
+      "original_px": [
+        599,
+        799
+      ],
+      "sent_px": [
+        599,
+        799
+      ],
+      "original_kb": 89,
+      "sent_kb": 83
+    },
+    {
+      "time": "2026-11-18T16:33:59",
+      "step": "photo_resize",
+      "photo": "sanctuary__p5_image000004.jpg",
+      "original_px": [
+        848,
+        1131
+      ],
+      "sent_px": [
+        848,
+        1131
+      ],
+      "original_kb": 124,
+      "sent_kb": 118
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "fellowship-hall__p5_image000006.jpg",
+      "area_type": "conference",
+      "surface": "wood",
+      "soil": "normal",
+      "confidence": 0.87,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "foyer__p5_image000001.jpg",
+      "area_type": "lobby",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "foyer__p5_image000008.jpg",
+      "area_type": "lobby",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "hardwood-hall__p5_image000002.jpg",
+      "area_type": "corridor",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.86,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "hardwood-hall__p5_image000003.jpg",
+      "area_type": "corridor",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.9,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "hardwood-hall__p5_image000005.jpg",
+      "area_type": "corridor",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.92,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "hardwood-hall__p5_image000007.jpg",
+      "area_type": "corridor",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "sanctuary__p5_image000000.jpg",
+      "area_type": "other",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.9,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:09",
+      "step": "site_survey",
+      "photo": "sanctuary__p5_image000004.jpg",
+      "area_type": "other",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.95,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:22",
+      "step": "takeoff",
+      "areas": 4,
+      "assumptions": [
+        "All square footages are rough photo-based placeholders because no measured area table or legible floor plan was provided; verify before pricing or scheduling.",
+        "The fellowship hall's visible tables and chairs are within its estimated area; no furniture counts were supplied.",
+        "The foyer estimate includes the visible staircase and landing so they are not counted twice; staircase material is not separately confirmed.",
+        "Multiple photos with the same room label were treated as views of one space. For Hardwood Hall, the highest visible trash-can count among its photos (one) was used, not summed.",
+        "Sanctuary soil is classified as normal, balancing one light-soil view with another showing ordinary traffic marks.",
+        "The church name is not provided."
+      ]
+    },
+    {
+      "time": "2026-11-18T16:34:22",
+      "step": "pricing",
+      "janitorial_monthly": 1034.23,
+      "per_sqft": 0.0766,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-18T16:34:22",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "warn",
+          "msg": "'Fellowship Hall' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Foyer' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Hardwood Hall' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Sanctuary' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-18T16:34:31",
+      "step": "proposal_writer",
+      "scope_items": 2
+    },
+    {
+      "time": "2026-11-18T16:34:39",
+      "step": "benchmark",
+      "verdict": "not_comparable",
+      "compared_with": []
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-18T16:34:39",
+    "compared_with": [],
+    "verdict": "not_comparable",
+    "explanation": "CFM\u2019s available past bids are a 7,091-sq-ft medical office cleaned 5 times per week and a 17,934-sq-ft 24/7 emergency/imaging facility cleaned 7 times per week. Neither is a close match for this 13,500-sq-ft church bid with 2 visits per week, so their pricing and staffing would not provide a sound comparison.",
+    "suggestions": [
+      "Seek a past church or similar assembly-space bid with a comparable twice-weekly schedule before judging this price or staffing."
+    ],
+    "details": [],
+    "usage": {
+      "input_tokens": 1322,
+      "cached_input_tokens": 0,
+      "output_tokens": 389,
+      "total_tokens": 1711,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000327,
+      "seconds": 7.83,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

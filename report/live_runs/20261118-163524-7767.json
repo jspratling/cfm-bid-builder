@@ -1,0 +1,789 @@
+{
+  "id": "20261118-163524-7767",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-18T16:35:57",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client J",
+    "building_name": "Restrooms",
+    "service_type": "janitorial",
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "estimator_notes": "Close-up photos from a CFM estimator, Nov 17, 2026 of coated/painted restroom floors with heavy staining around toilets and urinals, peeling coating and grout lines. Likely a floor restoration or deep-clean quote. Square footage not measured.",
+    "areas": [],
+    "floor_care": [],
+    "walkthrough": "site-j-restroom-floors",
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "mens-restroom__p1_1000011633.jpg",
+    "mens-restroom__p1_1000011634.jpg",
+    "mens-restroom__p1_1000011635.jpg",
+    "mens-restroom__p1_1000011636.jpg",
+    "mens-restroom__p1_1000011637.jpg",
+    "mens-restroom__p1_1000011638.jpg",
+    "mens-restroom__p1_1000011639.jpg",
+    "mens-restroom__p1_1000011640.jpg",
+    "mens-restroom__p1_1000011649.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "mens-restroom__p1_1000011633.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 2,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect both visible urinals and the surrounding wall and base area; noticeable discoloration and stains are present beneath the fixtures. Remove the prominent dark stains and residue from the floor.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "mens-restroom__p1_1000011634.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the toilet and stall surfaces. The sealed concrete floor has visible wet-looking stains and discoloration that need thorough scrubbing and mopping.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "mens-restroom__p1_1000011635.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "A toilet is visible in the stall, with noticeable wet or soiled marks on the floor around and in front of it. Clean and disinfect the toilet and mop the floor, paying extra attention to the marked area.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "mens-restroom__p1_1000011636.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "A section of restroom floor and wall edges is visible; the floor has scattered dark spots and light streaking that should be swept and damp-mopped. Only part of a fixture is visible at the edge of the photo, so it cannot be identified or counted confidently.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.63
+    },
+    {
+      "photo_name": "mens-restroom__p1_1000011637.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Visible restroom floor has widespread dark staining and grime, with a wet-looking patch and debris near the wall and sink. Clean and disinfect the floor and the visible sink area.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.89
+    },
+    {
+      "photo_name": "mens-restroom__p1_1000011638.jpg",
+      "area_type": "restroom",
+      "surface": "other",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "The visible floor has widespread mottled spots and discoloration, especially along the wall edge; clean the floor and detail the edge. Wipe the exterior of the trash can.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.58
+    },
+    {
+      "photo_name": "mens-restroom__p1_1000011639.jpg",
+      "area_type": "restroom",
+      "surface": "other",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "The visible gray floor has discoloration and soil along the wall edge, with a few small marks elsewhere. Mop the floor and detail the perimeter; no fixtures are visible in this crop.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.54
+    },
+    {
+      "photo_name": "mens-restroom__p1_1000011640.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "The visible floor has scattered spots and debris that need sweeping and damp mopping. A trash can is partially visible at the edge of the photo.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.78
+    },
+    {
+      "photo_name": "mens-restroom__p1_1000011649.jpg",
+      "area_type": "restroom",
+      "surface": "other",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the visible floor and the wall/baseboard area; there are small specks on the floor and discoloration near the wall beneath the fixture. The floor material is unclear from the photo.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.68
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Men's Restroom",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "sq_ft": 180.0,
+        "soil_level": "heavy",
+        "fixtures": {
+          "toilet": 1,
+          "urinal": 2,
+          "sink": 1,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      }
+    ],
+    "floor_care_suggestions": [],
+    "assumptions": [
+      "Estimated the restroom at 180 sq ft from the photo survey because no trusted square footage or floor plan size was provided; verify on site.",
+      "Classified the floor as sealed concrete based on the higher-confidence survey views, although some views describe tile or an unclear surface.",
+      "Combined all photos labeled mens-restroom as one space. Fixture counts use the greatest count shown in any single photo for each fixture type, not counts added across photos."
+    ],
+    "questions_for_estimator": [
+      "Please confirm the measured square footage and floor material on site.",
+      "Please confirm whether the heavily stained floor needs restorative work beyond routine cleaning; no floor-restoration service is included in this takeoff."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Men's Restroom",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "soil_level": "heavy",
+        "sq_ft": 180,
+        "rate_sqft_per_hour": 1320,
+        "hours_per_visit": 0.45,
+        "source": "photo estimate"
+      }
+    ],
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 180,
+    "hours_per_visit": 0.45,
+    "monthly_hours": 9.8,
+    "labor": 127.36,
+    "burden": 13.88,
+    "payroll_taxes": 11.72,
+    "workers_comp": 2.15,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 14.12,
+    "supplies": 9.4,
+    "cost": 164.76,
+    "profit": 23.3,
+    "monthly_price": 188.06,
+    "annual_price": 2256.73,
+    "price_per_sqft_month": 1.0448
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 188.06,
+    "janitorial_annual": 2256.73,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 2256.73
+  },
+  "flags": [
+    {
+      "level": "stop",
+      "msg": "Janitorial price $1.045/sq ft/month is above the ceiling $0.50. Check square footage and visits."
+    },
+    {
+      "level": "warn",
+      "msg": "'Men's Restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Restroom Floor Job team,\n\nThank you for the opportunity to provide recurring janitorial service for the men's restroom at the site to be confirmed. The service covers the approximately 180-square-foot restroom with sealed-concrete flooring.\n\nJanitorial visits are scheduled five times per week. Routine restroom cleaning tasks are outlined in the scope of work below.\n\nPlease review the pricing summary below. The site details can be confirmed before service begins.",
+    "scope_of_work": [
+      "Restrooms: Clean and disinfect restroom fixtures and touchpoints.",
+      "Restrooms: Clean mirrors.",
+      "Restrooms: Sweep and damp mop the restroom floor.",
+      "Trash: Empty restroom trash receptacle(s)."
+    ],
+    "exclusions": [
+      "Restocking restroom supplies; supplies are not specified in the service information provided.",
+      "Biohazard or other specialized cleanup.",
+      "Floor repairs or specialized floor-care services such as stripping and waxing.",
+      "Exterior window cleaning."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:29",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 128,
+      "total_tokens": 3058,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000357,
+      "seconds": 4.53
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:29",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 121,
+      "total_tokens": 3051,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000353,
+      "seconds": 4.75
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:29",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 134,
+      "total_tokens": 3064,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00036,
+      "seconds": 4.71
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:30",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 142,
+      "total_tokens": 3072,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000364,
+      "seconds": 5.31
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:32",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 125,
+      "total_tokens": 3055,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000356,
+      "seconds": 3.32
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:34",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 285,
+      "total_tokens": 3215,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000436,
+      "seconds": 5.02
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:34",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 317,
+      "total_tokens": 3247,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000452,
+      "seconds": 4.98
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:35",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 225,
+      "total_tokens": 3155,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000405,
+      "seconds": 4.7
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:38",
+      "bid_id": "20261118-163524-7767",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2930,
+      "cached_input_tokens": 0,
+      "output_tokens": 327,
+      "total_tokens": 3257,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000456,
+      "seconds": 5.67
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:50",
+      "bid_id": "20261118-163524-7767",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 5125,
+      "cached_input_tokens": 2205,
+      "output_tokens": 835,
+      "total_tokens": 5960,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000732,
+      "seconds": 12.48
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:57",
+      "bid_id": "20261118-163524-7767",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 395,
+      "cached_input_tokens": 0,
+      "output_tokens": 557,
+      "total_tokens": 952,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000318,
+      "seconds": 6.92
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:04",
+      "bid_id": "20261118-163524-7767",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 1298,
+      "cached_input_tokens": 0,
+      "output_tokens": 411,
+      "total_tokens": 1709,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000335,
+      "seconds": 6.75
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 33188,
+    "cached_input_tokens": 2205,
+    "output_tokens": 3607,
+    "total_tokens": 36795,
+    "requests": 14,
+    "tool_calls": 2,
+    "cost_usd": 0.004924,
+    "seconds": 69.14,
+    "calls": 12
+  },
+  "audit": [
+    {
+      "time": "2026-11-18T16:35:24",
+      "step": "intake",
+      "client": "Client J",
+      "building": "Restrooms",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 9,
+      "floor_plan": false,
+      "known_areas": 0,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:24",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011633.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 173,
+      "sent_kb": 167
+    },
+    {
+      "time": "2026-11-18T16:35:25",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011634.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 152,
+      "sent_kb": 146
+    },
+    {
+      "time": "2026-11-18T16:35:25",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011635.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 85,
+      "sent_kb": 80
+    },
+    {
+      "time": "2026-11-18T16:35:25",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011636.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 183,
+      "sent_kb": 177
+    },
+    {
+      "time": "2026-11-18T16:35:25",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011637.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 176,
+      "sent_kb": 171
+    },
+    {
+      "time": "2026-11-18T16:35:25",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011638.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 150,
+      "sent_kb": 145
+    },
+    {
+      "time": "2026-11-18T16:35:25",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011639.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 238,
+      "sent_kb": 232
+    },
+    {
+      "time": "2026-11-18T16:35:25",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011640.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 160,
+      "sent_kb": 155
+    },
+    {
+      "time": "2026-11-18T16:35:25",
+      "step": "photo_resize",
+      "photo": "mens-restroom__p1_1000011649.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 126,
+      "sent_kb": 120
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011633.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011634.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011635.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011636.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.63,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011637.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.89,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011638.jpg",
+      "area_type": "restroom",
+      "surface": "other",
+      "soil": "heavy",
+      "confidence": 0.58,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011639.jpg",
+      "area_type": "restroom",
+      "surface": "other",
+      "soil": "normal",
+      "confidence": 0.54,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011640.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.78,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:38",
+      "step": "site_survey",
+      "photo": "mens-restroom__p1_1000011649.jpg",
+      "area_type": "restroom",
+      "surface": "other",
+      "soil": "normal",
+      "confidence": 0.68,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:50",
+      "step": "takeoff",
+      "areas": 1,
+      "assumptions": [
+        "Estimated the restroom at 180 sq ft from the photo survey because no trusted square footage or floor plan size was provided; verify on site.",
+        "Classified the floor as sealed concrete based on the higher-confidence survey views, although some views describe tile or an unclear surface.",
+        "Combined all photos labeled mens-restroom as one space. Fixture counts use the greatest count shown in any single photo for each fixture type, not counts added across photos."
+      ]
+    },
+    {
+      "time": "2026-11-18T16:35:50",
+      "step": "pricing",
+      "janitorial_monthly": 188.06,
+      "per_sqft": 1.0448,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-18T16:35:50",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "stop",
+          "msg": "Janitorial price $1.045/sq ft/month is above the ceiling $0.50. Check square footage and visits."
+        },
+        {
+          "level": "warn",
+          "msg": "'Men's Restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-18T16:35:57",
+      "step": "proposal_writer",
+      "scope_items": 4
+    },
+    {
+      "time": "2026-11-18T16:36:04",
+      "step": "benchmark",
+      "verdict": "not_comparable",
+      "compared_with": []
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-18T16:36:04",
+    "compared_with": [],
+    "verdict": "not_comparable",
+    "explanation": "Neither available past bid is a close match for this 180-sq-ft restroom floor job. Past bid A (outpatient surgical clinic) is a 7,091-sq-ft medical office with five weekly visits, so the schedule is similar but the building size and cleaning scope are not. Past bid B (24/7 emergency department) is a 17,934-sq-ft emergency/imaging facility with 24/7 coverage and is not comparable. The site and broader building type are still unconfirmed, so there is no sound past-bid basis for judging this price or staffing.",
+    "suggestions": [
+      "Confirm the site and whether this is restroom floor-only service or part of a broader cleaning scope.",
+      "Seek a past bid for a small restroom/floor-only job with a similar five-visit schedule before benchmarking price and labor."
+    ],
+    "details": [],
+    "usage": {
+      "input_tokens": 1298,
+      "cached_input_tokens": 0,
+      "output_tokens": 411,
+      "total_tokens": 1709,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000335,
+      "seconds": 6.75,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

@@ -1,0 +1,769 @@
+{
+  "id": "20261118-163439-8035",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-18T16:35:16",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client H",
+    "building_name": "Cafeteria building",
+    "service_type": "janitorial",
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "estimator_notes": "Photos from a CFM estimator, Nov 17, 2026 (forwarded sets pt.3 and pt.4). Large dining room with tables on glossy VCT, entry corridor, and a large open hall being burnished. Square footage not measured.",
+    "areas": [],
+    "floor_care": [],
+    "walkthrough": "site-h-cafeteria-hall",
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "dining-room__p3_image000000.jpg",
+    "dining-room__p3_image000001.jpg",
+    "dining-room__p3_image000003.jpg",
+    "entry-corridor__p3_image000002.jpg",
+    "entry-corridor__p3_image000005.jpg",
+    "large-hall__p4_image000000.jpg",
+    "large-hall__p4_image000001.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "dining-room__p3_image000000.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Dining area with multiple tables and chairs; floors appear generally clean, with light scuffing and marks. Wipe tables and chairs, clean the floor, and empty the visible trash can.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.83
+    },
+    {
+      "photo_name": "dining-room__p3_image000001.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Only the floor is visible; it has scattered small marks and scuffs. Clean and damp mop the floor, paying attention to the marked areas.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.78
+    },
+    {
+      "photo_name": "dining-room__p3_image000003.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Dining area with rows of tables; clean and unobstructed floor with little visible soil. Wipe table surfaces and clean the hard floor.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.89
+    },
+    {
+      "photo_name": "entry-corridor__p3_image000002.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the tiled corridor floor, including visible scuffing and scattered marks, and wipe down the door surfaces and nearby wall areas. A fan and cord are on the floor along the wall; clean around them.",
+      "special_services": [],
+      "text_seen_in_photo": "MENU\nWEEKLY MENU",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "entry-corridor__p3_image000005.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean the hard floor and remove the small visible debris near the foreground; empty the trash can and wipe nearby touchpoints. The corridor is cordoned off, with a floor fan visible beyond the barrier.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "large-hall__p4_image000000.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Large open hall with a glossy, mostly clean floor; routine dusting and damp mopping are appropriate. A floor-cleaning machine is visible in the area.",
+      "special_services": [],
+      "text_seen_in_photo": "CRAFTS; EXIT; ELECTRON...",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "large-hall__p4_image000001.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Wide hallway with a hard floor that appears clean and reflective; routine floor dust mopping and damp mopping are appropriate. Wall boards and nearby surfaces are visible, with no obvious buildup.",
+      "special_services": [],
+      "text_seen_in_photo": "CRAFTS\nLANGUAGE ARTS\nSOCIAL STUDIES\nB465",
+      "confidence": 0.91
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Dining Room",
+        "area_type": "break_room",
+        "surface": "vct",
+        "sq_ft": 2500.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Entry Corridor",
+        "area_type": "corridor",
+        "surface": "vct",
+        "sq_ft": 400.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Large Hall",
+        "area_type": "lobby",
+        "surface": "vct",
+        "sq_ft": 3000.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      }
+    ],
+    "floor_care_suggestions": [
+      "Dining Room \u2014 Strip and wax VCT: light scuffing and marks are visible."
+    ],
+    "assumptions": [
+      "No estimator square footage or floor plan was provided, so all three areas have provisional photo-based estimates and should be measured/verified.",
+      "The cafeteria dining area is classified as a break room; please confirm whether the client uses a different area classification.",
+      "Dining Room soil is set to normal because one survey view reported normal soil while the others reported light soil.",
+      "For repeat photos of the same room, fixture counts were not added together; the highest visible count for each fixture type was used."
+    ],
+    "questions_for_estimator": [
+      "Please provide or verify the square footage of the Dining Room, Entry Corridor, and Large Hall.",
+      "Please confirm the facility/cafeteria name."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Dining Room",
+        "area_type": "break_room",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 2500,
+        "rate_sqft_per_hour": 1800,
+        "hours_per_visit": 1.54,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Entry Corridor",
+        "area_type": "corridor",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 400,
+        "rate_sqft_per_hour": 3600,
+        "hours_per_visit": 0.13,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Large Hall",
+        "area_type": "lobby",
+        "surface": "vct",
+        "soil_level": "light",
+        "sq_ft": 3000,
+        "rate_sqft_per_hour": 2588,
+        "hours_per_visit": 1.28,
+        "source": "photo estimate"
+      }
+    ],
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 5900,
+    "hours_per_visit": 2.94,
+    "monthly_hours": 63.7,
+    "labor": 828.5,
+    "burden": 90.27,
+    "payroll_taxes": 76.26,
+    "workers_comp": 14.0,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 91.88,
+    "supplies": 61.17,
+    "cost": 1071.82,
+    "profit": 151.6,
+    "monthly_price": 1223.41,
+    "annual_price": 14680.96,
+    "price_per_sqft_month": 0.2074
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 1223.41,
+    "janitorial_annual": 14680.96,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 14680.96
+  },
+  "flags": [
+    {
+      "level": "warn",
+      "msg": "'Dining Room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Entry Corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Large Hall' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Client H,\n\nThank you for the opportunity to provide janitorial service for the Cafeteria building. The proposed service is scheduled five visits per week.\n\nService will cover the Dining Room, Entry Corridor, and Large Hall, including routine cleaning of the dining area and care of the VCT floors in the listed spaces.\n\nPlease see the pricing summary below for the proposed service. We look forward to supporting a clean and welcoming cafeteria facility.",
+    "scope_of_work": [
+      "Break rooms \u2014 Dining Room: Clean dining tables and accessible surfaces; sweep and damp-mop the VCT floor.",
+      "Floors \u2014 Entry Corridor and Large Hall: Sweep and damp-mop the VCT floors.",
+      "Trash \u2014 Empty and reline waste receptacles in the listed service areas."
+    ],
+    "exclusions": [
+      "Exterior window cleaning.",
+      "Biohazard cleanup.",
+      "Floor repairs or restoration, including VCT stripping and waxing."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:43",
+      "bid_id": "20261118-163439-8035",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1920,
+      "cached_input_tokens": 0,
+      "output_tokens": 138,
+      "total_tokens": 2058,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000261,
+      "seconds": 3.64
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:44",
+      "bid_id": "20261118-163439-8035",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1918,
+      "cached_input_tokens": 0,
+      "output_tokens": 116,
+      "total_tokens": 2034,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00025,
+      "seconds": 4.59
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:45",
+      "bid_id": "20261118-163439-8035",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1918,
+      "cached_input_tokens": 0,
+      "output_tokens": 212,
+      "total_tokens": 2130,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000298,
+      "seconds": 5.08
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:45",
+      "bid_id": "20261118-163439-8035",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1918,
+      "cached_input_tokens": 0,
+      "output_tokens": 190,
+      "total_tokens": 2108,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000287,
+      "seconds": 5.16
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:48",
+      "bid_id": "20261118-163439-8035",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2928,
+      "cached_input_tokens": 0,
+      "output_tokens": 142,
+      "total_tokens": 3070,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000364,
+      "seconds": 3.71
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:49",
+      "bid_id": "20261118-163439-8035",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1920,
+      "cached_input_tokens": 0,
+      "output_tokens": 129,
+      "total_tokens": 2049,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000257,
+      "seconds": 5.18
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:34:54",
+      "bid_id": "20261118-163439-8035",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2928,
+      "cached_input_tokens": 0,
+      "output_tokens": 433,
+      "total_tokens": 3361,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000509,
+      "seconds": 9.51
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:10",
+      "bid_id": "20261118-163439-8035",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 7146,
+      "cached_input_tokens": 4135,
+      "output_tokens": 1081,
+      "total_tokens": 8227,
+      "requests": 3,
+      "tool_calls": 4,
+      "cost_usd": 0.000883,
+      "seconds": 15.98
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:16",
+      "bid_id": "20261118-163439-8035",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 465,
+      "cached_input_tokens": 0,
+      "output_tokens": 536,
+      "total_tokens": 1001,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000315,
+      "seconds": 6.27
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:35:24",
+      "bid_id": "20261118-163439-8035",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 2291,
+      "cached_input_tokens": 0,
+      "output_tokens": 343,
+      "total_tokens": 2634,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000401,
+      "seconds": 8.11
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 25352,
+    "cached_input_tokens": 4135,
+    "output_tokens": 3320,
+    "total_tokens": 28672,
+    "requests": 14,
+    "tool_calls": 6,
+    "cost_usd": 0.003825,
+    "seconds": 67.23,
+    "calls": 10
+  },
+  "audit": [
+    {
+      "time": "2026-11-18T16:34:39",
+      "step": "intake",
+      "client": "Client H",
+      "building": "Cafeteria building",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 7,
+      "floor_plan": false,
+      "known_areas": 0,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:39",
+      "step": "photo_resize",
+      "photo": "dining-room__p3_image000000.jpg",
+      "original_px": [
+        851,
+        1130
+      ],
+      "sent_px": [
+        851,
+        1130
+      ],
+      "original_kb": 134,
+      "sent_kb": 128
+    },
+    {
+      "time": "2026-11-18T16:34:40",
+      "step": "photo_resize",
+      "photo": "dining-room__p3_image000001.jpg",
+      "original_px": [
+        851,
+        1130
+      ],
+      "sent_px": [
+        851,
+        1130
+      ],
+      "original_kb": 128,
+      "sent_kb": 123
+    },
+    {
+      "time": "2026-11-18T16:34:40",
+      "step": "photo_resize",
+      "photo": "dining-room__p3_image000003.jpg",
+      "original_px": [
+        851,
+        1130
+      ],
+      "sent_px": [
+        851,
+        1130
+      ],
+      "original_kb": 127,
+      "sent_kb": 121
+    },
+    {
+      "time": "2026-11-18T16:34:40",
+      "step": "photo_resize",
+      "photo": "entry-corridor__p3_image000002.jpg",
+      "original_px": [
+        851,
+        1130
+      ],
+      "sent_px": [
+        851,
+        1130
+      ],
+      "original_kb": 126,
+      "sent_kb": 121
+    },
+    {
+      "time": "2026-11-18T16:34:40",
+      "step": "photo_resize",
+      "photo": "entry-corridor__p3_image000005.jpg",
+      "original_px": [
+        848,
+        1131
+      ],
+      "sent_px": [
+        848,
+        1131
+      ],
+      "original_kb": 127,
+      "sent_kb": 122
+    },
+    {
+      "time": "2026-11-18T16:34:40",
+      "step": "photo_resize",
+      "photo": "large-hall__p4_image000000.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 203,
+      "sent_kb": 197
+    },
+    {
+      "time": "2026-11-18T16:34:40",
+      "step": "photo_resize",
+      "photo": "large-hall__p4_image000001.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 202,
+      "sent_kb": 197
+    },
+    {
+      "time": "2026-11-18T16:34:54",
+      "step": "site_survey",
+      "photo": "dining-room__p3_image000000.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.83,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:54",
+      "step": "site_survey",
+      "photo": "dining-room__p3_image000001.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.78,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:54",
+      "step": "site_survey",
+      "photo": "dining-room__p3_image000003.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.89,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:54",
+      "step": "site_survey",
+      "photo": "entry-corridor__p3_image000002.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:54",
+      "step": "site_survey",
+      "photo": "entry-corridor__p3_image000005.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:54",
+      "step": "site_survey",
+      "photo": "large-hall__p4_image000000.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:34:54",
+      "step": "site_survey",
+      "photo": "large-hall__p4_image000001.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:35:10",
+      "step": "takeoff",
+      "areas": 3,
+      "assumptions": [
+        "No estimator square footage or floor plan was provided, so all three areas have provisional photo-based estimates and should be measured/verified.",
+        "The cafeteria dining area is classified as a break room; please confirm whether the client uses a different area classification.",
+        "Dining Room soil is set to normal because one survey view reported normal soil while the others reported light soil.",
+        "For repeat photos of the same room, fixture counts were not added together; the highest visible count for each fixture type was used."
+      ]
+    },
+    {
+      "time": "2026-11-18T16:35:10",
+      "step": "pricing",
+      "janitorial_monthly": 1223.41,
+      "per_sqft": 0.2074,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-18T16:35:10",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "warn",
+          "msg": "'Dining Room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Entry Corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Large Hall' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-18T16:35:16",
+      "step": "proposal_writer",
+      "scope_items": 3
+    },
+    {
+      "time": "2026-11-18T16:35:24",
+      "step": "benchmark",
+      "verdict": "below_past_bids",
+      "compared_with": [
+        "past-bid-a"
+      ]
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-18T16:35:24",
+    "compared_with": [
+      "past-bid-a"
+    ],
+    "verdict": "below_past_bids",
+    "explanation": "Past bid A (outpatient surgical clinic) is the closest match: it is a similar-sized facility with five visits per week, though it is a medical office rather than a facility with cafeteria areas. The new bid\u2019s monthly price per square foot is $0.2074 versus $0.2964 for Past bid A, a 30.0% lower rate. Staffing intensity is close: 0.498 versus 0.521 hours per 1,000 sq ft per visit (4.4% lower). The new bid also uses a lower hourly wage ($13.00 vs. $15.00) and profit markup (15% vs. 30%).",
+    "suggestions": [
+      "Review whether the lower price is intentional given the 30% lower price per square foot and 15% versus 30% profit markup."
+    ],
+    "details": [
+      {
+        "past_id": "past-bid-a",
+        "past_name": "Past bid A: outpatient surgical clinic",
+        "past_building_type": "medical office",
+        "past_schedule": "1 part-time cleaner, Mon-Fri 5-9 pm",
+        "sq_ft": {
+          "this": 5900,
+          "past": 7091
+        },
+        "visits_per_week": {
+          "this": 5,
+          "past": 5
+        },
+        "price_per_sqft_month": {
+          "this": 0.2074,
+          "past": 0.2964,
+          "difference_pct": -30.0
+        },
+        "hours_per_1000_sqft_per_visit": {
+          "this": 0.498,
+          "past": 0.521,
+          "difference_pct": -4.4
+        },
+        "hourly_wage": {
+          "this": 13.0,
+          "past": 15.0
+        },
+        "profit_markup": {
+          "this": 0.15,
+          "past": 0.3
+        }
+      }
+    ],
+    "usage": {
+      "input_tokens": 2291,
+      "cached_input_tokens": 0,
+      "output_tokens": 343,
+      "total_tokens": 2634,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000401,
+      "seconds": 8.11,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

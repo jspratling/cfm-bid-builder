@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+output/
+*.zip
+
+# Real client walkthrough photos and real past bids stay out of git (privacy).
+data/walkthroughs/*/
+!data/walkthroughs/README.md
+data/past_bids.json

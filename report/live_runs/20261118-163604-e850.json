@@ -1,0 +1,2043 @@
+{
+  "id": "20261118-163604-e850",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-18T16:37:11",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client E",
+    "building_name": "Plant building",
+    "service_type": "janitorial",
+    "visits_per_week": 6,
+    "hourly_wage": 14.0,
+    "estimator_notes": "Walkthrough photos from a CFM supervisor, Nov 18, 2026. Manufacturing plant: locker room, several large employee restrooms, break room/cafeteria, office area, production-floor walkway, outdoor gazebo. Square footage not yet measured. Production floor and exterior are probably outside janitorial scope; confirm with the client.",
+    "areas": [],
+    "floor_care": [],
+    "walkthrough": "site-e-manufacturing-plant",
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "break-room__1000004800.jpg",
+    "break-room__1000004805.jpg",
+    "exterior-gazebo__1000004795.jpg",
+    "locker-room__1000004811.jpg",
+    "locker-room__1000004812.jpg",
+    "office__1000004808.jpg",
+    "production-aisle__1000004802.jpg",
+    "restroom-a__1000004813.jpg",
+    "restroom-a__1000004814.jpg",
+    "restroom-a__1000004815.jpg",
+    "restroom-a__1000004816.jpg",
+    "restroom-b__1000004806.jpg",
+    "restroom-b__1000004807.jpg",
+    "restroom-c__1000004809.jpg",
+    "restroom-c__1000004810.jpg",
+    "restroom-d__1000004801.jpg",
+    "restroom-e__1000004803.jpg",
+    "restroom-e__1000004804.jpg",
+    "restroom-f__1000004796.jpg",
+    "restroom-f__1000004797.jpg",
+    "restroom-f__1000004798.jpg",
+    "restroom-f__1000004799.jpg",
+    "restroom-g__1000004793.jpg",
+    "restroom-g__1000004794.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "break-room__1000004800.jpg",
+      "area_type": "break_room",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 1
+      },
+      "observations": "Clean the visibly scuffed and stained floor, wipe tables and work surfaces, and remove debris and trash. The room is cluttered with chairs and supplies, so cleaning around them may be needed.",
+      "special_services": [],
+      "text_seen_in_photo": "Coca-Cola; KEEP OUT; ONLY; handwritten whiteboard text mostly illegible.",
+      "confidence": 0.82
+    },
+    {
+      "photo_name": "break-room__1000004805.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the open VCT floor and wipe the tables, chairs, and visible kitchenette surfaces and appliances. The floor appears generally maintained, with some visible scuffing and wear.",
+      "special_services": [],
+      "text_seen_in_photo": "RELAY; FOR; Coca-Cola",
+      "confidence": 0.87
+    },
+    {
+      "photo_name": "exterior-gazebo__1000004795.jpg",
+      "area_type": "other",
+      "surface": "other",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Exterior gazebo, surrounding grass, gravel, and concrete walkway are visible. The walkway and gazebo area may need routine litter pickup and sweeping; the outdoor grounds are not a typical interior janitorial area.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "locker-room__1000004811.jpg",
+      "area_type": "other",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Locker room with rows of lockers and benches; clean the floor and wipe down locker fronts and benches. Scattered dirt and shoe marks are visible on the floor.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.9
+    },
+    {
+      "photo_name": "locker-room__1000004812.jpg",
+      "area_type": "other",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Locker room with locker banks and benches; sweep up small debris and tracked shoe marks, then damp mop the floor. Wipe benches and accessible locker surfaces.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "office__1000004808.jpg",
+      "area_type": "office",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 4,
+        "desk": 6
+      },
+      "observations": "Open office/work area with desks, chairs, counters, and equipment; dust and wipe desk and counter surfaces, empty visible waste bins, and clean the floor, which has light scuffs and scattered small marks.",
+      "special_services": [],
+      "text_seen_in_photo": "NO",
+      "confidence": 0.76
+    },
+    {
+      "photo_name": "production-aisle__1000004802.jpg",
+      "area_type": "warehouse",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Industrial aisle has visible floor scuffs and scattered dark marks, with grime and scuffing along the lower block wall. Clean the marked floor and wall edges, working around production equipment and stored materials.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "restroom-a__1000004813.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Restroom stall partitions and floor are visible; the floor has extensive dark scuffing, tracked-in dirt, and worn/discolored areas. Clean and scrub the floor thoroughly, including along stall edges and around fixtures.",
+      "special_services": [
+        "strip and wax"
+      ],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "restroom-a__1000004814.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the visible sink and wipe down surrounding surfaces. The floor has widespread scuffs, tracked dirt, stains, and visible cracking; scrub and clean thoroughly.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "restroom-a__1000004815.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "The visible restroom floor has widespread scuffs, dark marks, and worn-looking finish; clean the floor and wipe down the visible sink and nearby surfaces. A small piece of debris is visible near the wall.",
+      "special_services": [
+        "strip and wax"
+      ],
+      "text_seen_in_photo": "enMotion",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "restroom-a__1000004816.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Restroom stall corridor with visible floor scuffs, marks, and scattered debris; clean the floor and stall partitions. The floor has a prominent crack and appears worn or damaged.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.78
+    },
+    {
+      "photo_name": "restroom-b__1000004806.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 2,
+        "desk": 0
+      },
+      "observations": "Clean the visible sink and hand dryer, empty the trash cans, and damp mop the floor; scattered marks and debris are visible on the floor.",
+      "special_services": [],
+      "text_seen_in_photo": "XLERATOR",
+      "confidence": 0.89
+    },
+    {
+      "photo_name": "restroom-b__1000004807.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the visible sink and restroom touchpoints, and remove scattered debris and marks from the floor. Clean the partitions and surrounding surfaces.",
+      "special_services": [],
+      "text_seen_in_photo": "ALLEGATOR",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "restroom-c__1000004809.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the visible floor, sink and surrounding fixtures, and wipe the stall partitions and nearby wall surfaces. The floor shows scattered spots and scuffing; toilet fixtures are obscured by the partitions.",
+      "special_services": [],
+      "text_seen_in_photo": "GOJO",
+      "confidence": 0.82
+    },
+    {
+      "photo_name": "restroom-c__1000004810.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the visible sink and surrounding surfaces; sweep and damp-mop the floor, including around the partitions and fixtures. Floor shows scattered small debris and light scuffing.",
+      "special_services": [],
+      "text_seen_in_photo": "GAY",
+      "confidence": 0.79
+    },
+    {
+      "photo_name": "restroom-d__1000004801.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean the sink and surrounding fixtures, empty the trash, and remove scattered litter and visible dirt. The floor has heavy soil and a dark wet-looking area near the sink.",
+      "special_services": [],
+      "text_seen_in_photo": "NO SMOKING",
+      "confidence": 0.92
+    },
+    {
+      "photo_name": "restroom-e__1000004803.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Open restroom area with stall partitions and a visibly cracked, scuffed floor; clean and damp mop the floor and wipe accessible partitions and wall surfaces. No toilets, urinals, sinks, or trash cans are clearly visible.",
+      "special_services": [],
+      "text_seen_in_photo": "TX-8",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "restroom-e__1000004804.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 3,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the urinals, partitions, and wall surfaces; the floor has visible dirt, scattered debris, and dark staining that needs thorough cleaning.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "restroom-f__1000004796.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "The floor has visible dirt, smears, and staining and needs thorough scrubbing. Clean and disinfect the sink and wipe down the surrounding wall surfaces and dispensers.",
+      "special_services": [],
+      "text_seen_in_photo": "sojo",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "restroom-f__1000004797.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "The floor has widespread scuffing, dark debris, and several stained areas; scrub and detail the floor, especially around the stalls and partition edges. Wipe down the visible stall partitions and wall surfaces.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "restroom-f__1000004798.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the visible sink and surrounding fixtures. The floor has scattered debris, dark marks, and visible wear along seams; sweep and damp mop it thoroughly.",
+      "special_services": [],
+      "text_seen_in_photo": "GOJO; NOTICE (appears reversed in mirror)",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "restroom-f__1000004799.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the restroom floor, partitions, doors, and wall-mounted fixtures; the floor has scattered dark marks and visible wear. No toilets, urinals, sinks, or trash cans are visible in this view.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "restroom-g__1000004793.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the sink and surrounding fixtures, empty the trash, and scrub the visibly scuffed and soiled floor. Wipe down the mirror and wall-mounted dispensers.",
+      "special_services": [],
+      "text_seen_in_photo": "Soap",
+      "confidence": 0.92
+    },
+    {
+      "photo_name": "restroom-g__1000004794.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the restroom floor and around the stall partitions and sink; visible scattered debris and dark marks are present. The concrete floor has prominent cracks and worn areas.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Break room",
+        "area_type": "break_room",
+        "surface": "vct",
+        "sq_ft": 700.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 1,
+          "desk": 1
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Locker room",
+        "area_type": "other",
+        "surface": "sealed_concrete",
+        "sq_ft": 800.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Office",
+        "area_type": "open_office",
+        "surface": "sealed_concrete",
+        "sq_ft": 1200.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 4,
+          "desk": 6
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom A",
+        "area_type": "restroom",
+        "surface": "vct",
+        "sq_ft": 500.0,
+        "soil_level": "heavy",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom B",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "sq_ft": 250.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 2,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom C",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "sq_ft": 250.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom D",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "sq_ft": 200.0,
+        "soil_level": "heavy",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom E",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "sq_ft": 300.0,
+        "soil_level": "heavy",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 3,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom F",
+        "area_type": "restroom",
+        "surface": "vct",
+        "sq_ft": 450.0,
+        "soil_level": "heavy",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom G",
+        "area_type": "restroom",
+        "surface": "vct",
+        "sq_ft": 250.0,
+        "soil_level": "heavy",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      }
+    ],
+    "floor_care_suggestions": [
+      "Restroom A \u2014 Strip and wax VCT; the floor is heavily scuffed, worn/discolored, and the survey specifically flags strip and wax.",
+      "Break room \u2014 Strip and wax VCT; visible scuffing and wear are noted.",
+      "Restroom F \u2014 Strip and wax VCT; visible wear along seams and dark marks are noted.",
+      "Restroom G \u2014 Strip and wax VCT; the floor is visibly scuffed and soiled."
+    ],
+    "assumptions": [
+      "All square footages are photo estimates because no trusted area table or floor plan sizes were provided; verify all measurements before finalizing.",
+      "Rooms with conflicting surface observations were assigned the surface judged most representative from their photo set: break room and Restrooms A, F, and G as VCT; Restrooms B and C as sealed concrete.",
+      "Fixture counts use the largest visible count for each fixture type in a single view of each labeled room; counts from multiple views were not added. Zero toilet counts mean none were clearly visible, not necessarily that none exist.",
+      "The exterior gazebo/walkway and production aisle are included provisionally as photographed areas; whether either is within janitorial scope is unconfirmed.",
+      "Locker room is classified as other because the available area types do not include locker room."
+    ],
+    "questions_for_estimator": [
+      "Please confirm the client/site name.",
+      "Please provide measured square footage for each area, especially the large production aisle and all restrooms.",
+      "Confirm whether the production aisle and exterior gazebo/walkway are in janitorial scope.",
+      "Please confirm floor surfaces in the break room and Restrooms A, B, C, F, and G where different photo views suggest different materials.",
+      "Please verify restroom fixture inventory, especially toilet counts, since toilets were not clearly visible in the survey photos."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Break room",
+        "area_type": "break_room",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 700,
+        "rate_sqft_per_hour": 1800,
+        "hours_per_visit": 0.44,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Locker room",
+        "area_type": "other",
+        "surface": "sealed_concrete",
+        "soil_level": "normal",
+        "sq_ft": 800,
+        "rate_sqft_per_hour": 2750,
+        "hours_per_visit": 0.32,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Office",
+        "area_type": "open_office",
+        "surface": "sealed_concrete",
+        "soil_level": "normal",
+        "sq_ft": 1200,
+        "rate_sqft_per_hour": 3850,
+        "hours_per_visit": 0.42,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom A",
+        "area_type": "restroom",
+        "surface": "vct",
+        "soil_level": "heavy",
+        "sq_ft": 500,
+        "rate_sqft_per_hour": 1080,
+        "hours_per_visit": 0.56,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom B",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "soil_level": "normal",
+        "sq_ft": 250,
+        "rate_sqft_per_hour": 1650,
+        "hours_per_visit": 0.24,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom C",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "soil_level": "normal",
+        "sq_ft": 250,
+        "rate_sqft_per_hour": 1650,
+        "hours_per_visit": 0.22,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom D",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "soil_level": "heavy",
+        "sq_ft": 200,
+        "rate_sqft_per_hour": 1320,
+        "hours_per_visit": 0.23,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom E",
+        "area_type": "restroom",
+        "surface": "sealed_concrete",
+        "soil_level": "heavy",
+        "sq_ft": 300,
+        "rate_sqft_per_hour": 1320,
+        "hours_per_visit": 0.47,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom F",
+        "area_type": "restroom",
+        "surface": "vct",
+        "soil_level": "heavy",
+        "sq_ft": 450,
+        "rate_sqft_per_hour": 1080,
+        "hours_per_visit": 0.51,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom G",
+        "area_type": "restroom",
+        "surface": "vct",
+        "soil_level": "heavy",
+        "sq_ft": 250,
+        "rate_sqft_per_hour": 1080,
+        "hours_per_visit": 0.32,
+        "source": "photo estimate"
+      }
+    ],
+    "visits_per_week": 6,
+    "hourly_wage": 14.0,
+    "total_sq_ft": 4900,
+    "hours_per_visit": 3.75,
+    "monthly_hours": 97.3,
+    "labor": 1362.75,
+    "burden": 146.96,
+    "payroll_taxes": 123.93,
+    "workers_comp": 23.03,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 18200.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00231,
+      "suta": 0.01213,
+      "payroll_taxes": 0.09094,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10784
+    },
+    "overhead": 150.97,
+    "supplies": 100.51,
+    "cost": 1761.19,
+    "profit": 249.1,
+    "monthly_price": 2010.29,
+    "annual_price": 24123.48,
+    "price_per_sqft_month": 0.4103
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 2010.29,
+    "janitorial_annual": 24123.48,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 24123.48
+  },
+  "flags": [
+    {
+      "level": "warn",
+      "msg": "'Break room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Locker room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Office' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom A' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom B' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom C' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom D' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom E' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom F' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom G' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Manufacturing Plant Team,\n\nThank you for the opportunity to propose janitorial service for the plant building. The site name can be confirmed as part of finalizing the proposal.\n\nService is planned five times per week and covers the listed restrooms, office, break room, locker room, production aisle, and exterior gazebo and walkway. Routine tasks are outlined below.\n\nPlease review the pricing summary below. Periodic strip and wax work noted during the walkthrough is not included in this janitorial proposal.",
+    "scope_of_work": [
+      "Restrooms: Clean and sanitize restroom fixtures and touchpoints, and clean restroom floors in Restrooms A through G.",
+      "Offices: Dust and wipe accessible surfaces in the office, and clean the office floor.",
+      "Floors: Sweep the production aisle, locker room, and exterior gazebo and walkway; damp-mop hard floors where suitable.",
+      "Break rooms: Wipe and clean accessible counters, tables, and sink surfaces in the break room; clean the floor.",
+      "Trash: Empty waste bins in the listed service areas and place collected waste in the designated disposal point."
+    ],
+    "exclusions": [
+      "Periodic strip and wax floor care.",
+      "Floor repairs or restoration.",
+      "Biohazard cleanup."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:10",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2928,
+      "cached_input_tokens": 0,
+      "output_tokens": 126,
+      "total_tokens": 3054,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000356,
+      "seconds": 5.22
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:11",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 118,
+      "total_tokens": 3044,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000352,
+      "seconds": 6.25
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:13",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 402,
+      "total_tokens": 3328,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000494,
+      "seconds": 8.62
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:14",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 117,
+      "total_tokens": 3043,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000351,
+      "seconds": 3.79
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:15",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 600,
+      "total_tokens": 3526,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000593,
+      "seconds": 10.97
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:17",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2925,
+      "cached_input_tokens": 0,
+      "output_tokens": 453,
+      "total_tokens": 3378,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000519,
+      "seconds": 6.13
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:17",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 134,
+      "total_tokens": 3060,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00036,
+      "seconds": 3.75
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:19",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2928,
+      "cached_input_tokens": 0,
+      "output_tokens": 307,
+      "total_tokens": 3235,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000446,
+      "seconds": 5.98
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:20",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 135,
+      "total_tokens": 3061,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00036,
+      "seconds": 2.93
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:20",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 246,
+      "total_tokens": 3172,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000416,
+      "seconds": 4.92
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:23",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 120,
+      "total_tokens": 3046,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000353,
+      "seconds": 3.63
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:23",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 298,
+      "total_tokens": 3224,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000442,
+      "seconds": 5.71
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:24",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 119,
+      "total_tokens": 3045,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000352,
+      "seconds": 3.93
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:27",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 127,
+      "total_tokens": 3053,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000356,
+      "seconds": 3.86
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:28",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 126,
+      "total_tokens": 3052,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000356,
+      "seconds": 5.01
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:28",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 275,
+      "total_tokens": 3201,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00043,
+      "seconds": 7.88
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:28",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 136,
+      "total_tokens": 3062,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000361,
+      "seconds": 4.24
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:32",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 116,
+      "total_tokens": 3042,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000351,
+      "seconds": 4.69
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:35",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 339,
+      "total_tokens": 3265,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000462,
+      "seconds": 6.35
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:35",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 393,
+      "total_tokens": 3319,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000489,
+      "seconds": 7.12
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:36",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 514,
+      "total_tokens": 3440,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00055,
+      "seconds": 7.76
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:36",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 130,
+      "total_tokens": 3056,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000358,
+      "seconds": 4.5
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:39",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 119,
+      "total_tokens": 3045,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000352,
+      "seconds": 3.54
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:36:45",
+      "bid_id": "20261118-163604-e850",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 124,
+      "total_tokens": 3050,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000355,
+      "seconds": 9.93
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:37:02",
+      "bid_id": "20261118-163604-e850",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 9661,
+      "cached_input_tokens": 4390,
+      "output_tokens": 1723,
+      "total_tokens": 11384,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.001432,
+      "seconds": 17.83
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:37:11",
+      "bid_id": "20261118-163604-e850",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 792,
+      "cached_input_tokens": 0,
+      "output_tokens": 762,
+      "total_tokens": 1554,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00046,
+      "seconds": 8.33
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:37:17",
+      "bid_id": "20261118-163604-e850",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 1340,
+      "cached_input_tokens": 0,
+      "output_tokens": 426,
+      "total_tokens": 1766,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000347,
+      "seconds": 6.44
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:38:26",
+      "bid_id": "20261118-163604-e850",
+      "agent": "revision",
+      "model": "gpt-6-luna",
+      "input_tokens": 3180,
+      "cached_input_tokens": 0,
+      "output_tokens": 255,
+      "total_tokens": 3435,
+      "requests": 3,
+      "tool_calls": 5,
+      "cost_usd": 0.000445,
+      "seconds": 7.15
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 85200,
+    "cached_input_tokens": 4390,
+    "output_tokens": 8740,
+    "total_tokens": 93940,
+    "requests": 32,
+    "tool_calls": 7,
+    "cost_usd": 0.012498,
+    "seconds": 176.46,
+    "calls": 28
+  },
+  "audit": [
+    {
+      "time": "2026-11-18T16:36:04",
+      "step": "intake",
+      "client": "Client E",
+      "building": "Plant building",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 24,
+      "floor_plan": false,
+      "known_areas": 0,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:04",
+      "step": "photo_resize",
+      "photo": "break-room__1000004800.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 285,
+      "sent_kb": 279
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "break-room__1000004805.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 286,
+      "sent_kb": 280
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "exterior-gazebo__1000004795.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 430,
+      "sent_kb": 425
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "locker-room__1000004811.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 219,
+      "sent_kb": 214
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "locker-room__1000004812.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 241,
+      "sent_kb": 236
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "office__1000004808.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 201,
+      "sent_kb": 195
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "production-aisle__1000004802.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 363,
+      "sent_kb": 357
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "restroom-a__1000004813.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 222,
+      "sent_kb": 216
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "restroom-a__1000004814.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 173,
+      "sent_kb": 168
+    },
+    {
+      "time": "2026-11-18T16:36:05",
+      "step": "photo_resize",
+      "photo": "restroom-a__1000004815.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 192,
+      "sent_kb": 187
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-a__1000004816.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 185,
+      "sent_kb": 180
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-b__1000004806.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 190,
+      "sent_kb": 184
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-b__1000004807.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 156,
+      "sent_kb": 150
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-c__1000004809.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 197,
+      "sent_kb": 191
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-c__1000004810.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 182,
+      "sent_kb": 176
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-d__1000004801.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 204,
+      "sent_kb": 198
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-e__1000004803.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 172,
+      "sent_kb": 167
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-e__1000004804.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 218,
+      "sent_kb": 212
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-f__1000004796.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 224,
+      "sent_kb": 219
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-f__1000004797.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 216,
+      "sent_kb": 210
+    },
+    {
+      "time": "2026-11-18T16:36:06",
+      "step": "photo_resize",
+      "photo": "restroom-f__1000004798.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 198,
+      "sent_kb": 192
+    },
+    {
+      "time": "2026-11-18T16:36:07",
+      "step": "photo_resize",
+      "photo": "restroom-f__1000004799.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 171,
+      "sent_kb": 166
+    },
+    {
+      "time": "2026-11-18T16:36:07",
+      "step": "photo_resize",
+      "photo": "restroom-g__1000004793.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 205,
+      "sent_kb": 200
+    },
+    {
+      "time": "2026-11-18T16:36:07",
+      "step": "photo_resize",
+      "photo": "restroom-g__1000004794.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 209,
+      "sent_kb": 203
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "break-room__1000004800.jpg",
+      "area_type": "break_room",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.82,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "break-room__1000004805.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.87,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "exterior-gazebo__1000004795.jpg",
+      "area_type": "other",
+      "surface": "other",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "locker-room__1000004811.jpg",
+      "area_type": "other",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.9,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "locker-room__1000004812.jpg",
+      "area_type": "other",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "office__1000004808.jpg",
+      "area_type": "office",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.76,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "production-aisle__1000004802.jpg",
+      "area_type": "warehouse",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-a__1000004813.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "heavy",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-a__1000004814.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-a__1000004815.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "heavy",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-a__1000004816.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.78,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-b__1000004806.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.89,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-b__1000004807.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-c__1000004809.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.82,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-c__1000004810.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.79,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-d__1000004801.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.92,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-e__1000004803.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-e__1000004804.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-f__1000004796.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-f__1000004797.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "heavy",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-f__1000004798.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "heavy",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-f__1000004799.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-g__1000004793.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "heavy",
+      "confidence": 0.92,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:36:45",
+      "step": "site_survey",
+      "photo": "restroom-g__1000004794.jpg",
+      "area_type": "restroom",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:37:02",
+      "step": "takeoff",
+      "areas": 12,
+      "assumptions": [
+        "All square footages are photo estimates because no trusted area table or floor plan sizes were provided; verify all measurements before finalizing.",
+        "Rooms with conflicting surface observations were assigned the surface judged most representative from their photo set: break room and Restrooms A, F, and G as VCT; Restrooms B and C as sealed concrete.",
+        "Fixture counts use the largest visible count for each fixture type in a single view of each labeled room; counts from multiple views were not added. Zero toilet counts mean none were clearly visible, not necessarily that none exist.",
+        "The exterior gazebo/walkway and production aisle are included provisionally as photographed areas; whether either is within janitorial scope is unconfirmed.",
+        "Locker room is classified as other because the available area types do not include locker room."
+      ]
+    },
+    {
+      "time": "2026-11-18T16:37:02",
+      "step": "pricing",
+      "janitorial_monthly": 1823.61,
+      "per_sqft": 0.2224,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-18T16:37:02",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "warn",
+          "msg": "'Break room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Exterior gazebo and walkway' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Locker room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Office' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Production aisle' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom A' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom B' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom C' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom D' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom E' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom F' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom G' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-18T16:37:11",
+      "step": "proposal_writer",
+      "scope_items": 5
+    },
+    {
+      "time": "2026-11-18T16:37:17",
+      "step": "benchmark",
+      "verdict": "not_comparable",
+      "compared_with": []
+    },
+    {
+      "time": "2026-11-18T16:38:26",
+      "step": "revision",
+      "message": "Drop the outdoor gazebo and the production aisle from the scope, and make it 6 nights a week at $14 an hour.",
+      "changes": [
+        "Visits per week 5 -> 6",
+        "Hourly wage $13.00 -> $14.00",
+        "Removed area Exterior gazebo and walkway",
+        "Removed area Production aisle"
+      ]
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-18T16:37:17",
+    "compared_with": [],
+    "verdict": "not_comparable",
+    "explanation": "Neither past bid is a good match for this 8,200-sq-ft manufacturing plant with five visits per week. Past bid A (outpatient surgical clinic) is a 7,091-sq-ft medical office with five visits per week, but its building type is different. Past bid B (24/7 emergency department) is a 17,934-sq-ft emergency/imaging facility with seven visits per week and 24/7 coverage, so its operations and schedule are substantially different. I can\u2019t reliably judge whether this bid\u2019s $0.2224 per sq ft per month or 4.39 hours per visit is in line with CFM\u2019s past bids from these examples.",
+    "suggestions": [
+      "Compare against a past manufacturing or warehouse bid with a similar cleaning scope and schedule."
+    ],
+    "details": [],
+    "usage": {
+      "input_tokens": 1340,
+      "cached_input_tokens": 0,
+      "output_tokens": 426,
+      "total_tokens": 1766,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000347,
+      "seconds": 6.44,
+      "calls": 1
+    },
+    "demo_mode": false
+  },
+  "revisions": [
+    {
+      "time": "2026-11-18T16:38:26",
+      "message": "Drop the outdoor gazebo and the production aisle from the scope, and make it 6 nights a week at $14 an hour.",
+      "summary": "Removed the exterior gazebo/walkway and production aisle from the scope, and changed service to 6 nights per week at $14 per hour.",
+      "changes": [
+        "Visits per week 5 -> 6",
+        "Hourly wage $13.00 -> $14.00",
+        "Removed area Exterior gazebo and walkway",
+        "Removed area Production aisle"
+      ],
+      "agent_changes": [
+        "Removed area: Exterior gazebo and walkway",
+        "Removed area: Production aisle",
+        "Set visits per week to 6",
+        "Set hourly wage to $14"
+      ],
+      "injection_hits": [],
+      "before": {
+        "janitorial_monthly": 1823.61,
+        "janitorial_annual": 21883.36,
+        "floor_care_one_time": 0,
+        "floor_care_recurring_annual": 0,
+        "first_year_value": 21883.36
+      },
+      "after": {
+        "janitorial_monthly": 2010.29,
+        "janitorial_annual": 24123.48,
+        "floor_care_one_time": 0,
+        "floor_care_recurring_annual": 0,
+        "first_year_value": 24123.48
+      },
+      "usage": {
+        "input_tokens": 3180,
+        "cached_input_tokens": 0,
+        "output_tokens": 255,
+        "total_tokens": 3435,
+        "requests": 3,
+        "tool_calls": 5,
+        "cost_usd": 0.000445,
+        "seconds": 7.15,
+        "calls": 1
+      },
+      "demo_mode": false
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "id": "20261123-124752-6476",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-23T12:48:16",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client I",
+    "building_name": "Office suite",
+    "service_type": "janitorial",
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "estimator_notes": "Modern office with sealed concrete and herringbone vinyl: training/conference room, kitchen, corridor. Only part of the suite was photographed. Sizes are photo estimates.",
+    "areas": [
+      {
+        "name": "Training / conference room",
+        "area_type": "conference",
+        "surface": "other",
+        "sq_ft": 900.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 2,
+          "desk": 0
+        },
+        "source": "photo estimate (reviewed), confirm on site"
+      },
+      {
+        "name": "Kitchen / break area",
+        "area_type": "break_room",
+        "surface": "sealed_concrete",
+        "sq_ft": 350.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 2,
+          "desk": 0
+        },
+        "source": "photo estimate (reviewed), confirm on site"
+      },
+      {
+        "name": "Corridor",
+        "area_type": "corridor",
+        "surface": "sealed_concrete",
+        "sq_ft": 250.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate (reviewed), confirm on site"
+      }
+    ],
+    "floor_care": [],
+    "walkthrough": "site-i-modern-office",
+    "costs": {},
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "conference-room__p1_1000012743.jpg",
+    "conference-room__p3_image000006.jpg",
+    "corridor__p1_1000012741.jpg",
+    "kitchen__p1_1000012739.jpg",
+    "kitchen__p1_1000012740.jpg",
+    "kitchen__p1_1000012742.jpg",
+    "kitchen__p3_image000007.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "conference-room__p1_1000012743.jpg",
+      "area_type": "conference",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Wipe the conference tables and chairs and clean the tile floor. The area rug has visible mottled discoloration and a worn, frayed edge.",
+      "special_services": [
+        "carpet extraction"
+      ],
+      "text_seen_in_photo": "ONE PLACE",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "conference-room__p3_image000006.jpg",
+      "area_type": "conference",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Conference room with tables and chairs; clean tabletops and seating, and sweep/mop the hard floor. A rug is visible beneath the tables and should be vacuumed.",
+      "special_services": [],
+      "text_seen_in_photo": "ONE PLACE",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "corridor__p1_1000012741.jpg",
+      "area_type": "corridor",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the hallway floor, including visible marks and scattered debris near the doorway, and wipe accessible wall and door surfaces as needed.",
+      "special_services": [],
+      "text_seen_in_photo": "T YOUR\nLT.\nPLEASE\nWASH YOUR\nHANDS\nBEFORE\nLEAVING",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "kitchen__p1_1000012739.jpg",
+      "area_type": "break_room",
+      "surface": "other",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Wipe and sanitize the countertop and cabinet surfaces, and clean the open microwave interior and exterior. No floor is visible in the photo.",
+      "special_services": [],
+      "text_seen_in_photo": "QUICK TOUCH COOK; POPCORN BEVERAGE POTATO; CLOCK AUTO DEFROST",
+      "confidence": 0.63
+    },
+    {
+      "photo_name": "kitchen__p1_1000012740.jpg",
+      "area_type": "break_room",
+      "surface": "other",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "A double-basin stainless sink and surrounding counter are visible; wipe and sanitize the sink, faucet, and counter. The backsplash/wall has scattered spots that need wiping.",
+      "special_services": [],
+      "text_seen_in_photo": "DAWN; Softsoap",
+      "confidence": 0.72
+    },
+    {
+      "photo_name": "kitchen__p1_1000012742.jpg",
+      "area_type": "break_room",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean the concrete floor, tables, and chairs; wipe the kitchenette counters, sink, and appliance exteriors. The floor has scattered visible spots and marks, with some countertop items present.",
+      "special_services": [],
+      "text_seen_in_photo": "ONE PLACE",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "kitchen__p3_image000007.jpg",
+      "area_type": "break_room",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean and sanitize the countertop, sink, cabinet fronts, and appliances; wipe the dining table and chairs. Sweep and damp mop the sealed concrete floor, which has scattered visible spots and marks.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Training / conference room",
+        "area_type": "conference",
+        "surface": "tile",
+        "sq_ft": 900.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate (reviewed), confirm on site"
+      },
+      {
+        "name": "Kitchen / break area",
+        "area_type": "break_room",
+        "surface": "sealed_concrete",
+        "sq_ft": 350.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate (reviewed), confirm on site"
+      },
+      {
+        "name": "Corridor",
+        "area_type": "corridor",
+        "surface": "sealed_concrete",
+        "sq_ft": 250.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate (reviewed), confirm on site"
+      }
+    ],
+    "floor_care_suggestions": [
+      "Training / conference room: Carpet cleaning \u2014 the area rug is visibly discolored and has a worn, frayed edge."
+    ],
+    "assumptions": [
+      "Retained the estimator-provided square footage exactly, including values labeled as reviewed photo estimates.",
+      "Used the photo-survey floor surfaces where visible; the kitchen photos with visible flooring show sealed concrete.",
+      "Used the most visible count for each fixture type from the room's photo set without adding counts across angles. Counts reflect fixtures visible in the photos; items outside the views may not be included.",
+      "The conference-room rug is treated as part of the conference room rather than a separate cleanable area."
+    ],
+    "questions_for_estimator": [
+      "Please confirm the reviewed photo-estimate areas of 900 sq ft, 350 sq ft, and 250 sq ft on site.",
+      "Are there additional suite areas that were not represented in the submitted photos or estimator area list?",
+      "Please confirm whether periodic carpet cleaning should be scoped for the conference-room rug."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Training / conference room",
+        "area_type": "conference",
+        "surface": "tile",
+        "soil_level": "normal",
+        "sq_ft": 900,
+        "rate_sqft_per_hour": 2550,
+        "hours_per_visit": 0.39,
+        "source": "photo estimate (reviewed), confirm on site"
+      },
+      {
+        "name": "Kitchen / break area",
+        "area_type": "break_room",
+        "surface": "sealed_concrete",
+        "soil_level": "normal",
+        "sq_ft": 350,
+        "rate_sqft_per_hour": 2200,
+        "hours_per_visit": 0.24,
+        "source": "photo estimate (reviewed), confirm on site"
+      },
+      {
+        "name": "Corridor",
+        "area_type": "corridor",
+        "surface": "sealed_concrete",
+        "soil_level": "normal",
+        "sq_ft": 250,
+        "rate_sqft_per_hour": 4400,
+        "hours_per_visit": 0.06,
+        "source": "photo estimate (reviewed), confirm on site"
+      }
+    ],
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 1500,
+    "hours_per_visit": 0.69,
+    "monthly_hours": 14.9,
+    "labor": 194.17,
+    "burden": 21.16,
+    "payroll_taxes": 17.87,
+    "workers_comp": 3.28,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 21.53,
+    "equipment": 5.83,
+    "insurance": 0.1,
+    "costs": {
+      "supplies_pct_of_price": 0.05,
+      "equipment_pct_of_labor": 0.03,
+      "insurance_pct_of_labor": 0.0005,
+      "suta_pct": 0.027,
+      "workers_comp_pct": 0.0169,
+      "other_benefits_pct": 0.0,
+      "overhead_pct": 0.1,
+      "profit_pct": 0.15,
+      "labor_hours_factor": 1.0
+    },
+    "supplies": 14.69,
+    "cost": 257.48,
+    "profit": 36.42,
+    "monthly_price": 293.9,
+    "annual_price": 3526.75,
+    "price_per_sqft_month": 0.1959
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 293.9,
+    "janitorial_annual": 3526.75,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 3526.75
+  },
+  "flags": [
+    {
+      "level": "warn",
+      "msg": "'Training / conference room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Kitchen / break area' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Client I,\n\nThank you for the opportunity to provide janitorial service for your office suite. This proposal covers recurring cleaning five times per week in the training/conference room, kitchen/break area, and corridor.\n\nRoutine service includes cleaning the listed spaces and their floors, along with trash removal. The pricing summary below outlines the proposed service.\n\nWe appreciate your consideration and would be pleased to support a clean, welcoming workplace.",
+    "scope_of_work": [
+      "Conference room: Wipe and sanitize tables and accessible high-touch surfaces.",
+      "Break rooms: Wipe and sanitize counters and accessible surfaces; clean the sink.",
+      "Floors: Sweep and damp-mop the tile in the training/conference room and sealed-concrete floors in the kitchen/break area and corridor.",
+      "Trash: Empty waste receptacles in the serviced areas and replace liners where provided."
+    ],
+    "exclusions": [
+      "Carpet extraction and other periodic floor-care services.",
+      "Exterior window cleaning.",
+      "Biohazard cleanup.",
+      "Floor repairs or restoration work."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:47:55",
+      "bid_id": "20261123-124752-6476",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1788,
+      "cached_input_tokens": 0,
+      "output_tokens": 122,
+      "total_tokens": 1910,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00024,
+      "seconds": 2.87
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:47:55",
+      "bid_id": "20261123-124752-6476",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2751,
+      "cached_input_tokens": 0,
+      "output_tokens": 137,
+      "total_tokens": 2888,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000344,
+      "seconds": 3.03
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:47:56",
+      "bid_id": "20261123-124752-6476",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2752,
+      "cached_input_tokens": 0,
+      "output_tokens": 323,
+      "total_tokens": 3075,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000437,
+      "seconds": 4.26
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:47:57",
+      "bid_id": "20261123-124752-6476",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2751,
+      "cached_input_tokens": 0,
+      "output_tokens": 340,
+      "total_tokens": 3091,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000445,
+      "seconds": 5.12
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:47:57",
+      "bid_id": "20261123-124752-6476",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2751,
+      "cached_input_tokens": 0,
+      "output_tokens": 130,
+      "total_tokens": 2881,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00034,
+      "seconds": 2.42
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:47:58",
+      "bid_id": "20261123-124752-6476",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2751,
+      "cached_input_tokens": 0,
+      "output_tokens": 275,
+      "total_tokens": 3026,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000413,
+      "seconds": 3.22
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:47:58",
+      "bid_id": "20261123-124752-6476",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 1787,
+      "cached_input_tokens": 0,
+      "output_tokens": 126,
+      "total_tokens": 1913,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000242,
+      "seconds": 2.35
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:48:09",
+      "bid_id": "20261123-124752-6476",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 5178,
+      "cached_input_tokens": 2156,
+      "output_tokens": 1005,
+      "total_tokens": 6183,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000826,
+      "seconds": 10.52
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:48:16",
+      "bid_id": "20261123-124752-6476",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 461,
+      "cached_input_tokens": 0,
+      "output_tokens": 607,
+      "total_tokens": 1068,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00035,
+      "seconds": 6.74
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:48:23",
+      "bid_id": "20261123-124752-6476",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 3916,
+      "cached_input_tokens": 1352,
+      "output_tokens": 549,
+      "total_tokens": 4465,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000544,
+      "seconds": 6.96
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 26886,
+    "cached_input_tokens": 3508,
+    "output_tokens": 3614,
+    "total_tokens": 30500,
+    "requests": 13,
+    "tool_calls": 3,
+    "cost_usd": 0.004181,
+    "seconds": 47.49,
+    "calls": 10
+  },
+  "audit": [
+    {
+      "time": "2026-11-23T12:47:52",
+      "step": "intake",
+      "client": "Client I",
+      "building": "Office suite",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 7,
+      "floor_plan": false,
+      "known_areas": 3,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:47:52",
+      "step": "photo_resize",
+      "photo": "conference-room__p1_1000012743.jpg",
+      "original_px": [
+        1176,
+        1411
+      ],
+      "sent_px": [
+        1176,
+        1411
+      ],
+      "original_kb": 255,
+      "sent_kb": 209
+    },
+    {
+      "time": "2026-11-23T12:47:52",
+      "step": "photo_resize",
+      "photo": "conference-room__p3_image000006.jpg",
+      "original_px": [
+        848,
+        1017
+      ],
+      "sent_px": [
+        848,
+        1017
+      ],
+      "original_kb": 140,
+      "sent_kb": 113
+    },
+    {
+      "time": "2026-11-23T12:47:52",
+      "step": "photo_resize",
+      "photo": "corridor__p1_1000012741.jpg",
+      "original_px": [
+        1176,
+        1411
+      ],
+      "sent_px": [
+        1176,
+        1411
+      ],
+      "original_kb": 137,
+      "sent_kb": 106
+    },
+    {
+      "time": "2026-11-23T12:47:52",
+      "step": "photo_resize",
+      "photo": "kitchen__p1_1000012739.jpg",
+      "original_px": [
+        1176,
+        1411
+      ],
+      "sent_px": [
+        1176,
+        1411
+      ],
+      "original_kb": 199,
+      "sent_kb": 164
+    },
+    {
+      "time": "2026-11-23T12:47:52",
+      "step": "photo_resize",
+      "photo": "kitchen__p1_1000012740.jpg",
+      "original_px": [
+        1176,
+        1411
+      ],
+      "sent_px": [
+        1176,
+        1411
+      ],
+      "original_kb": 172,
+      "sent_kb": 141
+    },
+    {
+      "time": "2026-11-23T12:47:52",
+      "step": "photo_resize",
+      "photo": "kitchen__p1_1000012742.jpg",
+      "original_px": [
+        1176,
+        1411
+      ],
+      "sent_px": [
+        1176,
+        1411
+      ],
+      "original_kb": 290,
+      "sent_kb": 240
+    },
+    {
+      "time": "2026-11-23T12:47:52",
+      "step": "photo_resize",
+      "photo": "kitchen__p3_image000007.jpg",
+      "original_px": [
+        848,
+        1017
+      ],
+      "sent_px": [
+        848,
+        1017
+      ],
+      "original_kb": 156,
+      "sent_kb": 125
+    },
+    {
+      "time": "2026-11-23T12:47:58",
+      "step": "site_survey",
+      "photo": "conference-room__p1_1000012743.jpg",
+      "area_type": "conference",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:47:58",
+      "step": "site_survey",
+      "photo": "conference-room__p3_image000006.jpg",
+      "area_type": "conference",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:47:58",
+      "step": "site_survey",
+      "photo": "corridor__p1_1000012741.jpg",
+      "area_type": "corridor",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:47:58",
+      "step": "site_survey",
+      "photo": "kitchen__p1_1000012739.jpg",
+      "area_type": "break_room",
+      "surface": "other",
+      "soil": "light",
+      "confidence": 0.63,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:47:58",
+      "step": "site_survey",
+      "photo": "kitchen__p1_1000012740.jpg",
+      "area_type": "break_room",
+      "surface": "other",
+      "soil": "normal",
+      "confidence": 0.72,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:47:58",
+      "step": "site_survey",
+      "photo": "kitchen__p1_1000012742.jpg",
+      "area_type": "break_room",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:47:58",
+      "step": "site_survey",
+      "photo": "kitchen__p3_image000007.jpg",
+      "area_type": "break_room",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:48:09",
+      "step": "takeoff",
+      "areas": 3,
+      "assumptions": [
+        "Retained the estimator-provided square footage exactly, including values labeled as reviewed photo estimates.",
+        "Used the photo-survey floor surfaces where visible; the kitchen photos with visible flooring show sealed concrete.",
+        "Used the most visible count for each fixture type from the room's photo set without adding counts across angles. Counts reflect fixtures visible in the photos; items outside the views may not be included.",
+        "The conference-room rug is treated as part of the conference room rather than a separate cleanable area."
+      ]
+    },
+    {
+      "time": "2026-11-23T12:48:09",
+      "step": "pricing",
+      "janitorial_monthly": 293.9,
+      "per_sqft": 0.1959,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-23T12:48:09",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "warn",
+          "msg": "'Training / conference room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Kitchen / break area' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-23T12:48:16",
+      "step": "proposal_writer",
+      "scope_items": 4
+    },
+    {
+      "time": "2026-11-23T12:48:23",
+      "step": "benchmark",
+      "verdict": "below_past_bids",
+      "compared_with": [
+        "past-bid-j"
+      ]
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-23T12:48:23",
+    "compared_with": [
+      "past-bid-j"
+    ],
+    "verdict": "below_past_bids",
+    "explanation": "Past bid J is the closest match: an office-related site cleaned five nights a week, though it is larger (5,000 sq ft versus 1,500). The new bid\u2019s price is $0.1959 per sq ft per month, versus $0.549 for J (64.3% lower). Staffing is also lower at 0.46 versus 0.64 hours per 1,000 sq ft per visit (28.1% lower); the new wage is $13.00 versus $15.50, and profit markup is 15% versus 75%. The size and building differences limit the comparison, but the new bid is below this past office-related bid on both price and staffing.",
+    "suggestions": [
+      "Review whether 0.46 labor hours per 1,000 sq ft per visit is sufficient for the break room, conference area, and corridor.",
+      "Check whether the 15% profit markup is intentional relative to J\u2019s 75% markup."
+    ],
+    "details": [
+      {
+        "past_id": "past-bid-j",
+        "past_name": "Past bid J: public works office",
+        "past_building_type": "government office and shop",
+        "past_schedule": "CFM calculator: monthly hours = crew x hours x 5 days x 4 weeks (5 nights assumed)",
+        "sq_ft": {
+          "this": 1500,
+          "past": 5000
+        },
+        "visits_per_week": {
+          "this": 5,
+          "past": 5
+        },
+        "price_per_sqft_month": {
+          "this": 0.1959,
+          "past": 0.549,
+          "difference_pct": -64.3
+        },
+        "hours_per_1000_sqft_per_visit": {
+          "this": 0.46,
+          "past": 0.64,
+          "difference_pct": -28.1
+        },
+        "hourly_wage": {
+          "this": 13.0,
+          "past": 15.5
+        },
+        "profit_markup": {
+          "this": 0.15,
+          "past": 0.75
+        }
+      }
+    ],
+    "usage": {
+      "input_tokens": 3916,
+      "cached_input_tokens": 1352,
+      "output_tokens": 549,
+      "total_tokens": 4465,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000544,
+      "seconds": 6.96,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

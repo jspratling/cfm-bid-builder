@@ -1,0 +1,689 @@
+{
+  "id": "20261118-163027-2b17",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-18T16:30:55",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client B",
+    "building_name": "Client B office",
+    "service_type": "janitorial",
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "estimator_notes": "Walkthrough photos from a CFM supervisor, Nov 18, 2026. Office with polished/stained concrete floors, a single-user restroom, a break room, a corridor and an open office with cubicles. Square footage not yet measured.",
+    "areas": [],
+    "floor_care": [],
+    "walkthrough": "site-b-tech-office",
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "break-room__1118_083309833.jpg",
+    "corridor__1118_083317016.jpg",
+    "open-office__1118_083405718_HDR.jpg",
+    "restroom__1117_124945240.jpg",
+    "restroom__1118_083338459.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "break-room__1118_083309833.jpg",
+      "area_type": "break_room",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Break-room table and chairs, appliances, and surrounding surfaces need routine wiping; empty the visible trash can. Sweep and mop the tile floor, which shows noticeable scuffing and uneven shine.",
+      "special_services": [],
+      "text_seen_in_photo": "EXIT",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "corridor__1118_083317016.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Hard flooring appears clean and glossy, with a few faint scuffs or marks; sweep and damp mop the floor and wipe the visible door and touchpoints.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "open-office__1118_083405718_HDR.jpg",
+      "area_type": "open_office",
+      "surface": "sealed_concrete",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Open office with cubicles and a broad hard-surface floor. Dust/wipe accessible workstation surfaces and clean the floor; visible scuffs and marks are present across the floor.",
+      "special_services": [],
+      "text_seen_in_photo": "EXIT",
+      "confidence": 0.83
+    },
+    {
+      "photo_name": "restroom__1117_124945240.jpg",
+      "area_type": "restroom",
+      "surface": "other",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and sanitize the sink basin, faucet, handles, and countertop. Heavy dark grime or residue is visible along the lower edge of the mirror.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.95
+    },
+    {
+      "photo_name": "restroom__1118_083338459.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the toilet, grab bars, and other accessible touchpoints. Mop the tile floor; visible residue or staining is present near the front of the floor.",
+      "special_services": [],
+      "text_seen_in_photo": "LIFE IS LIKE RIDING A BICYCLE TO KEEP your balance you must KEEP MOVING",
+      "confidence": 0.91
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Break room",
+        "area_type": "break_room",
+        "surface": "tile",
+        "sq_ft": 180.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Corridor",
+        "area_type": "corridor",
+        "surface": "vct",
+        "sq_ft": 240.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Open office",
+        "area_type": "open_office",
+        "surface": "sealed_concrete",
+        "sq_ft": 1800.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 60.0,
+        "soil_level": "heavy",
+        "fixtures": {
+          "toilet": 1,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      }
+    ],
+    "floor_care_suggestions": [],
+    "assumptions": [
+      "No estimator square footage or legible floor plan dimensions were provided, so all area sizes are provisional photo-based estimates requiring verification.",
+      "The two photos labeled restroom__ show the same restroom. Combined fixture counts using the highest visible count per fixture type: one toilet and one sink; counts were not added across photos.",
+      "Restroom surface is classified as tile based on the photo showing the floor; the other restroom photo's surface value of other appears to refer to the sink-area view rather than a different floor surface.",
+      "Restroom soil level is set to heavy because one survey reports heavy grime/residue; the other reports normal conditions.",
+      "No floor-care suggestion was added: the surveys describe tile, VCT, and sealed concrete floors, with no stained or traffic-worn carpet and no clearly dull, scuffed, or yellowed VCT warranting strip and wax."
+    ],
+    "questions_for_estimator": [
+      "Please provide measured square footage for the break room, corridor, open office, and restroom, or a dimensioned floor plan, to replace these provisional estimates.",
+      "Please confirm the restroom floor is tile and whether the heavy soil level applies to the whole restroom."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Break room",
+        "area_type": "break_room",
+        "surface": "tile",
+        "soil_level": "normal",
+        "sq_ft": 180,
+        "rate_sqft_per_hour": 1700,
+        "hours_per_visit": 0.13,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Corridor",
+        "area_type": "corridor",
+        "surface": "vct",
+        "soil_level": "light",
+        "sq_ft": 240,
+        "rate_sqft_per_hour": 4140,
+        "hours_per_visit": 0.06,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Open office",
+        "area_type": "open_office",
+        "surface": "sealed_concrete",
+        "soil_level": "normal",
+        "sq_ft": 1800,
+        "rate_sqft_per_hour": 3850,
+        "hours_per_visit": 0.51,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "soil_level": "heavy",
+        "sq_ft": 60,
+        "rate_sqft_per_hour": 1020,
+        "hours_per_visit": 0.21,
+        "source": "photo estimate"
+      }
+    ],
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 2280,
+    "hours_per_visit": 0.92,
+    "monthly_hours": 19.8,
+    "labor": 257.54,
+    "burden": 28.06,
+    "payroll_taxes": 23.71,
+    "workers_comp": 4.35,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 28.56,
+    "supplies": 19.02,
+    "cost": 333.18,
+    "profit": 47.12,
+    "monthly_price": 380.3,
+    "annual_price": 4563.65,
+    "price_per_sqft_month": 0.1668
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 380.3,
+    "janitorial_annual": 4563.65,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 4563.65
+  },
+  "flags": [
+    {
+      "level": "warn",
+      "msg": "'Break room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Open office' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Client B,\n\nThank you for the opportunity to provide janitorial service for the Client B office. Our proposal includes recurring cleaning five times per week.\n\nService will cover the listed break room, corridor, open office, and restroom, including routine cleaning of their floors and work surfaces, restroom fixtures, and waste removal.\n\nPlease review the pricing summary below for the proposed service. We appreciate your consideration and would be glad to support a clean, welcoming workplace for your team.",
+    "scope_of_work": [
+      "Restrooms: Clean and sanitize restroom fixtures and wipe accessible surfaces.",
+      "Offices: Dust and wipe accessible surfaces in the open office.",
+      "Floors: Sweep or vacuum, as appropriate, and damp mop the listed floor areas.",
+      "Break rooms: Wipe and clean accessible counters and table surfaces.",
+      "Trash: Empty waste receptacles in the listed service areas and replace liners when present."
+    ],
+    "exclusions": [
+      "Exterior window cleaning.",
+      "Biohazard cleanup and other specialized remediation.",
+      "Floor repairs and specialty floor restoration, including stripping and waxing."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:30:35",
+      "bid_id": "20261118-163027-2b17",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 116,
+      "total_tokens": 3043,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000351,
+      "seconds": 6.58
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:30:35",
+      "bid_id": "20261118-163027-2b17",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 119,
+      "total_tokens": 3046,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000352,
+      "seconds": 6.75
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:30:35",
+      "bid_id": "20261118-163027-2b17",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2928,
+      "cached_input_tokens": 0,
+      "output_tokens": 127,
+      "total_tokens": 3055,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000356,
+      "seconds": 6.93
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:30:35",
+      "bid_id": "20261118-163027-2b17",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2929,
+      "cached_input_tokens": 0,
+      "output_tokens": 128,
+      "total_tokens": 3057,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000357,
+      "seconds": 7.15
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:30:38",
+      "bid_id": "20261118-163027-2b17",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 140,
+      "total_tokens": 3067,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000363,
+      "seconds": 3.61
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:30:48",
+      "bid_id": "20261118-163027-2b17",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 3824,
+      "cached_input_tokens": 1565,
+      "output_tokens": 727,
+      "total_tokens": 4551,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000605,
+      "seconds": 9.81
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:30:55",
+      "bid_id": "20261118-163027-2b17",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 493,
+      "cached_input_tokens": 0,
+      "output_tokens": 484,
+      "total_tokens": 977,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000291,
+      "seconds": 6.98
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:31:04",
+      "bid_id": "20261118-163027-2b17",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 2317,
+      "cached_input_tokens": 0,
+      "output_tokens": 429,
+      "total_tokens": 2746,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000446,
+      "seconds": 9.04
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 21272,
+    "cached_input_tokens": 1565,
+    "output_tokens": 2270,
+    "total_tokens": 23542,
+    "requests": 11,
+    "tool_calls": 3,
+    "cost_usd": 0.003121,
+    "seconds": 56.85,
+    "calls": 8
+  },
+  "audit": [
+    {
+      "time": "2026-11-18T16:30:27",
+      "step": "intake",
+      "client": "Client B",
+      "building": "Client B office",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 5,
+      "floor_plan": false,
+      "known_areas": 0,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:30:28",
+      "step": "photo_resize",
+      "photo": "break-room__1118_083309833.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 172,
+      "sent_kb": 166
+    },
+    {
+      "time": "2026-11-18T16:30:28",
+      "step": "photo_resize",
+      "photo": "corridor__1118_083317016.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 105,
+      "sent_kb": 99
+    },
+    {
+      "time": "2026-11-18T16:30:28",
+      "step": "photo_resize",
+      "photo": "open-office__1118_083405718_HDR.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 154,
+      "sent_kb": 149
+    },
+    {
+      "time": "2026-11-18T16:30:28",
+      "step": "photo_resize",
+      "photo": "restroom__1117_124945240.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 207,
+      "sent_kb": 201
+    },
+    {
+      "time": "2026-11-18T16:30:28",
+      "step": "photo_resize",
+      "photo": "restroom__1118_083338459.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 185,
+      "sent_kb": 179
+    },
+    {
+      "time": "2026-11-18T16:30:38",
+      "step": "site_survey",
+      "photo": "break-room__1118_083309833.jpg",
+      "area_type": "break_room",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:30:38",
+      "step": "site_survey",
+      "photo": "corridor__1118_083317016.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:30:38",
+      "step": "site_survey",
+      "photo": "open-office__1118_083405718_HDR.jpg",
+      "area_type": "open_office",
+      "surface": "sealed_concrete",
+      "soil": "normal",
+      "confidence": 0.83,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:30:38",
+      "step": "site_survey",
+      "photo": "restroom__1117_124945240.jpg",
+      "area_type": "restroom",
+      "surface": "other",
+      "soil": "heavy",
+      "confidence": 0.95,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:30:38",
+      "step": "site_survey",
+      "photo": "restroom__1118_083338459.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:30:48",
+      "step": "takeoff",
+      "areas": 4,
+      "assumptions": [
+        "No estimator square footage or legible floor plan dimensions were provided, so all area sizes are provisional photo-based estimates requiring verification.",
+        "The two photos labeled restroom__ show the same restroom. Combined fixture counts using the highest visible count per fixture type: one toilet and one sink; counts were not added across photos.",
+        "Restroom surface is classified as tile based on the photo showing the floor; the other restroom photo's surface value of other appears to refer to the sink-area view rather than a different floor surface.",
+        "Restroom soil level is set to heavy because one survey reports heavy grime/residue; the other reports normal conditions.",
+        "No floor-care suggestion was added: the surveys describe tile, VCT, and sealed concrete floors, with no stained or traffic-worn carpet and no clearly dull, scuffed, or yellowed VCT warranting strip and wax."
+      ]
+    },
+    {
+      "time": "2026-11-18T16:30:48",
+      "step": "pricing",
+      "janitorial_monthly": 380.3,
+      "per_sqft": 0.1668,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-18T16:30:48",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "warn",
+          "msg": "'Break room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Open office' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-18T16:30:55",
+      "step": "proposal_writer",
+      "scope_items": 5
+    },
+    {
+      "time": "2026-11-18T16:31:05",
+      "step": "benchmark",
+      "verdict": "below_past_bids",
+      "compared_with": [
+        "past-bid-a"
+      ]
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-18T16:31:05",
+    "compared_with": [
+      "past-bid-a"
+    ],
+    "verdict": "below_past_bids",
+    "explanation": "The closest available comparison is Past bid A (outpatient surgical clinic), a 5-visit-per-week medical office; it is larger than Client B (7,091 vs. 2,280 sq ft), so the match is not exact. Client B\u2019s price is $0.1668 per sq ft per month versus Past bid A\u2019s $0.2964, 43.7% lower. Client B staffs 0.404 hours per 1,000 sq ft per visit versus 0.521 (22.5% lower), pays $13.00/hour versus $15.00, and uses a 15% profit markup versus 30%.",
+    "suggestions": [
+      "Review whether the substantially lower price per sq ft and 15% markup are intentional; the past comparable used a 30% markup.",
+      "Validate the lower labor allowance against Client B\u2019s restroom and break-room scope."
+    ],
+    "details": [
+      {
+        "past_id": "past-bid-a",
+        "past_name": "Past bid A: outpatient surgical clinic",
+        "past_building_type": "medical office",
+        "past_schedule": "1 part-time cleaner, Mon-Fri 5-9 pm",
+        "sq_ft": {
+          "this": 2280,
+          "past": 7091
+        },
+        "visits_per_week": {
+          "this": 5,
+          "past": 5
+        },
+        "price_per_sqft_month": {
+          "this": 0.1668,
+          "past": 0.2964,
+          "difference_pct": -43.7
+        },
+        "hours_per_1000_sqft_per_visit": {
+          "this": 0.404,
+          "past": 0.521,
+          "difference_pct": -22.5
+        },
+        "hourly_wage": {
+          "this": 13.0,
+          "past": 15.0
+        },
+        "profit_markup": {
+          "this": 0.15,
+          "past": 0.3
+        }
+      }
+    ],
+    "usage": {
+      "input_tokens": 2317,
+      "cached_input_tokens": 0,
+      "output_tokens": 429,
+      "total_tokens": 2746,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000446,
+      "seconds": 9.04,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

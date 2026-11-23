@@ -1,0 +1,3330 @@
+{
+  "id": "20261117-153554-5630",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-17T15:37:37",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client A",
+    "building_name": "Two-story corporate office",
+    "service_type": "janitorial",
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "estimator_notes": "Walkthrough photos taken by a CFM manager on Nov 17, 2026, one email per room. Square footage not yet measured, so sizes are photo estimates for a person to confirm. Hallways (upstairs/elevator and downstairs) and Mr. a staff member's office photos are still to be added.",
+    "areas": [],
+    "floor_care": [],
+    "walkthrough": "site-a-corporate-office",
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "administration-office__IMG_1102.jpg",
+    "administration-office__IMG_1103.jpg",
+    "administration-office__IMG_1104.jpg",
+    "administration-office__IMG_1105.jpg",
+    "administration-office__IMG_1106.jpg",
+    "administration-office__IMG_1107.jpg",
+    "administration-office__IMG_1108.jpg",
+    "break-room__IMG_1171.jpg",
+    "break-room__IMG_1172.jpg",
+    "break-room__IMG_1173.jpg",
+    "break-room__IMG_1174.jpg",
+    "conference-room__IMG_1175.jpg",
+    "conference-room__IMG_1176.jpg",
+    "conference-room__IMG_1177.jpg",
+    "conference-room__IMG_1178.jpg",
+    "conference-room__IMG_1179.jpg",
+    "conference-room__IMG_1180.jpg",
+    "conference-room__IMG_1181.jpg",
+    "downstairs-lrr__IMG_1161.jpg",
+    "downstairs-lrr__IMG_1162.jpg",
+    "downstairs-lrr__IMG_1163.jpg",
+    "downstairs-lrr__IMG_1164.jpg",
+    "downstairs-lrr__IMG_1165.jpg",
+    "downstairs-lrr__IMG_1166.jpg",
+    "downstairs-lrr__IMG_1167.jpg",
+    "downstairs-lrr__IMG_1168.jpg",
+    "downstairs-lrr__IMG_1169.jpg",
+    "lobby-mail-room__IMG_1124.jpg",
+    "lobby-mail-room__IMG_1125.jpg",
+    "lobby-mail-room__IMG_1144.jpg",
+    "print-room__IMG_1126.jpg",
+    "print-room__IMG_1127.jpg",
+    "print-room__IMG_1128.jpg",
+    "print-room__IMG_1129.jpg",
+    "supply-storage-room__IMG_1109.jpg",
+    "supply-storage-room__IMG_1110.jpg",
+    "supply-storage-room__IMG_1111.jpg",
+    "supply-storage-room__IMG_1112.jpg",
+    "supply-storage-room__IMG_1113.jpg",
+    "supply-storage-room__IMG_1114.jpg",
+    "women-restroom__IMG_1115.jpg",
+    "women-restroom__IMG_1116.jpg",
+    "women-restroom__IMG_1117.jpg",
+    "women-restroom__IMG_1118.jpg",
+    "women-restroom__IMG_1119.jpg",
+    "women-restroom__IMG_1120.jpg",
+    "women-restroom__IMG_1121.jpg",
+    "women-restroom__IMG_1122.jpg",
+    "women-restroom__IMG_1123.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "administration-office__IMG_1102.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 2
+      },
+      "observations": "Dust and wipe the desks, filing cabinet, and other reachable surfaces; vacuum or sweep and damp-mop the wood-look plank floor. The room appears orderly with little visible soil.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.83
+    },
+    {
+      "photo_name": "administration-office__IMG_1103.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 2
+      },
+      "observations": "Office with reception desk and work surfaces; dust/wipe furniture and clean the visible hard floor. Floor appears generally tidy with only minor debris.",
+      "special_services": [],
+      "text_seen_in_photo": "NOTICE",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "administration-office__IMG_1104.jpg",
+      "area_type": "office",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Dust and wipe the shelving, beverage station, chair, and other reachable surfaces; clean the open floor and remove any small debris. The room appears generally tidy with little visible soil.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.81
+    },
+    {
+      "photo_name": "administration-office__IMG_1105.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 1
+      },
+      "observations": "Small office/reception area with a wood-look floor and desk; dust and wipe the visible desk and furniture, and clean the floor. No obvious heavy soil is visible.",
+      "special_services": [],
+      "text_seen_in_photo": "PAYCHEX\nFEDERAL LABOR LAW POSTERS\nEMPLOYEE RIGHTS\nJob Safety and Health\nIT'S THE LAW!",
+      "confidence": 0.86
+    },
+    {
+      "photo_name": "administration-office__IMG_1106.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 1
+      },
+      "observations": "Office with a desk, chairs, and filing cabinets; visible surfaces and the floor appear generally tidy, with routine dusting and floor cleaning needed.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "administration-office__IMG_1107.jpg",
+      "area_type": "office",
+      "surface": "other",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 2
+      },
+      "observations": "Dust and wipe the reception counter, workstation, and other accessible surfaces; clean the floor and spot-clean visible wall marks. The floor has a wood-look plank finish, but the material is unclear from the photo.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "administration-office__IMG_1108.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 2,
+        "desk": 0
+      },
+      "observations": "Clean the hard floor and empty the small trash cans. Wipe the beverage station and accessible surfaces; the room appears generally tidy.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.83
+    },
+    {
+      "photo_name": "break-room__IMG_1171.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "A water dispenser and nearby trash can are visible; wipe the dispenser and clean the floor. The visible floor and surrounding surfaces appear generally tidy.",
+      "special_services": [],
+      "text_seen_in_photo": "quench; 109 BREAK ROOM",
+      "confidence": 0.76
+    },
+    {
+      "photo_name": "break-room__IMG_1172.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean the hard floor and wipe the table and chairs; remove visible smudges and debris from surfaces as needed. Empty and wipe the trash can.",
+      "special_services": [],
+      "text_seen_in_photo": "109 BREAK ROOM",
+      "confidence": 0.93
+    },
+    {
+      "photo_name": "break-room__IMG_1173.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the floor and wipe the counter, sink, cabinet fronts, and refrigerator exterior. The surfaces appear generally tidy with little visible soil.",
+      "special_services": [],
+      "text_seen_in_photo": "OFFICE REFRIGERATOR ETIQUETTE\n101\nPRIVATE",
+      "confidence": 0.92
+    },
+    {
+      "photo_name": "break-room__IMG_1174.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Wipe and sanitize the table and chairs, and empty the visible trash can. Damp mop the hard floor; some visible soil and scuffing is present near the seating.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "conference-room__IMG_1175.jpg",
+      "area_type": "conference",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Conference room with a hard-surface floor, table, chairs, and lectern. Clean the floor and wipe accessible furniture and touchpoints; a small loose item is visible on the floor.",
+      "special_services": [],
+      "text_seen_in_photo": "A-One",
+      "confidence": 0.87
+    },
+    {
+      "photo_name": "conference-room__IMG_1176.jpg",
+      "area_type": "conference",
+      "surface": "carpet",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Conference table and chairs are visible; dust and wipe the tabletop and chair surfaces, and vacuum the carpet. The room appears generally tidy with no obvious heavy soil.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "conference-room__IMG_1177.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Conference table and chairs are visible; dust and wipe the tabletop and chair surfaces, and vacuum or clean the floor. The floor appears to be a dark hard surface, but the material is unclear.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.87
+    },
+    {
+      "photo_name": "conference-room__IMG_1178.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Dust and clean the visible conference table, chairs, and floor; remove light scuff marks from the wall. The room appears generally tidy.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.84
+    },
+    {
+      "photo_name": "conference-room__IMG_1179.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Conference table and chairs are present; clean the tabletop and chair surfaces and vacuum or otherwise clean the floor around and beneath the furniture. The floor appears to be a hard-plank surface, but its material is unclear.",
+      "special_services": [],
+      "text_seen_in_photo": "THIS ROOM IS",
+      "confidence": 0.77
+    },
+    {
+      "photo_name": "conference-room__IMG_1180.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 1
+      },
+      "observations": "Wipe the conference table and visible cabinet surfaces, and clean the floor. The room appears orderly with no obvious heavy soil.",
+      "special_services": [],
+      "text_seen_in_photo": "106 CONFERENCE",
+      "confidence": 0.86
+    },
+    {
+      "photo_name": "conference-room__IMG_1181.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Wipe the conference table and clean the chairs and other touchpoints; dust accessible surfaces and clean the floor. The hard-plank floor appears generally clean with no obvious heavy soil.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1161.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Hallway floor appears generally clean, with a few faint scuffs and marks. Sweep and damp-mop the floor, including along the baseboards and doorways.",
+      "special_services": [],
+      "text_seen_in_photo": "WOMEN\nEXIT",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1162.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 2,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Restroom with tiled floor and walls, a two-sink vanity, mirrors, and partitioned stalls. Clean and sanitize sinks, counters, mirrors, stall partitions, and floor; no obvious heavy soil is visible.",
+      "special_services": [],
+      "text_seen_in_photo": "Gojo",
+      "confidence": 0.93
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1163.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 2,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the two visible sinks, counter, mirrors, and restroom stall surfaces. Sweep and mop the tiled floor; no obvious heavy soil is visible.",
+      "special_services": [],
+      "text_seen_in_photo": "Gojo",
+      "confidence": 0.93
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1164.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the tiled stall floor and surrounding tiled walls, including grout and partition touchpoints. A partial sink is visible at the left edge; no toilet is visible in this view.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.81
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1165.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "A toilet and tiled floor and walls are visible; surfaces appear generally clean. Clean and disinfect the toilet and mop the floor, with routine wiping of accessible tile and touchpoints.",
+      "special_services": [],
+      "text_seen_in_photo": "Bathroom Etiquette",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1166.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Restroom with tiled floor and walls and partitioned stalls; clean the floor, wall tile, partitions, and visible sink area. No toilet or urinal is visible in this photo.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1167.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Single toilet stall with tiled floor and walls; clean and disinfect the toilet and wipe down the accessible stall surfaces. Sweep and mop the tiled floor, including around the floor drain.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.97
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1168.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Single toilet stall with tiled floor and walls; clean and sanitize the toilet, floor, and touch surfaces, and check the toilet paper dispensers.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.95
+    },
+    {
+      "photo_name": "downstairs-lrr__IMG_1169.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 2,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect two sinks and the countertop, and wipe the mirrors and dispensers. Sweep and mop the tiled floor; the visible surfaces appear generally clean.",
+      "special_services": [],
+      "text_seen_in_photo": "GOJO",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "lobby-mail-room__IMG_1124.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the hard floor and entry mat, and wipe the glass entry doors and interior touch surfaces. Floor appears generally tidy, with some visible scuffing near the seating area.",
+      "special_services": [],
+      "text_seen_in_photo": "EXIT",
+      "confidence": 0.87
+    },
+    {
+      "photo_name": "lobby-mail-room__IMG_1125.jpg",
+      "area_type": "lobby",
+      "surface": "wood",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 1
+      },
+      "observations": "The wood-look plank floor appears generally clean and needs routine sweeping and damp mopping. Dust and wipe the table, open shelving, and other reachable surfaces; the room appears orderly.",
+      "special_services": [],
+      "text_seen_in_photo": "101 PRIVATE; EMERGENCY SAFETY INSTRUCTIONS; INSTRUCTIONS; IT'S THE LAW. Other poster text is too small to read confidently.",
+      "confidence": 0.79
+    },
+    {
+      "photo_name": "lobby-mail-room__IMG_1144.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Lobby seating and reception counter area with hard flooring; clean the floors and wipe the counter and furniture surfaces. No visible trash or significant soil.",
+      "special_services": [],
+      "text_seen_in_photo": "12",
+      "confidence": 0.82
+    },
+    {
+      "photo_name": "print-room__IMG_1126.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Print/copy room with a copier, filing cabinets, table, and boxes stored underneath and beside the table. Clean the exposed hard floor and accessible surfaces; floor appears generally clean with minor marks.",
+      "special_services": [],
+      "text_seen_in_photo": "Helping You to Build Your Business\nCOASTWIDE PROFESSIONAL\nStandard Bath Tissue\nPapel higi\u00e9nico est\u00e1ndar",
+      "confidence": 0.92
+    },
+    {
+      "photo_name": "print-room__IMG_1127.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 1
+      },
+      "observations": "Clean the open floor and the visible desk and cabinet surfaces; light debris and scuff marks are visible on the floor. Boxes and office equipment limit access to some areas.",
+      "special_services": [],
+      "text_seen_in_photo": "BIC",
+      "confidence": 0.86
+    },
+    {
+      "photo_name": "print-room__IMG_1128.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Print room with copier, cabinets, and counter; clean the floor and accessible surfaces. Some papers and supplies are stored on the counter.",
+      "special_services": [],
+      "text_seen_in_photo": "Canon; Shred-it",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "print-room__IMG_1129.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 1
+      },
+      "observations": "A print room with clear floor space that needs routine floor cleaning; boxes and equipment are clustered along the sides. Wipe the visible desk and shelving surfaces as needed.",
+      "special_services": [],
+      "text_seen_in_photo": "117; Dell; Canon; LEDGER; LEDGER",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "supply-storage-room__IMG_1109.jpg",
+      "area_type": "office",
+      "surface": "carpet",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 1,
+        "desk": 2
+      },
+      "observations": "Office/storage room is crowded with equipment and papers; clean accessible carpet and wipe exposed desk and cabinet surfaces. The walls show scuffs and marks that may need spot cleaning.",
+      "special_services": [],
+      "text_seen_in_photo": "BOSS; CERTIFICATE; BASTON; 2023 NURSING; DEAR GEAR; ZCENTRE",
+      "confidence": 0.86
+    },
+    {
+      "photo_name": "supply-storage-room__IMG_1110.jpg",
+      "area_type": "other",
+      "surface": "carpet",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 2,
+        "desk": 1
+      },
+      "observations": "Storage space is heavily cluttered with janitorial equipment, bins, boxes, and papers, restricting floor access. Clean accessible carpet and wipe the visible desk and other reachable surfaces; additional cleaning may require items to be moved.",
+      "special_services": [],
+      "text_seen_in_photo": "PORT AUT",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "supply-storage-room__IMG_1111.jpg",
+      "area_type": "other",
+      "surface": "carpet",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 2,
+        "desk": 0
+      },
+      "observations": "Storage supplies, boxes, papers, and equipment are piled throughout the room, leaving only a narrow area of carpet accessible. Clear and organize the clutter before routine floor cleaning; visible carpet needs vacuuming.",
+      "special_services": [],
+      "text_seen_in_photo": "PORT AUTHORITY; SPORT-TEK; GILDAN; BRUTE; KEURIG",
+      "confidence": 0.89
+    },
+    {
+      "photo_name": "supply-storage-room__IMG_1112.jpg",
+      "area_type": "other",
+      "surface": "carpet",
+      "soil_level": "heavy",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 1
+      },
+      "observations": "Storage shelves and floor area are heavily crowded with boxes, supplies, clothing, and loose paperwork, limiting access for routine floor cleaning. Vacuum accessible carpet and dust/wipe the exposed desk and shelving surfaces; move items only as authorized.",
+      "special_services": [],
+      "text_seen_in_photo": "GILDAN; PREMIUM; GOJO; AUTHORITY; AMAZON; PRIORITY MAIL",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "supply-storage-room__IMG_1113.jpg",
+      "area_type": "other",
+      "surface": "carpet",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 3
+      },
+      "observations": "The room is crowded with stacked office furniture, electronics, papers, and other stored items, limiting access to parts of the carpet. Clean the accessible carpet and exposed surfaces; move items only as authorized.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.87
+    },
+    {
+      "photo_name": "supply-storage-room__IMG_1114.jpg",
+      "area_type": "office",
+      "surface": "carpet",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 1
+      },
+      "observations": "Vacuum the carpet and dust/wipe accessible desk and equipment surfaces; paperwork and supplies clutter the desk. The walls have visible scuffs and marks, though no periodic floor service is evident.",
+      "special_services": [],
+      "text_seen_in_photo": "BOSS; CERTIFICATE; For Carton Sale; COPY PAPER",
+      "confidence": 0.82
+    },
+    {
+      "photo_name": "women-restroom__IMG_1115.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "The restroom is not visible beyond its closed entrance door. The visible entry floor and nearby hallway floor appear mostly clean; the door has several dark smudges that may need spot cleaning.",
+      "special_services": [],
+      "text_seen_in_photo": "WOMEN\nEXIT",
+      "confidence": 0.65
+    },
+    {
+      "photo_name": "women-restroom__IMG_1116.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 2,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the visible sinks, countertop, mirrors, stall partitions, and restroom touchpoints; empty the visible trash can. Sweep and mop the tiled floor.",
+      "special_services": [],
+      "text_seen_in_photo": "GOJO",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "women-restroom__IMG_1117.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the toilet, tiled floor and walls, grab bars, and toilet-paper dispenser. A small dish and a container are on the floor beside the toilet; remove or clean them as appropriate.",
+      "special_services": [],
+      "text_seen_in_photo": "Bathroom Etiquette\nCOURTESY FLUSH\nWIPE THE SEAT\nWASH HANDS",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "women-restroom__IMG_1118.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Restroom with tiled floor and walls, stall partitions, and a visible sink area; clean and disinfect floor, fixtures, partitions, and touchpoints.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "women-restroom__IMG_1119.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the toilet and stall touchpoints; sweep and damp-mop the tiled floor, and wipe down the tiled walls and dispensers as needed. No visible heavy soil.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.94
+    },
+    {
+      "photo_name": "women-restroom__IMG_1120.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 1,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Single toilet stall with tiled floor and walls; clean the toilet, stall surfaces, and floor. No obvious heavy soil is visible.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "women-restroom__IMG_1121.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 2,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean the two sink basins, countertop, mirror, dispensers, and tiled floor; empty the visible trash can. No toilets or urinals are visible in this view.",
+      "special_services": [],
+      "text_seen_in_photo": "gojo",
+      "confidence": 0.97
+    },
+    {
+      "photo_name": "women-restroom__IMG_1122.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean the tiled floor and wall surfaces, and sanitize the visible sink and countertop. No obvious heavy soil or clutter is visible.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.91
+    },
+    {
+      "photo_name": "women-restroom__IMG_1123.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 1,
+        "trash_can": 1,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the visible sink, counter, cabinet surfaces, mirror, and restroom partitions; sweep and mop the tiled floor. The space appears orderly with little visible soil.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.88
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Administration office",
+        "area_type": "office",
+        "surface": "wood",
+        "sq_ft": 600.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 2,
+          "desk": 2
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Break room",
+        "area_type": "break_room",
+        "surface": "vct",
+        "sq_ft": 180.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 1,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Conference room",
+        "area_type": "conference",
+        "surface": "other",
+        "sq_ft": 450.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 1
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Downstairs corridor",
+        "area_type": "corridor",
+        "surface": "vct",
+        "sq_ft": 180.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Downstairs restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 220.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 1,
+          "urinal": 0,
+          "sink": 2,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Lobby/mail room",
+        "area_type": "lobby",
+        "surface": "vct",
+        "sq_ft": 400.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 1
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Print room",
+        "area_type": "other",
+        "surface": "vct",
+        "sq_ft": 180.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 1,
+          "desk": 1
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Supply storage room",
+        "area_type": "other",
+        "surface": "carpet",
+        "sq_ft": 300.0,
+        "soil_level": "heavy",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 2,
+          "desk": 3
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "Women's restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 200.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 1,
+          "urinal": 0,
+          "sink": 2,
+          "trash_can": 1,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      }
+    ],
+    "floor_care_suggestions": [
+      "Break room \u2014 Strip and wax VCT; visible scuffing is present near the seating area.",
+      "Lobby/mail room \u2014 Strip and wax VCT; visible scuffing is present near the seating area."
+    ],
+    "assumptions": [
+      "No trusted square footage or floor plan was provided, so all area sizes are provisional photo estimates and should be measured or confirmed by the estimator.",
+      "Photos sharing a room label were combined into one area; fixture counts use the maximum count shown in an individual view for each fixture type rather than summing views.",
+      "Downstairs corridor and downstairs restroom were entered as separate spaces because their surveys depict distinct corridor and restroom spaces, despite sharing the downstairs-lrr label.",
+      "For mixed surface reports, selected the most frequently reported surface: wood for Administration office, VCT for Lobby/mail room, and other for Conference room. Conference-room floor material is unclear in most views.",
+      "Supply storage room is classified by its storage use; heavy soil reflects the reported extensive clutter and restricted carpet access."
+    ],
+    "questions_for_estimator": [
+      "Please confirm or provide measured square footage for each listed area; the current sizes are photo estimates only.",
+      "Are the upstairs/elevator hallways and Mr. a staff member's office part of the cleaning scope? They are mentioned in the estimator notes but no photo surveys or sizes were supplied.",
+      "Please confirm the conference room floor material and whether Administration office and Lobby/mail room each represent one room as grouped by their photo labels."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Administration office",
+        "area_type": "office",
+        "surface": "wood",
+        "soil_level": "light",
+        "sq_ft": 600,
+        "rate_sqft_per_hour": 2588,
+        "hours_per_visit": 0.29,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Break room",
+        "area_type": "break_room",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 180,
+        "rate_sqft_per_hour": 1800,
+        "hours_per_visit": 0.17,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Conference room",
+        "area_type": "conference",
+        "surface": "other",
+        "soil_level": "light",
+        "sq_ft": 450,
+        "rate_sqft_per_hour": 3450,
+        "hours_per_visit": 0.15,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Downstairs corridor",
+        "area_type": "corridor",
+        "surface": "vct",
+        "soil_level": "light",
+        "sq_ft": 180,
+        "rate_sqft_per_hour": 4140,
+        "hours_per_visit": 0.05,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Downstairs restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "soil_level": "light",
+        "sq_ft": 220,
+        "rate_sqft_per_hour": 1466,
+        "hours_per_visit": 0.37,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Lobby/mail room",
+        "area_type": "lobby",
+        "surface": "vct",
+        "soil_level": "light",
+        "sq_ft": 400,
+        "rate_sqft_per_hour": 2588,
+        "hours_per_visit": 0.18,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Print room",
+        "area_type": "other",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 180,
+        "rate_sqft_per_hour": 2250,
+        "hours_per_visit": 0.1,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Supply storage room",
+        "area_type": "other",
+        "surface": "carpet",
+        "soil_level": "heavy",
+        "sq_ft": 300,
+        "rate_sqft_per_hour": 2000,
+        "hours_per_visit": 0.21,
+        "source": "photo estimate"
+      },
+      {
+        "name": "Women's restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "soil_level": "light",
+        "sq_ft": 200,
+        "rate_sqft_per_hour": 1466,
+        "hours_per_visit": 0.36,
+        "source": "photo estimate"
+      }
+    ],
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 2710,
+    "hours_per_visit": 1.88,
+    "monthly_hours": 40.6,
+    "labor": 527.91,
+    "burden": 57.52,
+    "payroll_taxes": 48.59,
+    "workers_comp": 8.92,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 58.54,
+    "supplies": 38.98,
+    "cost": 682.95,
+    "profit": 96.6,
+    "monthly_price": 779.54,
+    "annual_price": 9354.5,
+    "price_per_sqft_month": 0.2877
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 779.54,
+    "janitorial_annual": 9354.5,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 9354.5
+  },
+  "flags": [
+    {
+      "level": "warn",
+      "msg": "'Administration office' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Break room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Conference room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Downstairs corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Downstairs restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Lobby/mail room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Print room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Supply storage room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'Women's restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Client A,\n\nThank you for the opportunity to provide janitorial service for the Two-story corporate office. The proposal covers recurring cleaning five times per week in the listed administration office, conference room, break room, corridors, restrooms, lobby/mail room, print room, and supply storage room.\n\nRoutine service includes cleaning restroom fixtures and touchpoints, wiping accessible surfaces, cleaning the listed floors according to their surface type, servicing break-room surfaces, and emptying waste bins. No periodic work was identified during the walkthrough.\n\nPlease review the pricing summary below for the proposed service. We appreciate the opportunity to support a clean and welcoming office environment.",
+    "scope_of_work": [
+      "Restrooms: Clean and disinfect toilets, sinks, and other restroom fixtures; wipe accessible counters and touchpoints.",
+      "Restrooms: Refill dispensers using supplies provided by the client.",
+      "Offices: Dust and wipe accessible desks and other clear surfaces in the administration office and conference room.",
+      "Floors: Vacuum carpeted areas and sweep or damp-mop hard-surface floors in the listed rooms and common areas, as appropriate to the surface.",
+      "Break rooms: Wipe and clean accessible counters, tables, and exterior appliance surfaces.",
+      "Trash: Empty waste bins in the listed areas and replace liners when provided."
+    ],
+    "exclusions": [
+      "Exterior window cleaning.",
+      "Biohazard, hazardous-material, or bodily-fluid cleanup.",
+      "Floor repairs, restoration, or other repair work."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:05",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 210,
+      "total_tokens": 3136,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000398,
+      "seconds": 11.32
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:05",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 146,
+      "total_tokens": 3072,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000366,
+      "seconds": 11.27
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:08",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 115,
+      "total_tokens": 3041,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00035,
+      "seconds": 14.24
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:09",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 185,
+      "total_tokens": 3111,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000385,
+      "seconds": 14.97
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:12",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 111,
+      "total_tokens": 3037,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000348,
+      "seconds": 3.88
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:12",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 316,
+      "total_tokens": 3242,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000451,
+      "seconds": 7.05
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:15",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 275,
+      "total_tokens": 3201,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00043,
+      "seconds": 5.65
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:16",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 129,
+      "total_tokens": 3055,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000357,
+      "seconds": 3.32
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:16",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 271,
+      "total_tokens": 3197,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000428,
+      "seconds": 10.48
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:16",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 120,
+      "total_tokens": 3046,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000353,
+      "seconds": 3.85
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:18",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 121,
+      "total_tokens": 3047,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000353,
+      "seconds": 3.36
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:20",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 123,
+      "total_tokens": 3049,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000354,
+      "seconds": 3.89
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:20",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 126,
+      "total_tokens": 3052,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000356,
+      "seconds": 4.23
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:22",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 117,
+      "total_tokens": 3043,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000351,
+      "seconds": 6.04
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:23",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 263,
+      "total_tokens": 3189,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000424,
+      "seconds": 5.32
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:24",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 131,
+      "total_tokens": 3057,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000358,
+      "seconds": 4.3
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:26",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 120,
+      "total_tokens": 3046,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000353,
+      "seconds": 3.8
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:26",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 341,
+      "total_tokens": 3267,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000463,
+      "seconds": 5.73
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:28",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 297,
+      "total_tokens": 3224,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000441,
+      "seconds": 4.54
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:30",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 247,
+      "total_tokens": 3174,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000416,
+      "seconds": 5.4
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:32",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 315,
+      "total_tokens": 3242,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00045,
+      "seconds": 5.98
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:33",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 277,
+      "total_tokens": 3204,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000431,
+      "seconds": 4.98
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:33",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 124,
+      "total_tokens": 3051,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000355,
+      "seconds": 3.41
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:35",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 122,
+      "total_tokens": 3049,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000354,
+      "seconds": 3.36
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:37",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 289,
+      "total_tokens": 3216,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000437,
+      "seconds": 10.94
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:37",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 216,
+      "total_tokens": 3143,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000401,
+      "seconds": 4.61
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:40",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 121,
+      "total_tokens": 3048,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000353,
+      "seconds": 6.55
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:41",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 118,
+      "total_tokens": 3045,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000352,
+      "seconds": 3.48
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:41",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 358,
+      "total_tokens": 3285,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000472,
+      "seconds": 5.82
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:43",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 149,
+      "total_tokens": 3075,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000367,
+      "seconds": 3.07
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:44",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 122,
+      "total_tokens": 3048,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000354,
+      "seconds": 2.98
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:44",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 118,
+      "total_tokens": 3044,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000352,
+      "seconds": 3.1
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:44",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 341,
+      "total_tokens": 3268,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000463,
+      "seconds": 7.34
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:47",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2926,
+      "cached_input_tokens": 0,
+      "output_tokens": 130,
+      "total_tokens": 3056,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000358,
+      "seconds": 3.99
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:48",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 147,
+      "total_tokens": 3074,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000366,
+      "seconds": 4.49
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:51",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 341,
+      "total_tokens": 3268,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000463,
+      "seconds": 7.26
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:52",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 284,
+      "total_tokens": 3211,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000435,
+      "seconds": 5.32
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:52",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 127,
+      "total_tokens": 3054,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000356,
+      "seconds": 3.95
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:53",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 534,
+      "total_tokens": 3461,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.00056,
+      "seconds": 8.55
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:56",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 286,
+      "total_tokens": 3213,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000436,
+      "seconds": 4.51
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:59",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 339,
+      "total_tokens": 3266,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000462,
+      "seconds": 6.45
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:59",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 366,
+      "total_tokens": 3293,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000476,
+      "seconds": 8.14
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:36:59",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 145,
+      "total_tokens": 3072,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000365,
+      "seconds": 6.93
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:37:00",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 116,
+      "total_tokens": 3043,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000351,
+      "seconds": 3.83
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:37:02",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 112,
+      "total_tokens": 3039,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000349,
+      "seconds": 2.86
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:37:03",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 122,
+      "total_tokens": 3049,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000354,
+      "seconds": 4.14
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:37:03",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 124,
+      "total_tokens": 3051,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000355,
+      "seconds": 3.61
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:37:04",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 111,
+      "total_tokens": 3038,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000348,
+      "seconds": 3.74
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:37:05",
+      "bid_id": "20261117-153554-5630",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2927,
+      "cached_input_tokens": 0,
+      "output_tokens": 120,
+      "total_tokens": 3047,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000353,
+      "seconds": 3.19
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:37:26",
+      "bid_id": "20261117-153554-5630",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 16211,
+      "cached_input_tokens": 7869,
+      "output_tokens": 1617,
+      "total_tokens": 17828,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.001721,
+      "seconds": 20.35
+    },
+    {
+      "date": "2026-11-17",
+      "time": "2026-11-17T15:37:37",
+      "bid_id": "20261117-153554-5630",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 667,
+      "cached_input_tokens": 0,
+      "output_tokens": 576,
+      "total_tokens": 1243,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000355,
+      "seconds": 11.15
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 160279,
+    "cached_input_tokens": 7869,
+    "output_tokens": 12031,
+    "total_tokens": 172310,
+    "requests": 52,
+    "tool_calls": 1,
+    "cost_usd": 0.021339,
+    "seconds": 310.72,
+    "calls": 51
+  },
+  "audit": [
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "intake",
+      "client": "Client A",
+      "building": "Two-story corporate office",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 49,
+      "floor_plan": false,
+      "known_areas": 0,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "administration-office__IMG_1102.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 325,
+      "sent_kb": 319
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "administration-office__IMG_1103.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 274,
+      "sent_kb": 268
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "administration-office__IMG_1104.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 264,
+      "sent_kb": 258
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "administration-office__IMG_1105.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 225,
+      "sent_kb": 219
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "administration-office__IMG_1106.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 247,
+      "sent_kb": 241
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "administration-office__IMG_1107.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 300,
+      "sent_kb": 295
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "administration-office__IMG_1108.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 249,
+      "sent_kb": 244
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "break-room__IMG_1171.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 243,
+      "sent_kb": 238
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "break-room__IMG_1172.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 197,
+      "sent_kb": 192
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "break-room__IMG_1173.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 194,
+      "sent_kb": 189
+    },
+    {
+      "time": "2026-11-17T15:35:54",
+      "step": "photo_resize",
+      "photo": "break-room__IMG_1174.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 182,
+      "sent_kb": 177
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "conference-room__IMG_1175.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 254,
+      "sent_kb": 249
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "conference-room__IMG_1176.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 305,
+      "sent_kb": 299
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "conference-room__IMG_1177.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 255,
+      "sent_kb": 249
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "conference-room__IMG_1178.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 238,
+      "sent_kb": 232
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "conference-room__IMG_1179.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 287,
+      "sent_kb": 281
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "conference-room__IMG_1180.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 238,
+      "sent_kb": 232
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "conference-room__IMG_1181.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 279,
+      "sent_kb": 273
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1161.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 185,
+      "sent_kb": 179
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1162.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 335,
+      "sent_kb": 329
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1163.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 367,
+      "sent_kb": 361
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1164.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 180,
+      "sent_kb": 174
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1165.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 191,
+      "sent_kb": 185
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1166.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 234,
+      "sent_kb": 229
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1167.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 134,
+      "sent_kb": 128
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1168.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 141,
+      "sent_kb": 136
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "downstairs-lrr__IMG_1169.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 239,
+      "sent_kb": 234
+    },
+    {
+      "time": "2026-11-17T15:35:55",
+      "step": "photo_resize",
+      "photo": "lobby-mail-room__IMG_1124.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 343,
+      "sent_kb": 337
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "lobby-mail-room__IMG_1125.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 353,
+      "sent_kb": 348
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "lobby-mail-room__IMG_1144.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 289,
+      "sent_kb": 284
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "print-room__IMG_1126.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 305,
+      "sent_kb": 300
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "print-room__IMG_1127.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 280,
+      "sent_kb": 274
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "print-room__IMG_1128.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 263,
+      "sent_kb": 257
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "print-room__IMG_1129.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 276,
+      "sent_kb": 270
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "supply-storage-room__IMG_1109.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 310,
+      "sent_kb": 304
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "supply-storage-room__IMG_1110.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 371,
+      "sent_kb": 365
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "supply-storage-room__IMG_1111.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 344,
+      "sent_kb": 339
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "supply-storage-room__IMG_1112.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 386,
+      "sent_kb": 380
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "supply-storage-room__IMG_1113.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 361,
+      "sent_kb": 355
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "supply-storage-room__IMG_1114.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 293,
+      "sent_kb": 288
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1115.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 293,
+      "sent_kb": 288
+    },
+    {
+      "time": "2026-11-17T15:35:56",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1116.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 356,
+      "sent_kb": 351
+    },
+    {
+      "time": "2026-11-17T15:35:57",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1117.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 211,
+      "sent_kb": 206
+    },
+    {
+      "time": "2026-11-17T15:35:57",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1118.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 262,
+      "sent_kb": 256
+    },
+    {
+      "time": "2026-11-17T15:35:57",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1119.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 125,
+      "sent_kb": 120
+    },
+    {
+      "time": "2026-11-17T15:35:57",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1120.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 164,
+      "sent_kb": 158
+    },
+    {
+      "time": "2026-11-17T15:35:57",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1121.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 208,
+      "sent_kb": 202
+    },
+    {
+      "time": "2026-11-17T15:35:57",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1122.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 158,
+      "sent_kb": 152
+    },
+    {
+      "time": "2026-11-17T15:35:57",
+      "step": "photo_resize",
+      "photo": "women-restroom__IMG_1123.jpg",
+      "original_px": [
+        1176,
+        1568
+      ],
+      "sent_px": [
+        1176,
+        1568
+      ],
+      "original_kb": 218,
+      "sent_kb": 212
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "administration-office__IMG_1102.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.83,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "administration-office__IMG_1103.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "administration-office__IMG_1104.jpg",
+      "area_type": "office",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.81,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "administration-office__IMG_1105.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.86,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "administration-office__IMG_1106.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "administration-office__IMG_1107.jpg",
+      "area_type": "office",
+      "surface": "other",
+      "soil": "light",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "administration-office__IMG_1108.jpg",
+      "area_type": "office",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.83,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "break-room__IMG_1171.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.76,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "break-room__IMG_1172.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.93,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "break-room__IMG_1173.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.92,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "break-room__IMG_1174.jpg",
+      "area_type": "break_room",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "conference-room__IMG_1175.jpg",
+      "area_type": "conference",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.87,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "conference-room__IMG_1176.jpg",
+      "area_type": "conference",
+      "surface": "carpet",
+      "soil": "light",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "conference-room__IMG_1177.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil": "light",
+      "confidence": 0.87,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "conference-room__IMG_1178.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil": "light",
+      "confidence": 0.84,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "conference-room__IMG_1179.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil": "light",
+      "confidence": 0.77,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "conference-room__IMG_1180.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil": "light",
+      "confidence": 0.86,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "conference-room__IMG_1181.jpg",
+      "area_type": "conference",
+      "surface": "other",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1161.jpg",
+      "area_type": "corridor",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1162.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.93,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1163.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.93,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1164.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.81,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1165.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1166.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1167.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.97,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1168.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.95,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "downstairs-lrr__IMG_1169.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "lobby-mail-room__IMG_1124.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.87,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "lobby-mail-room__IMG_1125.jpg",
+      "area_type": "lobby",
+      "surface": "wood",
+      "soil": "light",
+      "confidence": 0.79,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "lobby-mail-room__IMG_1144.jpg",
+      "area_type": "lobby",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.82,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "print-room__IMG_1126.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.92,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "print-room__IMG_1127.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.86,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "print-room__IMG_1128.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "print-room__IMG_1129.jpg",
+      "area_type": "other",
+      "surface": "vct",
+      "soil": "normal",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "supply-storage-room__IMG_1109.jpg",
+      "area_type": "office",
+      "surface": "carpet",
+      "soil": "normal",
+      "confidence": 0.86,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "supply-storage-room__IMG_1110.jpg",
+      "area_type": "other",
+      "surface": "carpet",
+      "soil": "heavy",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "supply-storage-room__IMG_1111.jpg",
+      "area_type": "other",
+      "surface": "carpet",
+      "soil": "heavy",
+      "confidence": 0.89,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "supply-storage-room__IMG_1112.jpg",
+      "area_type": "other",
+      "surface": "carpet",
+      "soil": "heavy",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "supply-storage-room__IMG_1113.jpg",
+      "area_type": "other",
+      "surface": "carpet",
+      "soil": "normal",
+      "confidence": 0.87,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "supply-storage-room__IMG_1114.jpg",
+      "area_type": "office",
+      "surface": "carpet",
+      "soil": "normal",
+      "confidence": 0.82,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1115.jpg",
+      "area_type": "restroom",
+      "surface": "vct",
+      "soil": "light",
+      "confidence": 0.65,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1116.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1117.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1118.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1119.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.94,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1120.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1121.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.97,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1122.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.91,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:05",
+      "step": "site_survey",
+      "photo": "women-restroom__IMG_1123.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-17T15:37:26",
+      "step": "takeoff",
+      "areas": 9,
+      "assumptions": [
+        "No trusted square footage or floor plan was provided, so all area sizes are provisional photo estimates and should be measured or confirmed by the estimator.",
+        "Photos sharing a room label were combined into one area; fixture counts use the maximum count shown in an individual view for each fixture type rather than summing views.",
+        "Downstairs corridor and downstairs restroom were entered as separate spaces because their surveys depict distinct corridor and restroom spaces, despite sharing the downstairs-lrr label.",
+        "For mixed surface reports, selected the most frequently reported surface: wood for Administration office, VCT for Lobby/mail room, and other for Conference room. Conference-room floor material is unclear in most views.",
+        "Supply storage room is classified by its storage use; heavy soil reflects the reported extensive clutter and restricted carpet access."
+      ]
+    },
+    {
+      "time": "2026-11-17T15:37:26",
+      "step": "pricing",
+      "janitorial_monthly": 779.54,
+      "per_sqft": 0.2877,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-17T15:37:26",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "warn",
+          "msg": "'Administration office' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Break room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Conference room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Downstairs corridor' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Downstairs restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Lobby/mail room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Print room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Supply storage room' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'Women's restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-17T15:37:37",
+      "step": "proposal_writer",
+      "scope_items": 6
+    }
+  ]
+}

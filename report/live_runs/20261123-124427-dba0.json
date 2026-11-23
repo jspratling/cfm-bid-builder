@@ -1,0 +1,408 @@
+{
+  "id": "20261123-124427-dba0",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-23T12:44:44",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client D",
+    "building_name": "Plant",
+    "service_type": "janitorial",
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "estimator_notes": "One large plant restroom photographed from both ends (stalls on one side, a row of sinks on the other). Size is a photo estimate.",
+    "areas": [
+      {
+        "name": "Plant restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 500.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 6,
+          "urinal": 0,
+          "sink": 6,
+          "trash_can": 2,
+          "desk": 0
+        },
+        "source": "photo estimate (reviewed), confirm on site"
+      }
+    ],
+    "floor_care": [],
+    "walkthrough": "site-d-plant-restroom",
+    "costs": {},
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "restroom__IMG_20261117_113641078_HDR.jpg",
+    "restroom__IMG_20261117_113702675_HDR.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "restroom__IMG_20261117_113641078_HDR.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 5,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the visible sinks, faucets, stall partitions and touchpoints, and mop the tiled floor. The floor has a few visible marks; toilets are not visible behind the closed stall partitions.",
+      "special_services": [],
+      "text_seen_in_photo": "No Smoking",
+      "confidence": 0.79
+    },
+    {
+      "photo_name": "restroom__IMG_20261117_113702675_HDR.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 6,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the sinks, faucets, mirrors, and restroom partitions; mop the tiled floor, paying attention to visible marks near the sinks and wall edges.",
+      "special_services": [],
+      "text_seen_in_photo": "No smoking",
+      "confidence": 0.89
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Plant restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 500.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 6,
+          "urinal": 0,
+          "sink": 6,
+          "trash_can": 2,
+          "desk": 0
+        },
+        "source": "estimator table (photo estimate reviewed; confirm on site)"
+      }
+    ],
+    "floor_care_suggestions": [],
+    "assumptions": [
+      "The two restroom photos show the same room; fixture counts were not added across photos.",
+      "Used the highest visible sink count (6). The photos do not show toilets or trash cans, so retained the estimator table counts for those fixtures.",
+      "No periodic floor-care suggestion: the survey notes a few marks on tile, not stained or traffic-worn carpet or dull, scuffed, or yellowed VCT."
+    ],
+    "questions_for_estimator": [
+      "Please confirm the 500 sq ft photo-estimated area on site."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Plant restroom",
+        "area_type": "restroom",
+        "surface": "tile",
+        "soil_level": "normal",
+        "sq_ft": 500,
+        "rate_sqft_per_hour": 1275,
+        "hours_per_visit": 1.33,
+        "source": "estimator table (photo estimate reviewed; confirm on site)"
+      }
+    ],
+    "visits_per_week": 5,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 500,
+    "hours_per_visit": 1.33,
+    "monthly_hours": 28.8,
+    "labor": 374.25,
+    "burden": 40.77,
+    "payroll_taxes": 34.45,
+    "workers_comp": 6.32,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 41.5,
+    "equipment": 11.23,
+    "insurance": 0.19,
+    "costs": {
+      "supplies_pct_of_price": 0.05,
+      "equipment_pct_of_labor": 0.03,
+      "insurance_pct_of_labor": 0.0005,
+      "suta_pct": 0.027,
+      "workers_comp_pct": 0.0169,
+      "other_benefits_pct": 0.0,
+      "overhead_pct": 0.1,
+      "profit_pct": 0.15,
+      "labor_hours_factor": 1.0
+    },
+    "supplies": 28.32,
+    "cost": 496.26,
+    "profit": 70.19,
+    "monthly_price": 566.45,
+    "annual_price": 6797.39,
+    "price_per_sqft_month": 1.1329
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 566.45,
+    "janitorial_annual": 6797.39,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 6797.39
+  },
+  "flags": [
+    {
+      "level": "stop",
+      "msg": "Janitorial price $1.133/sq ft/month is above the ceiling $0.50. Check square footage and visits."
+    },
+    {
+      "level": "warn",
+      "msg": "'Plant restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Client D,\n\nThank you for the opportunity to provide janitorial service for the Plant building. Our proposal covers routine cleaning of the plant restroom, with service five times per week.\n\nThe work will focus on cleaning and sanitizing restroom surfaces and fixtures, cleaning the tile floor, and emptying waste receptacles.\n\nPlease review the scope of work and the pricing summary below. We appreciate your consideration and would be pleased to support your facility.",
+    "scope_of_work": [
+      "Restrooms\n- Clean and sanitize restroom surfaces and fixtures.\n- Clean the tile floor.\n- Empty waste receptacles."
+    ],
+    "exclusions": [
+      "Floor stripping and waxing, carpet cleaning, and other periodic floor care.",
+      "Exterior window cleaning.",
+      "Biohazard cleanup.",
+      "Floor repairs."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:44:30",
+      "bid_id": "20261123-124427-dba0",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2931,
+      "cached_input_tokens": 0,
+      "output_tokens": 125,
+      "total_tokens": 3056,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000356,
+      "seconds": 2.38
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:44:33",
+      "bid_id": "20261123-124427-dba0",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2931,
+      "cached_input_tokens": 0,
+      "output_tokens": 524,
+      "total_tokens": 3455,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000555,
+      "seconds": 6.06
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:44:39",
+      "bid_id": "20261123-124427-dba0",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 1350,
+      "cached_input_tokens": 0,
+      "output_tokens": 519,
+      "total_tokens": 1869,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000394,
+      "seconds": 5.51
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:44:44",
+      "bid_id": "20261123-124427-dba0",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 384,
+      "cached_input_tokens": 0,
+      "output_tokens": 442,
+      "total_tokens": 826,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000259,
+      "seconds": 5.0
+    },
+    {
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:44:50",
+      "bid_id": "20261123-124427-dba0",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 2030,
+      "cached_input_tokens": 0,
+      "output_tokens": 524,
+      "total_tokens": 2554,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000465,
+      "seconds": 6.26
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 9626,
+    "cached_input_tokens": 0,
+    "output_tokens": 2134,
+    "total_tokens": 11760,
+    "requests": 6,
+    "tool_calls": 1,
+    "cost_usd": 0.002029,
+    "seconds": 25.21,
+    "calls": 5
+  },
+  "audit": [
+    {
+      "time": "2026-11-23T12:44:27",
+      "step": "intake",
+      "client": "Client D",
+      "building": "Plant",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 2,
+      "floor_plan": false,
+      "known_areas": 1,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:44:27",
+      "step": "photo_resize",
+      "photo": "restroom__IMG_20261117_113641078_HDR.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 255,
+      "sent_kb": 254
+    },
+    {
+      "time": "2026-11-23T12:44:27",
+      "step": "photo_resize",
+      "photo": "restroom__IMG_20261117_113702675_HDR.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 254,
+      "sent_kb": 254
+    },
+    {
+      "time": "2026-11-23T12:44:33",
+      "step": "site_survey",
+      "photo": "restroom__IMG_20261117_113641078_HDR.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.79,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:44:33",
+      "step": "site_survey",
+      "photo": "restroom__IMG_20261117_113702675_HDR.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.89,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-23T12:44:39",
+      "step": "takeoff",
+      "areas": 1,
+      "assumptions": [
+        "The two restroom photos show the same room; fixture counts were not added across photos.",
+        "Used the highest visible sink count (6). The photos do not show toilets or trash cans, so retained the estimator table counts for those fixtures.",
+        "No periodic floor-care suggestion: the survey notes a few marks on tile, not stained or traffic-worn carpet or dull, scuffed, or yellowed VCT."
+      ]
+    },
+    {
+      "time": "2026-11-23T12:44:39",
+      "step": "pricing",
+      "janitorial_monthly": 566.45,
+      "per_sqft": 1.1329,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-23T12:44:39",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "stop",
+          "msg": "Janitorial price $1.133/sq ft/month is above the ceiling $0.50. Check square footage and visits."
+        },
+        {
+          "level": "warn",
+          "msg": "'Plant restroom' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-23T12:44:44",
+      "step": "proposal_writer",
+      "scope_items": 1
+    },
+    {
+      "time": "2026-11-23T12:44:50",
+      "step": "benchmark",
+      "verdict": "not_comparable",
+      "compared_with": []
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-23T12:44:50",
+    "compared_with": [],
+    "verdict": "not_comparable",
+    "explanation": "I found no genuinely comparable past bid: this is a 500-sq-ft restroom-only scope, while the closest listed 5-visit-per-week facilities are a 5,000-sq-ft public works office/shop and a 6,000-sq-ft tag office. The past-bid list does not identify a restroom-only job, so comparing its price or staffing against a whole facility could be misleading.",
+    "suggestions": [
+      "Seek a restroom-only historical bid or benchmark before judging the price and staffing against CFM\u2019s past work."
+    ],
+    "details": [],
+    "usage": {
+      "input_tokens": 2030,
+      "cached_input_tokens": 0,
+      "output_tokens": 524,
+      "total_tokens": 2554,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000465,
+      "seconds": 6.26,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

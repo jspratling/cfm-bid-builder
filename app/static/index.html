@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CFM Bid Builder</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%230b3d5c%22/%3E%3Ctext x=%2216%22 y=%2221%22 font-size=%2212%22 font-family=%22Arial%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22%3ECFM%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">CFM</span><div><b>Bid Builder</b><small>Walkthrough to priced proposal</small></div></div>
+  <div id="status" class="status"></div>
+</header>
+
+<div class="layout">
+  <aside class="side">
+    <button id="newBid" class="btn primary wide">+ New bid</button>
+    <h4>Saved bids</h4>
+    <ul id="bidList" class="bidlist"></ul>
+  </aside>
+
+  <main>
+    <!-- ============ FORM ============ -->
+    <section id="formView">
+      <div class="headrow">
+        <h2>New bid</h2>
+        <div class="headbtns">
+          <select id="walkSel"><option value="">Saved walkthrough…</option></select>
+          <button id="loadSample" class="btn ghost">Load sample building</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3><span class="num">1</span>Client and services</h3>
+        <div class="seg" id="serviceSeg">
+          <button data-v="janitorial" class="on">Janitorial</button>
+          <button data-v="floor_care">Floor care only</button>
+          <button data-v="both">Janitorial + floor care</button>
+        </div>
+        <div class="grid4">
+          <label>Client<input id="client" placeholder="e.g. Magnolia Professional Center"></label>
+          <label>Building<input id="building" placeholder="e.g. Building A, 2 floors"></label>
+          <label class="jan">Visits per week<select id="visits">
+            <option>1</option><option>2</option><option>3</option><option>4</option><option selected>5</option><option>6</option><option>7</option></select></label>
+          <label class="jan">Hourly wage for this job<div class="money"><span>$</span><input id="wage" type="number" step="0.25" min="7.25" max="60"></div></label>
+        </div>
+        <p class="hint jan">Starting pay is $13.00/hr. Raise it for jobs that need to pay more (night shift, medical, hard-to-staff locations).</p>
+      </div>
+
+      <div class="card">
+        <h3><span class="num">2</span>Walkthrough photos and floor plan</h3>
+        <div class="grid2">
+          <div>
+            <div id="drop" class="drop">Drop photos here or <u>browse</u><br><small>JPG / PNG / WEBP, up to 60 photos, 15 MB each</small>
+              <input id="photos" type="file" accept="image/jpeg,image/png,image/webp" multiple hidden></div>
+            <div id="thumbs" class="thumbs"></div>
+            <div id="walkInfo" class="hint"></div>
+          </div>
+          <div>
+            <label>Floor plan (optional)<input id="plan" type="file" accept="image/jpeg,image/png,image/webp"></label>
+            <p class="hint">The Takeoff agent reads room names and sizes from a legible plan. Sizes you type below always win.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card jan">
+        <h3><span class="num">3</span>Known square footage <small>(optional but most accurate)</small></h3>
+        <table class="edit" id="areaTable">
+          <thead><tr><th>Area name</th><th>Type</th><th>Floor</th><th>Sq ft</th><th>Soil</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <button id="addRow" class="btn ghost small">+ Add area</button>
+      </div>
+
+      <div class="card fc" hidden>
+        <h3><span class="num">4</span>Floor care</h3>
+        <div class="grid4 fcprices">
+          <label>Strip and wax VCT, per sq ft<div class="money"><span>$</span><input id="pStrip" type="number" step="0.05" min="0.05"></div></label>
+          <label>Carpet cleaning, per sq ft<div class="money"><span>$</span><input id="pCarpet" type="number" step="0.05" min="0.05"></div></label>
+        </div>
+        <table class="edit" id="fcTable">
+          <thead><tr><th>Area name</th><th>Service</th><th>Sq ft</th><th>How often</th><th class="n">Per service</th><th></th></tr></thead>
+          <tbody></tbody>
+          <tfoot><tr><td colspan="4" class="hint">First-year floor care total</td><td class="n"><b id="fcTotal">$0.00</b></td><td></td></tr></tfoot>
+        </table>
+        <button id="addFc" class="btn ghost small">+ Add floor care line</button>
+        <button id="copyFc" class="btn ghost small jan">Copy VCT and carpet areas from step 3</button>
+      </div>
+
+      <div class="card">
+        <h3><span class="num">5</span>Estimator notes</h3>
+        <textarea id="notes" rows="4" placeholder="Anything you noticed: traffic, staff count, special requests..."></textarea>
+      </div>
+
+      <div class="actions">
+        <span id="formMsg" class="msg"></span>
+        <button id="build" class="btn primary big">Build bid</button>
+      </div>
+    </section>
+
+    <!-- ============ RUNNING ============ -->
+    <section id="runView" hidden>
+      <h2>Building your bid...</h2>
+      <ol class="steps" id="steps">
+        <li data-s="survey">Site Survey agent reads each photo</li>
+        <li data-s="takeoff">Takeoff agent builds the area list</li>
+        <li data-s="pricing">Pricing engine computes labor and price</li>
+        <li data-s="check">Bid Checker looks for problems</li>
+        <li data-s="proposal">Proposal Writer drafts the letter</li>
+      </ol>
+    </section>
+
+    <!-- ============ RESULT ============ -->
+    <section id="resultView" hidden>
+      <div class="headrow">
+        <div><h2 id="rTitle"></h2><div id="rSub" class="sub"></div></div>
+        <span id="rStatus" class="pill"></span>
+      </div>
+
+      <div class="kpis" id="kpis"></div>
+      <div id="alerts"></div>
+
+      <div class="card" id="fcResultCard">
+        <h3>Floor care</h3>
+        <table class="data" id="fcLines"></table>
+      </div>
+
+      <div class="card" id="janCard">
+        <h3>Areas and labor</h3>
+        <table class="data" id="linesTable"></table>
+        <div class="two">
+          <div><h4>Assumptions</h4><ul id="assumptions"></ul></div>
+          <div><h4>Questions for the estimator</h4><ul id="questions"></ul></div>
+        </div>
+        <div id="fcSuggestBox"><h4 class="sugg">Floor care the agents suggest (not priced)</h4><ul id="fcSuggest"></ul></div>
+      </div>
+
+      <div class="card" id="surveyCard">
+        <h3>What the Site Survey agent saw</h3>
+        <div id="surveys" class="surveys"></div>
+      </div>
+
+      <div class="grid2">
+        <div class="card" id="costCard">
+          <h3>Janitorial cost breakdown (monthly)</h3>
+          <table class="data" id="costTable"></table>
+        </div>
+        <div class="card">
+          <h3>AI usage for this bid</h3>
+          <table class="data" id="usageTable"></table>
+          <p class="hint" id="usageNote"></p>
+        </div>
+      </div>
+
+      <div class="card" id="whatIfCard">
+        <h3>What-if pricing <small>(pure code, no AI: move any cost and watch the monthly fee)</small></h3>
+        <div class="wi">
+          <div class="wi-controls" id="wiControls"></div>
+          <div class="wi-out">
+            <div class="wi-head"><div><small>Monthly fee with these settings</small><b id="wiPrice">-</b><span id="wiDelta" class="wi-delta"></span></div>
+              <div class="wi-btns"><button id="wiReset" class="btn ghost small">Reset to bid</button><button id="wiApply" class="btn primary small">Apply to bid</button></div></div>
+            <h4>Monthly fee vs. hourly pay <small>(everything else held as set)</small></h4>
+            <div id="wiCurve" class="wi-chart"></div>
+            <div class="grid2">
+              <div><h4>Where the monthly fee goes</h4><div id="wiBreak"></div></div>
+              <div><h4>What each change adds per month</h4><div id="wiSens"></div></div>
+            </div>
+            <span id="wiMsg" class="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Ask for a change <small>(Revision agent)</small></h3>
+          <p class="hint">Plain English, e.g. "make it 3 nights a week", "pay $15/hr at this site", "the lobby is 1,800 sq ft", "add strip and wax in the break room twice a year".</p>
+          <textarea id="reviseMsg" rows="3" placeholder="What should change?"></textarea>
+          <div class="actions"><span id="reviseStatus" class="msg"></span><button id="reviseBtn" class="btn primary">Apply change</button></div>
+          <ul id="revisions" class="revlist"></ul>
+        </div>
+        <div class="card">
+          <h3>Compare with past CFM bids <small>(Past-Bid Comparison agent)</small></h3>
+          <p class="hint">Checks price per sq ft and labor hours against bids CFM has actually priced before.</p>
+          <div class="actions"><span id="benchStatus" class="msg"></span><button id="benchBtn" class="btn ghost">Run comparison</button></div>
+          <div id="bench"></div>
+        </div>
+      </div>
+
+      <div class="card approve" id="approveCard">
+        <h3>Manager decision</h3>
+        <p class="hint">Nothing goes to a client until a manager approves it. STOP flags need a written reason.</p>
+        <div class="grid2">
+          <label>Your name<input id="approver" placeholder="Manager name"></label>
+          <label>Note<input id="decisionNote" placeholder="Reason, changes needed, or OK"></label>
+        </div>
+        <div class="actions">
+          <span id="decisionMsg" class="msg"></span>
+          <button id="sendBack" class="btn ghost">Send back</button>
+          <button id="approve" class="btn primary">Approve bid</button>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a id="proposalLink" class="btn ghost" target="_blank">Open proposal</a>
+        <button id="showAudit" class="btn ghost">Show audit trail</button>
+      </div>
+      <pre id="audit" class="audit" hidden></pre>
+    </section>
+  </main>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

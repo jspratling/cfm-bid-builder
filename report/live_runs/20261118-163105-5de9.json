@@ -1,0 +1,414 @@
+{
+  "id": "20261118-163105-5de9",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-18T16:31:26",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Client C",
+    "building_name": "Store",
+    "service_type": "janitorial",
+    "visits_per_week": 7,
+    "hourly_wage": 13.0,
+    "estimator_notes": "Two restroom photos from a CFM supervisor, Nov 17, 2026. Grocery store restrooms only so far; sales floor not photographed. Square footage not yet measured.",
+    "areas": [],
+    "floor_care": [],
+    "walkthrough": "site-c-grocery-restrooms",
+    "floor_care_prices": {}
+  },
+  "photos": [
+    "restroom-a__IMG_20261117_082940373_HDR.jpg",
+    "restroom-b__IMG_20261117_081240114.jpg"
+  ],
+  "surveys": [
+    {
+      "photo_name": "restroom-a__IMG_20261117_082940373_HDR.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "light",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 0,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Tiled restroom floor and walls with metal stall partitions; clean floor with a few minor marks. Clean floor, stall partitions, wall surfaces, and the visible changing station.",
+      "special_services": [],
+      "text_seen_in_photo": "Koala Kare",
+      "confidence": 0.88
+    },
+    {
+      "photo_name": "restroom-b__IMG_20261117_081240114.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil_level": "normal",
+      "fixtures_visible": {
+        "toilet": 0,
+        "urinal": 1,
+        "sink": 0,
+        "trash_can": 0,
+        "desk": 0
+      },
+      "observations": "Clean and disinfect the visible urinal and stall partitions, and mop the tiled floor; a few small debris marks are visible near the partitions.",
+      "special_services": [],
+      "text_seen_in_photo": "",
+      "confidence": 0.83
+    }
+  ],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "restroom-a",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 150.0,
+        "soil_level": "light",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      },
+      {
+        "name": "restroom-b",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 150.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 1,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "photo estimate"
+      }
+    ],
+    "floor_care_suggestions": [],
+    "assumptions": [
+      "Estimated each restroom at 150 sq ft because neither trusted square footage nor a floor plan was provided; photo-based dimensions are provisional and require verification.",
+      "Fixture counts follow the structured photo surveys. A zero means no fixture of that type was recorded as visible, not necessarily that none exists in the room.",
+      "The two distinct photo labels (restroom-a and restroom-b) represent separate rooms; no photos were combined across labels."
+    ],
+    "questions_for_estimator": [
+      "Please verify the square footage of both restrooms.",
+      "Please confirm complete toilet, urinal, sink, and trash-can counts for each restroom; the photo surveys record only one visible urinal in restroom-b and no other fixture counts."
+    ]
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "restroom-a",
+        "area_type": "restroom",
+        "surface": "tile",
+        "soil_level": "light",
+        "sq_ft": 150,
+        "rate_sqft_per_hour": 1466,
+        "hours_per_visit": 0.11,
+        "source": "photo estimate"
+      },
+      {
+        "name": "restroom-b",
+        "area_type": "restroom",
+        "surface": "tile",
+        "soil_level": "normal",
+        "sq_ft": 150,
+        "rate_sqft_per_hour": 1275,
+        "hours_per_visit": 0.2,
+        "source": "photo estimate"
+      }
+    ],
+    "visits_per_week": 7,
+    "hourly_wage": 13.0,
+    "total_sq_ft": 300,
+    "hours_per_visit": 0.32,
+    "monthly_hours": 9.6,
+    "labor": 124.23,
+    "burden": 13.53,
+    "payroll_taxes": 11.44,
+    "workers_comp": 2.1,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 16900.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00249,
+      "suta": 0.01307,
+      "payroll_taxes": 0.09205,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10895
+    },
+    "overhead": 13.78,
+    "supplies": 9.17,
+    "cost": 160.71,
+    "profit": 22.73,
+    "monthly_price": 183.44,
+    "annual_price": 2201.31,
+    "price_per_sqft_month": 0.6115
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 183.44,
+    "janitorial_annual": 2201.31,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 2201.31
+  },
+  "flags": [
+    {
+      "level": "stop",
+      "msg": "Janitorial price $0.612/sq ft/month is above the ceiling $0.50. Check square footage and visits."
+    },
+    {
+      "level": "warn",
+      "msg": "'restroom-a' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    },
+    {
+      "level": "warn",
+      "msg": "'restroom-b' square footage was estimated from a photo. Confirm on site or from the floor plan."
+    }
+  ],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Client C team,\n\nThank you for the opportunity to propose recurring janitorial service for your store in the town, Alabama. The service includes seven visits per week focused on the two identified tiled restrooms.\n\nOur routine work will cover cleaning restroom fixtures and surfaces, emptying restroom trash, and cleaning the tile floors in both restrooms. The scope of work below outlines the included tasks.\n\nPlease review the pricing summary below for the approved pricing. We appreciate your consideration and would be glad to support your store\u2019s cleaning needs.",
+    "scope_of_work": [
+      "Restrooms (restroom-a and restroom-b): Clean and sanitize toilets, sinks, and other restroom fixtures.",
+      "Restrooms (restroom-a and restroom-b): Clean mirrors and wipe restroom surfaces.",
+      "Restrooms (restroom-a and restroom-b): Empty trash receptacles.",
+      "Restrooms (restroom-a and restroom-b): Sweep and damp-mop tile floors."
+    ],
+    "exclusions": [
+      "Exterior window cleaning.",
+      "Biohazard cleanup.",
+      "Floor repairs, refinishing, or other floor-care services."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:31:09",
+      "bid_id": "20261118-163105-5de9",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2931,
+      "cached_input_tokens": 0,
+      "output_tokens": 119,
+      "total_tokens": 3050,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000353,
+      "seconds": 4.27
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:31:11",
+      "bid_id": "20261118-163105-5de9",
+      "agent": "site_survey",
+      "model": "gpt-6-luna",
+      "input_tokens": 2932,
+      "cached_input_tokens": 0,
+      "output_tokens": 283,
+      "total_tokens": 3215,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000435,
+      "seconds": 5.93
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:31:20",
+      "bid_id": "20261118-163105-5de9",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 2837,
+      "cached_input_tokens": 1128,
+      "output_tokens": 606,
+      "total_tokens": 3443,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000485,
+      "seconds": 9.43
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:31:26",
+      "bid_id": "20261118-163105-5de9",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 429,
+      "cached_input_tokens": 0,
+      "output_tokens": 513,
+      "total_tokens": 942,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000299,
+      "seconds": 6.28
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:31:33",
+      "bid_id": "20261118-163105-5de9",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 1304,
+      "cached_input_tokens": 0,
+      "output_tokens": 332,
+      "total_tokens": 1636,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000296,
+      "seconds": 6.37
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 10433,
+    "cached_input_tokens": 1128,
+    "output_tokens": 1853,
+    "total_tokens": 12286,
+    "requests": 7,
+    "tool_calls": 2,
+    "cost_usd": 0.001868,
+    "seconds": 32.28,
+    "calls": 5
+  },
+  "audit": [
+    {
+      "time": "2026-11-18T16:31:05",
+      "step": "intake",
+      "client": "Client C",
+      "building": "Store",
+      "service_type": "janitorial",
+      "hourly_wage": 13.0,
+      "photos": 2,
+      "floor_plan": false,
+      "known_areas": 0,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:31:05",
+      "step": "photo_resize",
+      "photo": "restroom-a__IMG_20261117_082940373_HDR.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 182,
+      "sent_kb": 176
+    },
+    {
+      "time": "2026-11-18T16:31:05",
+      "step": "photo_resize",
+      "photo": "restroom-b__IMG_20261117_081240114.jpg",
+      "original_px": [
+        1181,
+        1568
+      ],
+      "sent_px": [
+        1181,
+        1568
+      ],
+      "original_kb": 202,
+      "sent_kb": 196
+    },
+    {
+      "time": "2026-11-18T16:31:11",
+      "step": "site_survey",
+      "photo": "restroom-a__IMG_20261117_082940373_HDR.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "light",
+      "confidence": 0.88,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:31:11",
+      "step": "site_survey",
+      "photo": "restroom-b__IMG_20261117_081240114.jpg",
+      "area_type": "restroom",
+      "surface": "tile",
+      "soil": "normal",
+      "confidence": 0.83,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:31:20",
+      "step": "takeoff",
+      "areas": 2,
+      "assumptions": [
+        "Estimated each restroom at 150 sq ft because neither trusted square footage nor a floor plan was provided; photo-based dimensions are provisional and require verification.",
+        "Fixture counts follow the structured photo surveys. A zero means no fixture of that type was recorded as visible, not necessarily that none exists in the room.",
+        "The two distinct photo labels (restroom-a and restroom-b) represent separate rooms; no photos were combined across labels."
+      ]
+    },
+    {
+      "time": "2026-11-18T16:31:20",
+      "step": "pricing",
+      "janitorial_monthly": 183.44,
+      "per_sqft": 0.6115,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-18T16:31:20",
+      "step": "bid_checker",
+      "flags": [
+        {
+          "level": "stop",
+          "msg": "Janitorial price $0.612/sq ft/month is above the ceiling $0.50. Check square footage and visits."
+        },
+        {
+          "level": "warn",
+          "msg": "'restroom-a' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        },
+        {
+          "level": "warn",
+          "msg": "'restroom-b' square footage was estimated from a photo. Confirm on site or from the floor plan."
+        }
+      ]
+    },
+    {
+      "time": "2026-11-18T16:31:26",
+      "step": "proposal_writer",
+      "scope_items": 4
+    },
+    {
+      "time": "2026-11-18T16:31:33",
+      "step": "benchmark",
+      "verdict": "not_comparable",
+      "compared_with": []
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-18T16:31:33",
+    "compared_with": [],
+    "verdict": "not_comparable",
+    "explanation": "Neither past bid is a sound comparison for this 300-sq-ft standalone restroom. CFM\u2019s medical-office bid covers 7,091 sq ft with 5 visits per week, while the other is a 17,934-sq-ft 24/7 emergency department with round-the-clock staffing. Their building scope, size, or schedule differs substantially from this 7-visit-per-week restroom bid, so the past bids do not support a reliable price or staffing comparison.",
+    "suggestions": [
+      "Seek a past bid for a small standalone restroom or similarly limited-scope facility with daily service."
+    ],
+    "details": [],
+    "usage": {
+      "input_tokens": 1304,
+      "cached_input_tokens": 0,
+      "output_tokens": 332,
+      "total_tokens": 1636,
+      "requests": 2,
+      "tool_calls": 1,
+      "cost_usd": 0.000296,
+      "seconds": 6.37,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "id": "20261118-163826-2734",
+  "status": "draft",
+  "demo_mode": false,
+  "created": "2026-11-18T16:38:36",
+  "service_type": "janitorial",
+  "request": {
+    "client_name": "Past bid A rebuild (real CFM bid)",
+    "building_name": "Medical office, 7,091 sq ft",
+    "service_type": "janitorial",
+    "visits_per_week": 5,
+    "hourly_wage": 15.0,
+    "estimator_notes": "Rebuild of the Past bid A (outpatient surgical clinic) job for comparison with the real CFM bid.",
+    "areas": [
+      {
+        "name": "Medical office suites",
+        "area_type": "medical_exam",
+        "surface": "vct",
+        "sq_ft": 5300.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "estimator table"
+      },
+      {
+        "name": "Waiting and corridors",
+        "area_type": "corridor",
+        "surface": "vct",
+        "sq_ft": 1300.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "estimator table"
+      },
+      {
+        "name": "Restrooms",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 491.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 6,
+          "urinal": 0,
+          "sink": 6,
+          "trash_can": 6,
+          "desk": 0
+        },
+        "source": "estimator table"
+      }
+    ],
+    "floor_care": [],
+    "walkthrough": null,
+    "floor_care_prices": {}
+  },
+  "photos": [],
+  "surveys": [],
+  "takeoff": {
+    "areas": [
+      {
+        "name": "Medical office suites",
+        "area_type": "medical_exam",
+        "surface": "vct",
+        "sq_ft": 5300.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "estimator table"
+      },
+      {
+        "name": "Waiting and corridors",
+        "area_type": "corridor",
+        "surface": "vct",
+        "sq_ft": 1300.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 0,
+          "urinal": 0,
+          "sink": 0,
+          "trash_can": 0,
+          "desk": 0
+        },
+        "source": "estimator table"
+      },
+      {
+        "name": "Restrooms",
+        "area_type": "restroom",
+        "surface": "tile",
+        "sq_ft": 491.0,
+        "soil_level": "normal",
+        "fixtures": {
+          "toilet": 6,
+          "urinal": 0,
+          "sink": 6,
+          "trash_can": 6,
+          "desk": 0
+        },
+        "source": "estimator table"
+      }
+    ],
+    "floor_care_suggestions": [],
+    "assumptions": [
+      "The estimator table's three entries are distinct spaces and together account for the stated 7,091 sq ft.",
+      "No photo surveys or floor plan were provided; surface, soil level, and fixture counts are taken from the estimator table.",
+      "No periodic floor-care needs are identified because no condition evidence was provided."
+    ],
+    "questions_for_estimator": []
+  },
+  "pricing": {
+    "lines": [
+      {
+        "name": "Medical office suites",
+        "area_type": "medical_exam",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 5300,
+        "rate_sqft_per_hour": 1800,
+        "hours_per_visit": 3.24,
+        "source": "estimator table"
+      },
+      {
+        "name": "Waiting and corridors",
+        "area_type": "corridor",
+        "surface": "vct",
+        "soil_level": "normal",
+        "sq_ft": 1300,
+        "rate_sqft_per_hour": 3600,
+        "hours_per_visit": 0.4,
+        "source": "estimator table"
+      },
+      {
+        "name": "Restrooms",
+        "area_type": "restroom",
+        "surface": "tile",
+        "soil_level": "normal",
+        "sq_ft": 491,
+        "rate_sqft_per_hour": 1275,
+        "hours_per_visit": 1.36,
+        "source": "estimator table"
+      }
+    ],
+    "visits_per_week": 5,
+    "hourly_wage": 15.0,
+    "total_sq_ft": 7091,
+    "hours_per_visit": 4.99,
+    "monthly_hours": 108.1,
+    "labor": 1622.03,
+    "burden": 173.36,
+    "payroll_taxes": 145.95,
+    "workers_comp": 27.41,
+    "other_benefits": 0.0,
+    "burden_rates": {
+      "annual_wages_per_worker": 19500.0,
+      "hours_per_worker_week": 25,
+      "social_security": 0.062,
+      "medicare": 0.0145,
+      "futa": 0.00215,
+      "suta": 0.01132,
+      "payroll_taxes": 0.08998,
+      "workers_comp": 0.0169,
+      "other_benefits": 0.0,
+      "total": 0.10688
+    },
+    "overhead": 179.54,
+    "supplies": 119.54,
+    "cost": 2094.47,
+    "profit": 296.24,
+    "monthly_price": 2390.71,
+    "annual_price": 28688.49,
+    "price_per_sqft_month": 0.3371
+  },
+  "floor_care": null,
+  "totals": {
+    "janitorial_monthly": 2390.71,
+    "janitorial_annual": 28688.49,
+    "floor_care_one_time": 0,
+    "floor_care_recurring_annual": 0,
+    "first_year_value": 28688.49
+  },
+  "flags": [],
+  "injection_alerts": [],
+  "proposal": {
+    "cover_letter": "Dear Past bid A rebuild,\n\nThank you for the opportunity to present janitorial service for your 7,091-square-foot medical office. The proposal covers service five times per week across the medical office suites, waiting and corridor areas, and restrooms.\n\nRoutine cleaning includes restroom cleaning, care of accessible office and common-area surfaces, floor cleaning, and removal of ordinary trash. The scope is based on the areas provided and the walkthrough, which identified no periodic work.\n\nPlease review the pricing summary below for the approved pricing. We appreciate your consideration and would be glad to answer any questions about the proposed scope.",
+    "scope_of_work": [
+      "Restrooms: Clean and disinfect restroom fixtures and accessible touchpoints.",
+      "Offices: Dust and wipe accessible surfaces in the medical office suites.",
+      "Floors: Sweep and damp mop VCT in the medical office suites, waiting area, and corridors; clean tile restroom floors.",
+      "Trash: Empty ordinary waste receptacles in the serviced areas and place collected waste in the building's designated disposal location."
+    ],
+    "exclusions": [
+      "Exterior window cleaning.",
+      "Biohazard cleanup and medical waste handling.",
+      "Floor repairs, restoration, and refinishing."
+    ]
+  },
+  "usage": [
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:38:30",
+      "bid_id": "20261118-163826-2734",
+      "agent": "takeoff",
+      "model": "gpt-6-luna",
+      "input_tokens": 1255,
+      "cached_input_tokens": 0,
+      "output_tokens": 343,
+      "total_tokens": 1598,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000297,
+      "seconds": 4.43
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:38:36",
+      "bid_id": "20261118-163826-2734",
+      "agent": "proposal_writer",
+      "model": "gpt-6-luna",
+      "input_tokens": 476,
+      "cached_input_tokens": 0,
+      "output_tokens": 536,
+      "total_tokens": 1012,
+      "requests": 1,
+      "tool_calls": 0,
+      "cost_usd": 0.000316,
+      "seconds": 6.27
+    },
+    {
+      "date": "2026-11-18",
+      "time": "2026-11-18T16:38:44",
+      "bid_id": "20261118-163826-2734",
+      "agent": "benchmark",
+      "model": "gpt-6-luna",
+      "input_tokens": 2294,
+      "cached_input_tokens": 0,
+      "output_tokens": 352,
+      "total_tokens": 2646,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000405,
+      "seconds": 7.1
+    }
+  ],
+  "usage_total": {
+    "input_tokens": 4025,
+    "cached_input_tokens": 0,
+    "output_tokens": 1231,
+    "total_tokens": 5256,
+    "requests": 5,
+    "tool_calls": 2,
+    "cost_usd": 0.001018,
+    "seconds": 17.8,
+    "calls": 3
+  },
+  "audit": [
+    {
+      "time": "2026-11-18T16:38:26",
+      "step": "intake",
+      "client": "Past bid A rebuild (real CFM bid)",
+      "building": "Medical office, 7,091 sq ft",
+      "service_type": "janitorial",
+      "hourly_wage": 15.0,
+      "photos": 0,
+      "floor_plan": false,
+      "known_areas": 3,
+      "floor_care_items": 0,
+      "injection_hits": []
+    },
+    {
+      "time": "2026-11-18T16:38:30",
+      "step": "takeoff",
+      "areas": 3,
+      "assumptions": [
+        "The estimator table's three entries are distinct spaces and together account for the stated 7,091 sq ft.",
+        "No photo surveys or floor plan were provided; surface, soil level, and fixture counts are taken from the estimator table.",
+        "No periodic floor-care needs are identified because no condition evidence was provided."
+      ]
+    },
+    {
+      "time": "2026-11-18T16:38:30",
+      "step": "pricing",
+      "janitorial_monthly": 2390.71,
+      "per_sqft": 0.3371,
+      "floor_care_first_year": null
+    },
+    {
+      "time": "2026-11-18T16:38:30",
+      "step": "bid_checker",
+      "flags": []
+    },
+    {
+      "time": "2026-11-18T16:38:36",
+      "step": "proposal_writer",
+      "scope_items": 4
+    },
+    {
+      "time": "2026-11-18T16:38:44",
+      "step": "benchmark",
+      "verdict": "in_line",
+      "compared_with": [
+        "past-bid-a"
+      ]
+    }
+  ],
+  "benchmark": {
+    "time": "2026-11-18T16:38:44",
+    "compared_with": [
+      "past-bid-a"
+    ],
+    "verdict": "in_line",
+    "explanation": "This is a strong comparison: both bids are for a 7,091-sq-ft medical office with five visits per week. The new bid\u2019s price is $0.3371 per sq ft per month versus $0.2964, which is 13.7% higher and within the roughly 25% in-line range. The new bid staffs 0.704 hours per 1,000 sq ft per visit versus 0.521, or 35.1% more. Both use a $15 hourly wage, while the new bid\u2019s profit markup is 0.15 versus 0.3 in the past bid.",
+    "suggestions": [
+      "Review why the new bid has 35.1% more labor hours per 1,000 sq ft per visit.",
+      "Check whether the lower 0.15 profit markup is intentional compared with the past bid\u2019s 0.3."
+    ],
+    "details": [
+      {
+        "past_id": "past-bid-a",
+        "past_name": "Past bid A: outpatient surgical clinic",
+        "past_building_type": "medical office",
+        "past_schedule": "1 part-time cleaner, Mon-Fri 5-9 pm",
+        "sq_ft": {
+          "this": 7091,
+          "past": 7091
+        },
+        "visits_per_week": {
+          "this": 5,
+          "past": 5
+        },
+        "price_per_sqft_month": {
+          "this": 0.3371,
+          "past": 0.2964,
+          "difference_pct": 13.7
+        },
+        "hours_per_1000_sqft_per_visit": {
+          "this": 0.704,
+          "past": 0.521,
+          "difference_pct": 35.1
+        },
+        "hourly_wage": {
+          "this": 15.0,
+          "past": 15.0
+        },
+        "profit_markup": {
+          "this": 0.15,
+          "past": 0.3
+        }
+      }
+    ],
+    "usage": {
+      "input_tokens": 2294,
+      "cached_input_tokens": 0,
+      "output_tokens": 352,
+      "total_tokens": 2646,
+      "requests": 3,
+      "tool_calls": 2,
+      "cost_usd": 0.000405,
+      "seconds": 7.1,
+      "calls": 1
+    },
+    "demo_mode": false
+  }
+}

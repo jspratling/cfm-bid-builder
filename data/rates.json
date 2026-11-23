@@ -1,0 +1,126 @@
+{
+  "_note": "CFM / A-One pricing rules (Jeremy, Nov 13 2026) plus industry-standard cleaning speeds. Edit freely.",
+  "labor": {
+    "_note": "default_hourly_wage is CFM's starting pay; each bid can override it. Payroll burden is built from the real taxes below, not a flat %.",
+    "default_hourly_wage": 13.0,
+    "min_hourly_wage": 7.25,
+    "max_hourly_wage": 60.0,
+    "overhead_pct": 0.1,
+    "profit_pct": 0.15,
+    "supplies_pct_of_price": 0.05,
+    "avg_hours_per_employee_week": 25
+  },
+  "weeks_per_month": 4.33,
+  "setup_travel_factor": 1.1,
+  "production_rates_sqft_per_hour": {
+    "_source": "Whole-room rates built from ISSA 612 task benchmarks (vacuum open carpet 3,000-5,000/hr; furnished offices 1,500-2,500/hr; damp mop 2,500-4,000/hr) and published facility benchmarks (schools 1,500-2,500/hr, medical about 2,500/hr). Restroom rate covers the floor only; fixtures are timed separately.",
+    "office": 2500,
+    "open_office": 3500,
+    "conference": 3000,
+    "lobby": 2500,
+    "corridor": 4000,
+    "break_room": 2000,
+    "restroom": 1500,
+    "classroom": 2000,
+    "medical_exam": 2000,
+    "warehouse": 6000,
+    "stairwell": 2000,
+    "other": 2500
+  },
+  "minutes_per_fixture": {
+    "_source": "ISSA 612 fixture benchmarks: toilet about 5 min, urinal about 4, sink about 3.",
+    "toilet": 5.0,
+    "urinal": 4.0,
+    "sink": 3.0,
+    "trash_can": 0.5,
+    "desk": 0.4
+  },
+  "surface_speed_factor": {
+    "carpet": 1.0,
+    "vct": 0.9,
+    "tile": 0.85,
+    "sealed_concrete": 1.1,
+    "wood": 0.9,
+    "other": 1.0
+  },
+  "soil_speed_factor": {
+    "light": 1.15,
+    "normal": 1.0,
+    "heavy": 0.8
+  },
+  "floor_care": {
+    "_note": "CFM per-square-foot prices, per service. Each bid can override them in the app.",
+    "services": {
+      "strip_wax": {
+        "label": "Strip and wax VCT",
+        "price_per_sqft": 1.25
+      },
+      "carpet_clean": {
+        "label": "Carpet cleaning",
+        "price_per_sqft": 0.85
+      }
+    },
+    "frequencies": {
+      "one_time": {
+        "label": "One time",
+        "times_per_year": 1
+      },
+      "annual": {
+        "label": "Once a year",
+        "times_per_year": 1
+      },
+      "semiannual": {
+        "label": "Twice a year",
+        "times_per_year": 2
+      },
+      "quarterly": {
+        "label": "Quarterly",
+        "times_per_year": 4
+      },
+      "monthly": {
+        "label": "Monthly",
+        "times_per_year": 12
+      }
+    }
+  },
+  "price_band_per_sqft_month": {
+    "_source": "Market checks: janitorial typically $0.07-$0.25 per sq ft; wide range $0.04-$0.50.",
+    "low": 0.05,
+    "high": 0.5
+  },
+  "token_prices_per_million": {
+    "_source": "gpt-6-luna, OpenAI standard pricing per 1M tokens (MGT 409 Lecture 11; same as HW6 data/prices.json)",
+    "input": 0.1,
+    "cached_input": 0.01,
+    "output": 0.5
+  },
+  "limits": {
+    "max_photos": 60,
+    "max_photo_mb": 15,
+    "max_requests_per_agent": 4,
+    "max_tokens_per_agent": 60000,
+    "max_tokens_per_bid": 250000,
+    "max_tokens_per_day": 1500000,
+    "photo_max_side_px": 1568,
+    "photo_jpeg_quality": 82,
+    "parallel_photo_calls": 4
+  },
+  "payroll": {
+    "_source": "2026 employer rates: Social Security 6.2% (cap $184,500), Medicare 1.45%, FUTA 0.6% on first $7,000, Alabama SUTA 2.7% (CFM rate, per Jeremy) + 0.06% Employment Security Assessment on first $8,000. Workers' comp: AmTrust quote for A-One, 5/28/2026, class 9014 at $1.683 per $100; total premium $5,918 on $350,000 payroll = 1.69% all-in.",
+    "social_security_pct": 0.062,
+    "social_security_wage_base": 184500,
+    "medicare_pct": 0.0145,
+    "futa_pct": 0.006,
+    "futa_wage_base": 7000,
+    "suta_pct": 0.027,
+    "suta_assessment_pct": 0.0006,
+    "suta_wage_base": 8000,
+    "workers_comp_pct": 0.0169,
+    "other_benefits_pct": 0.0
+  },
+  "account_costs": {
+    "_note": "Liability insurance 0.05% (Jeremy, Nov 23). Equipment 3% of labor = median of 73 CFM recurring bid calculators (range 1-25%).",
+    "equipment_pct_of_labor": 0.03,
+    "insurance_pct_of_labor": 0.0005
+  }
+}
