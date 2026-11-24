@@ -300,7 +300,8 @@ limits = f"""<ul>
 <li><b>Square footage from photos is the weakest link.</b> The AI and a human reviewer can disagree a lot. On Nov 18, with no sizes given, the Takeoff agent put Client E's inside areas at 4,900 sq ft; my own review of the same 24 photos came to 6,950. The app flags every photo-estimated area, and a tape-measured or floor-plan number always overrides it.</li>
 <li><b>The site survey prompt is too short to be cached.</b> Cached input was 0 on all {N_SURVEY} photo calls; only the Takeoff agent benefited (about {TAKE_CACHE:.0f}% of its input cached on average). A longer shared prefix (the rate card and the area types) would make the survey cacheable.</li>
 <li><b>Revisions do not rewrite the cover letter.</b> After the Client E revision, the price and scope table changed but the letter still said five nights. Next: re-run the Proposal Writer after a revision.</li>
-<li><b>No real-time measurement yet.</b> We have the owner's before-numbers (half a day per bid, 3 to 5 days to the client) and the app's measured machine time, but not a timed side-by-side with an estimator. That is the next test.</li>
+<li><b>Several photos of one room become several rooms</b> unless the file names share a "room__" prefix (found by the real user trial). Next: have the Takeoff agent group photos by what it sees, ask the estimator to confirm, and give the Revision agent a "merge areas" tool.</li>
+<li><b>Hosting and timing.</b> The free tunnel dropped during the user trial; next is a small always-on server. There is still no timed side-by-side with the Excel process.</li>
 <li><b>The Yale course key expired on Nov 21</b> (Portkey shows "Expired"). The app now accepts either key and says plainly when a key is rejected; the Nov 23 runs used CFM's own OpenAI key.</li>
 </ul>
 <h3>Next month</h3><ol>
@@ -423,8 +424,15 @@ Repo: <a href="{REPO_URL}">{REPO_URL}</a> · Runs locally: double-click <code>st
 <p>From reading the 90 spreadsheets: the 4-week month under-prices labor by 7.7%, and workers' comp (1.69%) is left out. Together that is about 9% of labor on every recurring account. On a typical $2,000/month account with about $1,200 of labor, that is roughly <b>$110 a month, $1,300 a year, per account</b>. The app prices both correctly by default.</p>
 <h3>The what-if chart: a manager's pricing tool</h3>
 <figure><img src="{img('whatif.jpg')}" alt="What-if"><figcaption>Figure 13. What-if pricing on Client E: pay moved to $15/hr and profit to 30%. The monthly fee, the fee-vs-pay line, where every dollar goes, and what each change adds per month all update instantly. No AI calls.</figcaption></figure>
-<h3>Real users</h3>
-<p>Real people and data, not a demo: four CFM field staff (a manager, two supervisors and the sales manager) took the 10 walkthroughs; the owner (me) set every rate (wage $13, SUTA 2.7%, workers' comp from our insurance agent's quote, supplies 5%, liability 0.05%, profit 15%, floor-care prices) and reviewed the bids; and the benchmark is the sales manager's own 90 spreadsheets.</p>
+<h3>Real user trial (Nov 23, 2026)</h3>
+<p>At 2:44 PM I emailed a public link to four CFM staff with a 5:00 PM deadline and asked each to run a real bid, time it, and say honestly what was wrong.</p>
+{table(["Tester", "What happened"], [
+    ["Executive administrative assistant", "Ran a real bid on CFM's own office: 15 phone photos, no known sizes, 3 visits a week. The app priced it at <b>$305.50/month</b> janitorial (23 model requests, AI cost <b>$0.0097</b>). It took her 58 minutes in the app on first use (including two change requests), plus a 45-minute walkthrough."],
+    ["Sales manager and a supervisor", "Could not get past Build bid (\"Failed to fetch\"). The tunnel log shows the free public link dropped at 4:31 PM and never reconnected; their attempts came after. A hosting failure, not the agents, but a real one."],
+    ["Second supervisor", "No reply by the deadline."],
+])}
+<div class="callout"><b>Her verdict:</b> "the application provides a useful starting point for preparing bids, but the calculations and correction process need further testing before client use." She would not approve the pricing until the issues below are fixed.</div>
+<p><b>What she found, and she is right:</b> (1) <b>Duplicate rooms.</b> Three photos of one conference room became three rooms (350, 300 and 320 sq ft); her tape measure says 304. The same happened in reception and the copy room (135 sq ft measured). The Takeoff agent only groups photos that share a "room__" file-name prefix, and her phone named them IMG_1177 and so on. (2) <b>Floor care:</b> it suggested VCT strip and wax for a ceramic-tile restroom; the Revision agent removed it when she asked. (3) <b>Revisions:</b> asked to merge the conference rooms, the Revision agent asked which of the three sizes to keep instead of guessing, so the price did not change; a later try failed when the link dropped. (4) The "Send back" confirmation was not clear enough. The safety rails held: her flagged draft was never approved, so nothing wrong could reach a client. There is still no timed side-by-side with the Excel process; that is the next test.</p>
 
 <h2>8. Limits and next steps</h2>
 {limits}
@@ -503,10 +511,12 @@ Cost cuts: code does math · photos shrunk to 1,568 px · Takeoff prompt cached 
 <li>Half a day → <b>minutes</b>; 3 to 5 days → <b>same day</b></li>
 <li>13 real CFM bids: app within a median <b>{MED_PRICE_DIFF:+.0f}%</b>; surgical clinic <b>{money(pa['app'],0)} vs {money(pa['cfm'],0)}</b></li>
 <li>Fixes 4-week months + missing workers' comp: ≈ <b>$1,300/yr per account</b></li>
-<li>~<b>20 estimator hours/month</b> back for selling (estimate)</li></ul></div></div></section>
+<li>~<b>20 estimator hours/month</b> back for selling (estimate)</li>
+<li>Real user trial: 1 of 4 finished a real bid ($0.0097 of AI); she found duplicate-room counting, the top fix</li></ul></div></div></section>
 
 <section><h2>What's next</h2><ul>
-<li>Measure sq ft on site and tune the photo estimates (the weakest link)</li>
+<li>Group photos of the same room (real user trial) and measure sq ft on site</li>
+<li>Always-on hosting (the free tunnel dropped during the trial)</li>
 <li>Learn CFM's real crew hours per building type</li>
 <li>Good / better / best options from one walkthrough</li>
 <li>Re-write the letter after every revision; send from Zoho after approval</li>

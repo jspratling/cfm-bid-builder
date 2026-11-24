@@ -4,7 +4,7 @@ if exist .env (echo A .env file is in this folder. Move it up one folder before 
 git add -A
 git rm -r --cached --ignore-unmatch .env output data/past_bids.json >nul 2>nul
 git status --short
-git commit -m "Add photo-size A/B test to report; label title section" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" -m "Claude-Session: https://claude.ai/code/session_01KYXq3UmjHQpiZ7YfcFMhLc"
+git commit -m "Add real user trial results to report and slides" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" -m "Claude-Session: https://claude.ai/code/session_01KYXq3UmjHQpiZ7YfcFMhLc"
 git push origin main
 echo.
 echo Finished. Check https://github.com/jspratling/cfm-bid-builder
